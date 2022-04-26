@@ -8,7 +8,7 @@
 - name: Install dependencies
   become: yes
   apt:
-    name: ['apt-transport-https', 'ca-certificates', 'curl', 'python-setuptools', 'software-properties-common']
+    name: ['apt-transport-https', 'ca-certificates', 'curl', 'python-setuptools', 'software-properties-common', 'python3-apt','python-apt','aptitude']
     state: latest
     install_recommends: no
     update_cache: yes
@@ -27,19 +27,14 @@
     update_cache: yes
     state: present
 
-- name: Install docker
+- name: Install docker and docker compose
   become: yes
   apt:
-    name: ['docker-ce', 'docker-ce-cli', 'containerd.io']
+    name: ['docker-ce', 'docker-ce-cli', 'containerd.io', 'docker-compose']
     state: latest
     install_recommends: no
     update_cache: yes
 
-- name: Install docker-compose
-  become: yes
-  ansible.builtin.pip:
-    name: ['docker-compose']
-    state: latest
 
 - name: Make sure docker.service.d
   file:
