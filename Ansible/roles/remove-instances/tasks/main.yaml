@@ -1,0 +1,18 @@
+---
+# Retrieve all security group name
+- name: create security group names in list
+  set_fact:
+    sg_names: '{{ sg_names|default([]) + [item.name] }}'
+  loop: '{{ security_groups }}'
+
+# Remove all instance on NeCTAR
+- name: remove all instance
+  os_server:
+    name: '{{ item.name }}'
+    state: absent
+    validate_certs: False
+  loop: '{{ instances }}'
+  register: os_instance
+
+- name: Refresh inventory to ensure new instance exist in inventory
+  meta: refresh_inventory

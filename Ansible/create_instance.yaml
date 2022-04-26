@@ -1,6 +1,6 @@
 - hosts: localhost
   vars_files:
-    - host_vars/createInstanceSettings.yaml
+    - host_vars/deploy.yaml
   gather_facts: true
 
   roles:
