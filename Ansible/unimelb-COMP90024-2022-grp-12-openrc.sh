@@ -26,7 +26,7 @@ unset OS_TENANT_NAME
 # performing the action as the **user**.
 export OS_USERNAME="qi.li6@student.unimelb.edu.au"
 # With Keystone you pass the keystone password.
-export OS_PASSWORD="NTY4ZGUxZWQ3ZDUzZWJk"
+export OS_PASSWORD="NTZiODc3ODcxMzZlY2M1"
 # If your configuration has multiple regions, we set that information here.
 # OS_REGION_NAME is optional and only valid in certain environments.
 export OS_REGION_NAME="Melbourne"

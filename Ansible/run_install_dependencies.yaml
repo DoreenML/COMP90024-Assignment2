@@ -1,7 +1,10 @@
 - hosts: instances
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
 
   vars_files:
     - host_vars/config.yaml
+    - host_vars/deploy.yaml
   gather_facts: true
 
   roles:
