@@ -18,6 +18,7 @@
         "apt-transport-https",
         "curl",
         "python-setuptools",
+        "python3-setuptools",
       ]
     state: latest
     install_recommends: no
