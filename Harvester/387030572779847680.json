@@ -1,0 +1,14 @@
+{
+    "created_at": "NA",
+    "id": "",
+    "id_str": "",
+    "text": "",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {}
+        ]
+    }
+}

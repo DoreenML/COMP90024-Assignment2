@@ -1,7 +1,7 @@
 import os
 import io
 import tweepy
-import keys as keys
+import keys_zhangyu as keys
 import json
 import requests
 
@@ -30,9 +30,9 @@ def read_txt(file_name):
             index +=1 
     return source_reply
 
-train_set_idx = read_txt('train.data.txt')
-dev_set_idx = read_txt('dev.data.txt')
-test_set_idx = read_txt('test.data.txt')
+# train_set_idx = read_txt('train.data.txt')
+# dev_set_idx = read_txt('dev.data.txt')
+# test_set_idx = read_txt('test.data.txt')
 
 # auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 # auth.set_access_token(access_token,access_token_secret)
@@ -48,7 +48,7 @@ def find_tweet_byID(ID):
         media_fields=["duration_ms","height","media_key","preview_image_url","type","url","width","public_metrics","non_public_metrics","organic_metrics","promoted_metrics","alt_text"],
         place_fields = ["contained_within","country","country_code","full_name","geo","id","name","place_type"],
         poll_fields = ["duration_minutes", "end_datetime", "id", "options", "voting_status"],
-        tweet_fields = ["attachments", "author_id", "context_annotations", "conversation_id", "created_at", "entities", "geo", "id", "in_reply_to_user_id", "lang", "public_metrics", "possibly_sensitive", "referenced_tweets", "reply_settings", "source", "text", "withheld"],
+        tweet_fields = ["attachments", "author_id", "context_annotations", "conversation_id", "created_at", "entities", "geo", "id", "in_reply_to_user_id", "lang", "non_public_metrics", "public_metrics", "organic_metrics", "promoted_metrics", "possibly_sensitive", "referenced_tweets", "reply_settings", "source", "text", "withheld"],
         user_fields = ["created_at", "description", "entities", "id", "location", "name", "pinned_tweet_id", "profile_image_url", "protected", "public_metrics", "url", "username", "verified", "withheld"],
         user_auth=True
     )
