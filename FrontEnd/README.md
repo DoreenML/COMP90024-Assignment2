@@ -1,6 +1,21 @@
-# mm-boxjelly
+# Group 12
+
+
+
+## Front-End Running
+
+### how to run the code
+
+First use command prompt to go to the front-end directory, then run the following code
+
+```
+npm run serve
+```
+
+
 
 ## Project setup
+
 ```
 yarn install
 ```
