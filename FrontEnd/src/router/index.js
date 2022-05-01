@@ -4,6 +4,7 @@ import {
 } from 'vue-router'
 import Home from '../views/Home.vue'
 import HacroMap from '../views/HacroMap.vue'
+import HealthRelatedTopicTrend from '../views/HealthRelatedTopicTrend.vue'
 
 const routes = [{
     path: '/',
@@ -14,6 +15,11 @@ const routes = [{
     path: '/Hacromap',
     name: 'HacroMap',
     component: HacroMap
+  },
+  {
+    path: '/healthrelatedtopictrend',
+    name: 'Health Related Topic Trend',
+    component: HealthRelatedTopicTrend
   }
 ]
 
