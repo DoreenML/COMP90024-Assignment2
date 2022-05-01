@@ -98,3 +98,13 @@ def find_radius(area_code):
     return distance/2
 
 # print(find_radius(201))
+
+def fill_geo_dict():
+    geo_dict = {}
+    for i in range(276):
+        geo_dict[i] = (find_center(i)[0],find_center(i)[1],find_radius(i))
+    return geo_dict
+
+geo_dict = fill_geo_dict()
+print(geo_dict)
+    
