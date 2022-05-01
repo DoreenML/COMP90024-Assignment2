@@ -582,7 +582,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: 'Plot 2: Static pie charts – combinations of utilisation',
+          text: 'Plot 2: Area Percentage & Symptom Percentage',
         },
         subtitle: {
           text: '',
@@ -594,11 +594,16 @@ export default {
         },
         xAxis: {
           categories: [
-            'ITV',
-            'BHG',
-            'FBG',
-            'MidV',
-            'TT',
+            'area-1',
+            'area-2',
+            'area-3',
+            'area-4',
+            'area-5',
+            'area-6',
+            'area-7',
+            'area-8',
+            'area-9',
+            'area-10',
           ],
           crosshair: true,
         },
@@ -629,43 +634,76 @@ export default {
             type: 'pie',
             name: 'combination',
             data: [{
-              name: 'Total',
+              name: 'area-1',
               y: 13,
-              color: 'rgba(0,0,0,0.7)',
             }, {
-              name: 'SABR',
-              y: 25,
-              color: 'rgba(137,196,244,1)',
+              name: 'area-2',
+              y: 12,
             }, {
-              name: 'Con',
-              y: 25,
-              color: 'rgba(0,230,64,.7)',
+              name: 'area-3',
+              y: 33,
+            },{
+              name: 'area-4',
+              y: 42,
+            },{
+              name: 'area-5',
+              y: 11,
+            },{
+              name: 'area-6',
+              y: 23,
+            },{
+              name: 'area-7',
+              y: 42,
+            },{
+              name: 'area-8',
+              y: 71,
+            },{
+              name: 'area-9',
+              y: 21,
+            },{
+              name: 'area-10',
+              y: 11,
             }],
             center: [190, 60],
             size: 130,
             showInLegend: false,
             dataLabels: {
               enabled: true,
-              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+              format: '<b>{point.name}</b>: {point.percentage:.1f}%',
             },
           },
           {
             type: 'pie',
             name: 'combination',
             data: [{
-              name: 'Total',
+              name: 'vomiting',
               y: 13,
-              color: 'rgba(0,0,0,0.7)',
             }, {
-              name: 'SABR',
-              y: 25,
-              color: 'rgba(137,196,244,1)',
+              name: 'burn',
+              y: 12,
             }, {
-              name: 'Con',
-              y: 25,
-              color: 'rgba(0,230,64,.7)',
+              name: 'chill',
+              y: 33,
+            },{
+              name: 'fever',
+              y: 42,
+            },{
+              name: 'pimples',
+              y: 11,
+            },{
+              name: 'fractured',
+              y: 23,
+            },{
+              name: 'toothache',
+              y: 42,
+            },{
+              name: 'headache',
+              y: 71,
+            },{
+              name: 'turmor',
+              y: 21,
             }],
-            center: [490, 60],
+            center: [590, 60],
             size: 130,
             showInLegend: false,
             dataLabels: {
