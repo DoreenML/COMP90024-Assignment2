@@ -632,7 +632,7 @@ export default {
         series: [
           {
             type: 'pie',
-            name: 'combination',
+            name: 'Area percentage',
             data: [{
               name: 'area-1',
               y: 13,
@@ -674,7 +674,7 @@ export default {
           },
           {
             type: 'pie',
-            name: 'combination',
+            name: 'Symptom Percentage',
             data: [{
               name: 'vomiting',
               y: 13,
