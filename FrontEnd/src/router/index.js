@@ -5,6 +5,7 @@ import {
 import Home from '../views/Home.vue'
 import HacroMap from '../views/HacroMap.vue'
 import HealthRelatedTopicTrend from '../views/HealthRelatedTopicTrend.vue'
+import SymptomTimelineAnalysis from '../views/SymptomTimelineAnalysis.vue'
 
 const routes = [{
     path: '/',
@@ -20,6 +21,11 @@ const routes = [{
     path: '/healthrelatedtopictrend',
     name: 'Health Related Topic Trend',
     component: HealthRelatedTopicTrend
+  },
+  {
+    path: '/symptomtimelineanalysis',
+    name: 'Symptom Timeline Analysis',
+    component: SymptomTimelineAnalysis,
   }
 ]
 

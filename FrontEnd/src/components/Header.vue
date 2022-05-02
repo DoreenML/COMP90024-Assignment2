@@ -5,7 +5,7 @@
         <template #title>Health Anlysis</template>
         <el-menu-item index="/Hacromap">Health Condtion and COVID cases Map</el-menu-item>
         <el-menu-item index="/healthrelatedtopictrend">Health Related Topic Trend</el-menu-item>
-        <el-menu-item index="/Hacromap">COVID Symptom Analysis</el-menu-item>
+        <el-menu-item index="/symptomtimelineanalysis">COVID Symptom Timeline Analysis</el-menu-item>
         <el-menu-item index="/Hacromap">COVID and Depression Analysis</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="2">
