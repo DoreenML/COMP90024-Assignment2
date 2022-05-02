@@ -4,6 +4,81 @@
     <div id='container2'></div>
   </figure>
   <div class="spacer"></div>
+  <p class="highcharts-description">
+    <b>Symptom code and Depression Code Table</b>
+  </p>
+  <table id="datatable">
+        <thead>
+            <tr>
+                <th>Symptom Code</th>
+                <th>Symptom Name</th>
+                <th>Depression Code</th>
+                <th>Depression Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>vomiting</td>
+                <td>1</td>
+                <td>sad</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>burn</td>
+                <td>2</td>
+                <td>unhappy</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>chill</td>
+                <td>3</td>
+                <td>gloomy</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>fever</td>
+                <td>4</td>
+                <td>glum</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>pimples</td>
+                <td>5</td>
+                <td>miserable</td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td>fractured</td>
+                <td>6</td>
+                <td>sorrow</td>
+            </tr>
+            <tr>
+                <th>7</th>
+                <td>toothache</td>
+                <td>7</td>
+                <td>weak</td>
+            </tr>
+            <tr>
+                <th>8</th>
+                <td>headache</td>
+                <td>8</td>
+                <td>dull</td>
+            </tr>
+            <tr>
+                <th>9</th>
+                <td>tumor</td>
+                <td>9</td>
+                <td>tearful</td>
+            </tr>
+            <tr>
+                <th>10</th>
+                <td>mood</td>
+                <td>10</td>
+                <td>upset</td>
+            </tr>
+        </tbody>
+    </table>
 </template>
 
 <script>
@@ -17,7 +92,10 @@ export default {
   methods: {
     displayHighCharts() {
       Highcharts.chart('container1', {
-         chart: {
+        data: {
+          table: 'datatable',
+        },
+        chart: {
         type: 'scatter',
         zoomType: 'xy'
     },
@@ -240,6 +318,42 @@ export default {
 
 .highcharts-data-table tr:hover {
   background: #f1f7ff;
+}
+
+#datatable {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 2000px;
+}
+
+#datatable caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+#datatable th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+#datatable td,
+#datatable th,
+#datatable caption {
+    padding: 0.5em;
+}
+
+#datatable thead tr,
+#datatable tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+#datatable tr:hover {
+    background: #f1f7ff;
 }
 
 </style>
