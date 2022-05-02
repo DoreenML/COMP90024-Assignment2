@@ -6,6 +6,7 @@ import Home from '../views/Home.vue'
 import HacroMap from '../views/HacroMap.vue'
 import HealthRelatedTopicTrend from '../views/HealthRelatedTopicTrend.vue'
 import SymptomTimelineAnalysis from '../views/SymptomTimelineAnalysis.vue'
+import DepressionAnalysis from '../views/DepressionAnalysis.vue'
 
 const routes = [{
     path: '/',
@@ -26,6 +27,11 @@ const routes = [{
     path: '/symptomtimelineanalysis',
     name: 'Symptom Timeline Analysis',
     component: SymptomTimelineAnalysis,
+  },
+  {
+    path: '/depressionanalysis',
+    name: 'Depression Analysis',
+    component: DepressionAnalysis,
   }
 ]
 
