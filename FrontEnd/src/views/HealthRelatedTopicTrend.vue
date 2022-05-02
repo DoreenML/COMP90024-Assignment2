@@ -24,7 +24,7 @@ export default {
           text: 'COVID-19 Related Topic Trend',
         },
         subtitle: {
-          text: 'Plot 1-2 Key words for COVID-19 that appears frequently for the top 4 area',
+          text: 'Plot 1-2 Key words for COVID-19 that appears frequently for the top 10 area',
         },
         accessibility: {
           announceNewData: {
