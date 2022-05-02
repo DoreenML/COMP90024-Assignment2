@@ -3,16 +3,16 @@
     <el-menu mode="horizontal" :default-active="routerIndex" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b" router=true @select="selectItems">
       <el-sub-menu index="1">
         <template #title>Health Anlysis</template>
-        <el-menu-item index="/Hacromap">Hospital Resources and COVID cases Map</el-menu-item>
+        <el-menu-item index="/Hacromap">Hospital Resources and COVID Cases Map</el-menu-item>
         <el-menu-item index="/healthrelatedtopictrend">Health Related Topic Trend</el-menu-item>
         <el-menu-item index="/symptomtimelineanalysis">COVID Symptom Timeline Analysis</el-menu-item>
         <el-menu-item index="/depressionanalysis">Symptom and Depression Analysis</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="2">
-        <template #title>Income Analysis</template>
-        <el-menu-item index="/Hacromap">Income Level and COVID cases Map</el-menu-item>
-        <el-menu-item index="/Hacromap">Motion assessment method</el-menu-item>
-        <el-menu-item index="/Hacromap">Dose calculation dataset</el-menu-item>
+        <template #title>Polulation Analysis</template>
+        <el-menu-item index="/Hacromap">Age Distribution and COVID Cases Map</el-menu-item>
+        <el-menu-item index="/agedistribution">Age and COVID Cases Analysis</el-menu-item>
+        <el-menu-item index="/Hacromap">Gender and COVID Cases Analysis</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="3">
         <template #title>Crime Analysis</template>
