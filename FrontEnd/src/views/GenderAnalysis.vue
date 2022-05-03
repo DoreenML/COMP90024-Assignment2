@@ -21,7 +21,7 @@ export default {
     'area-05', 'area-06', 'area-07', 'area-08', 'area-09',
     'area-10', 'area-11', 'area-12', 'area-13', 'area-14',
     'area-15', 'area-16', 'area-17', 'area-18', 'area-19',
-    'area-20', 'area-21'
+    'area-20'
     ];
     Highcharts.chart('container1', {
       chart: {
@@ -65,7 +65,7 @@ export default {
         },
         labels: {
             formatter: function () {
-                return Math.abs(this.value) + '%';
+                return Math.abs(this.value);
             }
         },
         accessibility: {
@@ -91,22 +91,20 @@ export default {
         name: 'Female',
         color: 'rgba(183,82,241,0.8)',
         data: [
-            -2.2, -2.1, -2.2, -2.4,
-            -2.7, -3.0, -3.3, -3.2,
-            -2.9, -3.5, -4.4, -4.1,
-            -3.4, -2.7, -2.3, -2.2,
-            -1.6, -0.6, -0.3, -0.0,
-            -0.0
+            -3, -6, -12, -9,
+            -4, -7, -13, -8,
+            -9, -5, -4, -6,
+            -3, -7, -2, -1,
+            -1, -6, -8, -3
         ]
     }, {
         name: 'Male',
         color: 'rgba(238,106,77,0.8)',
         data: [
-            2.1, 2.0, 2.1, 2.3, 2.6,
-            2.9, 3.2, 3.1, 2.9, 3.4,
-            4.3, 4.0, 3.5, 2.9, 2.5,
-            2.7, 2.2, 1.1, 0.6, 0.2,
-            0.0
+            2, 3, 7, 4, 8,
+            9, 3, 2, 6, 7,
+            6, 8, 2, 1, 4,
+            7, 4, 3, 2, 1
         ]
     }]
       });
