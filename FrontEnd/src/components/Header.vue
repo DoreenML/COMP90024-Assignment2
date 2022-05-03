@@ -12,7 +12,7 @@
         <template #title>Polulation Analysis</template>
         <el-menu-item index="/Hacromap">Age Distribution and COVID Cases Map</el-menu-item>
         <el-menu-item index="/agedistribution">Age and COVID Cases Analysis</el-menu-item>
-        <el-menu-item index="/Hacromap">Gender and COVID Cases Analysis</el-menu-item>
+        <el-menu-item index="/genderanalysis">Gender and COVID Cases Analysis</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="3">
         <template #title>Crime Analysis</template>
