@@ -53,11 +53,29 @@ export default {
                                 fontSize: '14px'
                             })
                             .add()
+                        chart.renderer.text("area-3:", chart.chartWidth-310, chart.chartHeight-230)
+                            .css({
+                                color: 'black',
+                                fontSize: '14px'
+                            })
+                            .add()
+                        chart.renderer.text("area-4:", chart.chartWidth-310, chart.chartHeight-185)
+                            .css({
+                                color: 'black',
+                                fontSize: '14px'
+                            })
+                            .add()
+                        chart.renderer.text("area-5:", chart.chartWidth-310, chart.chartHeight-140)
+                            .css({
+                                color: 'black',
+                                fontSize: '14px'
+                            })
+                            .add()
                     },
                 }
             },
             title: {
-                text: 'COVID-19 Cases in Polulation through Time'
+                text: 'COVID-19 Cases in Polulation through Time for the Top-5 Area'
             },
             legend: {
                 align: 'right',
