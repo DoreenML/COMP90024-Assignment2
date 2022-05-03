@@ -35,10 +35,22 @@ export default {
                                 fontSize: '16px'
                             })
                             .add();
-                        chart.renderer.text("Population/Cases (in k)", chart.chartWidth/3 + 30, chart.chartHeight- 70)
+                        chart.renderer.text("Population/Cases (in k)", chart.chartWidth/3, chart.chartHeight- 70)
                             .css({
                                 color: 'black',
                                 fontSize: '16px'
+                            })
+                            .add()
+                        chart.renderer.text("area-1:", chart.chartWidth-310, chart.chartHeight-320)
+                            .css({
+                                color: 'black',
+                                fontSize: '14px'
+                            })
+                            .add()
+                        chart.renderer.text("area-2:", chart.chartWidth-310, chart.chartHeight-275)
+                            .css({
+                                color: 'black',
+                                fontSize: '14px'
                             })
                             .add()
                     },
