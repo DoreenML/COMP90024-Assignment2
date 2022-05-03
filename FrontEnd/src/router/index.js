@@ -8,7 +8,6 @@ import HealthRelatedTopicTrend from '../views/HealthRelatedTopicTrend.vue'
 import SymptomTimelineAnalysis from '../views/SymptomTimelineAnalysis.vue'
 import DepressionAnalysis from '../views/DepressionAnalysis.vue'
 import AgeDistribution from '../views/AgeDistribution.vue'
-import MapComponent from '../views/MapComponent.vue'
 
 const routes = [{
     path: '/',
@@ -39,11 +38,6 @@ const routes = [{
     path: '/agedistribution',
     name: 'Age Distribution',
     component: AgeDistribution,
-  },  
-  {
-    path: '/mapcomponent',
-    name: 'Map Component',
-    component: MapComponent,
   }
 ]
 

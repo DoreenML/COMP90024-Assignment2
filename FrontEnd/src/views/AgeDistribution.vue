@@ -10,8 +10,9 @@ import $ from 'jquery';
 export default {
   data() {
     return {
-        stacks: ['vacataion', 'home', 'work'],
-        stackLabels: []
+        stacks: ['area-1', 'area-2', 'area-3', 'area-4', 'area-5'],
+        stackLabels: [],
+        chart: ''
     };
   },
   mounted() {
@@ -24,11 +25,27 @@ export default {
             chart: {
                 type: 'column',
                 events: {
-                    redraw: _this.renderStackLabels
+                    redraw: _this.renderStackLabels,
+                    load: function() {
+                        const chart = this;
+                        console.log(chart);
+                        chart.renderer.text("Average Age", chart.chartWidth/3 + 30, chart.chartHeight/6)
+                            .css({
+                                color: 'black',
+                                fontSize: '16px'
+                            })
+                            .add();
+                        chart.renderer.text("Population/Cases (in k)", chart.chartWidth/3 + 30, chart.chartHeight- 70)
+                            .css({
+                                color: 'black',
+                                fontSize: '16px'
+                            })
+                            .add()
+                    },
                 }
             },
             title: {
-                text: 'New vs Solves'
+                text: 'COVID-19 Cases in Polulation through Time'
             },
             legend: {
                 align: 'right',
@@ -43,72 +60,135 @@ export default {
                 }
             },
             xAxis: {
-                categories: ['06/27/2017 Tuesday', '06/28/2017 Wednesday', '06/29/2017 Thursday', '06/30/2017 Friday', '07/01/2017 Saturday', '07/02/2017 Sunday', '07/03/2017 Monday', '07/04/2017 Tuesday', '07/05/2017 Wednesday', '07/06/2017 Thursday', '07/07/2017 Friday', '07/08/2017 Saturday', '07/09/2017 Sunday', '07/10/2017 Monday', '07/11/2017 Tuesday']
+                categories: ['1-month', '2-month', '3-month', '4-month', '5-month', '6-month', '7-month', '8-month', '9-month', '10-month', '11-month', '12-month']
+            },
+            yAxis: {
+                labels: {
+                    formatter: function () {
+                        return Math.abs(this.value);
+                    }
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 2,
+                    color: 'black'
+                }],
+                title: {
+                    text: 'Numerical Value'
+                }
+            },
+            tooltip: {
+                formatter: function() {
+                    let stackName = this.series.userOptions.stack;
+                    return ''+ this.x +':<br/>'
+                            + '<b>Area Name</b>: ' + stackName + '<br/>'
+                            +'<b>'+ this.series.name +'</b>: ' + Math.abs(this.y);
+                }
             },
             credits: {
                 enabled: false
             },
             series: [{
-                name: 'seconds',
+                name: 'Age',
                 type: 'column',
-                data: [149, 3825, 7025, 6083, 4696, 3033, 4137, 4105, 3301, 3382, 3829, 3765, 2427, 2440, 3186],
+                color: 'rgba(223, 83, 83, .5)',
+                data: [46, 30, 41, 23, 49, 25, 70, 60, 33, 82, 60, 46],
                 stack: _this.stacks[0]
             }, {
-                name: 'streets',
+                name: 'People',
                 type: 'column',
-                data: [-149, -3589, -6516, -5591, -4172, -2770, -3896, -3757, -3255, -2864, -3689, -3767, -2634, -2874, -3568],
+                color: 'rgba(223, 83, 83, .5)',
+                data: [-41, -27, -38, -57, -14, -39, -65, -55, -32, -41, -27],
                 stack: _this.stacks[0]
             }, {
-                name: 'sis',
+                name: 'Cases',
                 type: 'spline',
-                data: [0, 236, 509, 492, 524, 263, 241, 348, 46, 518, 140, -2, -207, -434, -382],
+                color: 'rgba(223, 83, 83, .5)',
+                data: [-23, -41, -48, -46, -18, -23, -26, -59, -49, -54, -49, -54],
                 stack: _this.stacks[0]
-            }, {
-                name: 'seconds',
+            },{
+                name: 'Age',
                 type: 'column',
-                data: [3488, 3665, 3706, 3155, 2837, 2682, 2920, 3048, 2781, 2843, 2914, 2956, 2625, 3231, 2536],
+                data: [49, 25, 70, 60, 46, 30, 41, 23, 33, 82, 60, 46],
                 stack: _this.stacks[1]
             }, {
-                name: 'streets',
+                name: 'People',
                 type: 'column',
-                data: [-4039, -4098, -3869, -4916, -4405, -3213, -3181, -3264, -3528, -2465, -3363, -4056, -2907, -3338, -3241],
+                data: [-14, -39, -65, -55, -41, -27, -38, -57, -32, -41, -27],
                 stack: _this.stacks[1]
             }, {
-                name: 'sis',
+                name: 'Cases',
                 type: 'spline',
-                data: [-551, -433, -163, -1761, -1568, -531, -261, -216, -747, 378, -449, -1100, -282, -107, -705],
+                data: [-23, -26, -59, -49, -54, -23, -41, -48, -46, -18, -49, -54],
                 stack: _this.stacks[1]
             }, {
-                name: 'seconds',
+                name: 'Age',
                 type: 'column',
-                data: [4911, 5101, 4708, 3701, 3033, 2473, 2701, 2932, 2522, 2615, 3539, 2837, 2960, 2290, 2176],
+                data: [88, 65, 36, 55, 28, 82, 20, 48, 81, 28, 36, 55],
                 stack: _this.stacks[2]
             }, {
-                name: 'streets',
+                name: 'People',
                 type: 'column',
-                data: [-4806, -4337, -3851, -3761, -3816, -3064, -2787, -3558, -2905, -1972, -3168, -4077, -2680, -3209, -2818],
+                data: [-40, -98, -38, -16, -45, -13, -31, -34, -28, -19, -98, -38],
                 stack: _this.stacks[2]
             }, {
-                name: 'sis',
+                name: 'Cases',
                 type: 'spline',
-                data: [105, 764, 857, -60, -783, -591, -86, -626, -383, 643, 371, -1240, 280, -919, -642],
+                data: [-51, -33, -16, -17, -68, -53, -21, -16, -74, -78, -33, -16],
                 stack: _this.stacks[2]
+            }, {
+                name: 'Age',
+                type: 'column',
+                data: [11, 10, 48, 37, 33, 23, 27, 29, 22, 15, 10, 48],
+                stack: _this.stacks[3]
+            }, {
+                name: 'People',
+                type: 'column',
+                data: [-46, -43, -38, -61, -16, -30, -27, -58, -25, -72, -43, -38],
+                stack: _this.stacks[3]
+            }, {
+                name: 'Cases',
+                type: 'spline',
+                data: [-15, -76, -87, -60, -78, -51, -86, -26, -33, -63, -87, -60],
+                stack: _this.stacks[3]
+            },{
+                name: 'Age',
+                type: 'column',
+                data: [23, 27, 29, 22, 11, 10, 48, 37, 33, 15, 10, 48],
+                stack: _this.stacks[4]
+            }, {
+                name: 'People',
+                type: 'column',
+                data: [-16, -30, -27, -58, -25, -46, -43, -38, -61, -72, -43, -38],
+                stack: _this.stacks[4]
+            }, {
+                name: 'Cases',
+                type: 'spline',
+                data: [-51, -86, -26, -33, -63, -15, -76, -87, -60, -78, -87, -60],
+                stack: _this.stacks[4]
             }]
         });
     },
+    renderText() {
+        const chart = this;
+        console.log(chart);  
+    },
     renderStackLabels() {
-        stackLabels.forEach((label) => label.destroy());
-        stackLabels = [];
+        const _this = this;
+        _this.stackLabels.forEach((label) => label.destroy());
+        _this.stackLabels = [];
+
         // legend position
         var legendMatrix = $(".highcharts-legend")[0].transform.baseVal[0].matrix;
+
         $(".highcharts-legend-item.highcharts-column-series, .highcharts-legend-item.highcharts-spline-series").toArray().forEach(function(item, i) {
-            if (i % 3 === 0) {
+            if (i % 4 === 0) {
                 var itemMatrix = item.transform.baseVal[0].matrix; // legend item position
-                stackLabels.push(chart.renderer.text(_this.stacks[i / 3] + ':', itemMatrix.e + legendMatrix.e, itemMatrix.f + legendMatrix.f - 5));
+                _this.stackLabels.push(_this.chart.renderer.text(_this.stacks[i / 4] + ':', itemMatrix.e + legendMatrix.e, itemMatrix.f + legendMatrix.f - 5));
             };
         });
         
-        stackLabels.forEach((label) => label.add());
+        _this.stackLabels.forEach((label) => label.add());
     }
 }
 }
