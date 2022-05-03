@@ -17,21 +17,21 @@ export default {
   methods: {
     displayHighCharts() {
     const categories = [
-    '0-4', '5-9', '10-14', '15-19',
-    '20-24', '25-29', '30-34', '35-39', '40-44',
-    '45-49', '50-54', '55-59', '60-64', '65-69',
-    '70-74', '75-79', '80-84', '85-89', '90-94',
-    '95-99', '100 + '
+    'area-01', 'area-02', 'area-03', 'area-04',
+    'area-05', 'area-06', 'area-07', 'area-08', 'area-09',
+    'area-10', 'area-11', 'area-12', 'area-13', 'area-14',
+    'area-15', 'area-16', 'area-17', 'area-18', 'area-19',
+    'area-20', 'area-21'
     ];
     Highcharts.chart('container1', {
       chart: {
         type: 'bar'
     },
     title: {
-        text: 'Population pyramid for Germany, 2018'
+        text: 'COVID-19 Affection Number in Top 20 Area for Female and Male'
     },
     subtitle: {
-        text: 'Source: <a href="http://populationpyramid.net/germany/2018/">Population Pyramids of the World from 1950 to 2100</a>'
+        text: 'Analysis on Gender in Relation with COVID-19 on the top 20 informative areas.'
     },
     accessibility: {
         point: {
@@ -82,13 +82,14 @@ export default {
 
     tooltip: {
         formatter: function () {
-            return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
-                'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 1) + '%';
+            return '<b>' + this.series.name + ', ' + this.point.category + '</b><br/>' +
+                'Tested Positive: ' + Highcharts.numberFormat(Math.abs(this.point.y), 1);
         }
     },
 
     series: [{
-        name: 'Male',
+        name: 'Female',
+        color: 'rgba(183,82,241,0.8)',
         data: [
             -2.2, -2.1, -2.2, -2.4,
             -2.7, -3.0, -3.3, -3.2,
@@ -98,7 +99,8 @@ export default {
             -0.0
         ]
     }, {
-        name: 'Female',
+        name: 'Male',
+        color: 'rgba(238,106,77,0.8)',
         data: [
             2.1, 2.0, 2.1, 2.3, 2.6,
             2.9, 3.2, 3.1, 2.9, 3.4,
