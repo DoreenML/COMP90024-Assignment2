@@ -4,7 +4,8 @@
   <figure class='highcharts-figure'>
     <div id='container'></div>
     <p class="highcharts-description">
-        <b>Team Member Information</b>
+        <b>Team Member Information </b>
+        <b>(names in alphbetical order)</b>
     </p>
     <table id="datatable">
         <thead>
@@ -32,8 +33,8 @@
             </tr>
             <tr>
                 <th>Zhangyu Wei</th>
-                <td>ID</td>
-                <td>Email</td>
+                <td>1258372</td>
+                <td>zhangyuw@student.unimelb.edu.au</td>
             </tr>
             <tr>
                 <th>Zhaoyang Zhang</th>
