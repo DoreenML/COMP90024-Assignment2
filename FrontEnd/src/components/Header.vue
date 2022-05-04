@@ -27,8 +27,8 @@
       </el-sub-menu>
       <el-sub-menu index="5">
         <template #title>Project and Team</template>
-        <el-menu-item index="/Hacromap">Team Member Information </el-menu-item>
-        <el-menu-item index="/Hacromap">Project Structure</el-menu-item>
+        <el-menu-item index="/teaminformation">Team Member Information </el-menu-item>
+        <el-menu-item index="/projectinformation">Project Structure</el-menu-item>
       </el-sub-menu>
       <el-menu-item index="/">Home</el-menu-item>
     </el-menu>

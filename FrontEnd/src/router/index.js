@@ -11,6 +11,8 @@ import AgeDistribution from '../views/AgeDistribution.vue'
 import GenderAnalysis from '../views/GenderAnalysis.vue'
 import ViolentTweet from '../views/ViolentTweet.vue'
 import CrimeHeatMap from '../views/CrimeHeatMap.vue'
+import ProjectInformation from '../views/ProjectInformation.vue'
+import TeamInformation from '../views/TeamInformation.vue'
 
 const routes = [{
     path: '/',
@@ -56,6 +58,16 @@ const routes = [{
     path: '/crimeheatmap',
     name: 'Crime Heat Map',
     component: CrimeHeatMap,
+  },
+  {
+    path: '/projectinformation',
+    name: 'Project Information',
+    component: ProjectInformation,
+  },
+  {
+    path: '/teaminformation',
+    name: 'Team Information',
+    component: TeamInformation,
   }
 ]
 
