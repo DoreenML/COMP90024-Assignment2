@@ -9,6 +9,8 @@ import SymptomTimelineAnalysis from '../views/SymptomTimelineAnalysis.vue'
 import DepressionAnalysis from '../views/DepressionAnalysis.vue'
 import AgeDistribution from '../views/AgeDistribution.vue'
 import GenderAnalysis from '../views/GenderAnalysis.vue'
+import ViolentTweet from '../views/ViolentTweet.vue'
+import CrimeHeatMap from '../views/CrimeHeatMap.vue'
 
 const routes = [{
     path: '/',
@@ -44,6 +46,16 @@ const routes = [{
     path: '/genderanalysis',
     name: 'Gender Analysis',
     component: GenderAnalysis,
+  },
+  {
+    path: '/violentweet',
+    name: 'Violent Tweet',
+    component: ViolentTweet,
+  },
+  {
+    path: '/crimeheatmap',
+    name: 'Crime Heat Map',
+    component: CrimeHeatMap,
   }
 ]
 
