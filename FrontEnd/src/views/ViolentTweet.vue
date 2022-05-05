@@ -22,7 +22,7 @@ export default {
     },
 
     title: {
-        text: 'Violent Tweet Key Word for the Top-10 Violent Tweet Areas'
+        text: 'Violent Tweet Key Words and Gender Analysis for the Top-10 Areas'
     },
 
     xAxis: {
@@ -63,7 +63,7 @@ export default {
         data: [5, 3, 4, 7, 2, 6, 4, 7, 9, 11],
         stack: 'male'
     }, {
-        name: 'kill',
+        name: 'Kill',
         data: [3, 4, 4, 4, 4, 4, 7, 2, 5, 3],
         stack: 'female'
     },{
@@ -107,11 +107,11 @@ export default {
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'male'
     }, {
-        name: 'hate',
+        name: 'Hate',
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'male'
     }, {
-        name: 'hate',
+        name: 'Hate',
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'female'
     }, {
@@ -131,11 +131,11 @@ export default {
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'male'
     }, {
-        name: 'harm',
+        name: 'Harm',
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'male'
     }, {
-        name: 'harm',
+        name: 'Harm',
         data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'female'
     }]
@@ -148,7 +148,7 @@ export default {
         text: 'Corresponding COVID-19 Cases for the Top-10 Violent Tweet Areas '
     },
     subtitle: {
-        text: 'Source: Wikipedia.org'
+        text: 'aaaa'
     },
     accessibility: {
         point: {
@@ -156,7 +156,7 @@ export default {
         }
     },
     xAxis: {
-        categories: ['1-month', '2-month', '3-month', '4-month', '5-month', '6-month', '7-month'],
+        categories: ['1-month', '2-month', '3-month', '4-month', '5-month', '6-month', '7-month', '8-month', '9-month', '10-month', '11-month', '12-month'],
         tickmarkPlacement: 'on',
         title: {
             enabled: false
@@ -167,7 +167,7 @@ export default {
             format: '{value}%'
         },
         title: {
-            enabled: false
+            text: 'Number of COVID Cases'
         }
     },
     tooltip: {
@@ -187,19 +187,34 @@ export default {
     },
     series: [{
         name: 'area-1',
-        data: [502, 635, 809, 947, 1402, 3634, 5268]
+        data: [502, 635, 809, 947, 140, 334, 526, 182, 124, 343, 453, 456]
     }, {
         name: 'area-2',
-        data: [106, 107, 111, 133, 221, 767, 1766]
+        data: [106, 107, 111, 133, 221, 767, 176, 140, 364, 568, 892, 343]
     }, {
         name: 'area-3',
-        data: [163, 203, 276, 408, 547, 729, 628]
+        data: [163, 203, 276, 408, 547, 729, 628, 140, 634, 568, 892, 402]
     }, {
         name: 'area-4',
-        data: [18, 31, 54, 156, 339, 818, 1201]
+        data: [18, 31, 54, 156, 339, 818, 1201, 408, 547, 729, 628, 422]
     }, {
         name: 'area-5',
-        data: [2, 2, 2, 6, 13, 30, 46]
+        data: [2, 2, 2, 156, 339, 818, 120, 176, 140, 363, 568, 402]
+    }, {
+        name: 'area-6',
+        data: [163, 203, 276, 408, 13, 30, 46, 334, 268, 892, 402, 345]
+    }, {
+        name: 'area-7',
+        data: [502, 635, 809, 947, 134, 303, 462, 628, 402, 634, 526, 324]
+    }, {
+        name: 'area-8',
+        data: [232, 232, 532, 633, 221, 767, 166, 133, 221, 767, 766, 231]
+    }, {
+        name: 'area-9',
+        data: [163, 203, 276, 408, 513, 330, 462, 818, 201, 766, 402, 341]
+    }, {
+        name: 'area-10',
+        data: [276, 408, 547, 729, 213, 340, 646, 408, 413, 530, 446, 634]
     }]
       });
     },
