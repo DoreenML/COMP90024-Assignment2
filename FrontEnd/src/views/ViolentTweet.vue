@@ -22,26 +22,33 @@ export default {
     },
 
     title: {
-        text: 'Total fruit consumption, grouped by gender'
+        text: 'Violent Tweet Key Word for the Top-10 Violent Tweet Areas'
     },
 
     xAxis: {
-        categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+        categories: ['area-1', 'area-2', 'area-3', 'area-4', 'area-5', 'area-6', 'area-7', 'area-8', 'area-9', 'area-10']
     },
 
     yAxis: {
         allowDecimals: false,
         min: 0,
         title: {
-            text: 'Number of fruits'
+            text: 'Number of Violent Key Words'
         }
     },
 
+    legend: {
+        labelFormatter: function() {
+        return this.name + ' (' + this.userOptions.stack + ')';
+        }
+    },
     tooltip: {
-        formatter: function () {
-            return '<b>' + this.x + '</b><br/>' +
-                this.series.name + ': ' + this.y + '<br/>' +
-                'Total: ' + this.point.stackTotal;
+        formatter: function() {
+        var stackName = this.series.userOptions.stack;
+
+        return '<b>Gender: </b>' + stackName + '<br/><b>' + this.x + '</b><br/>' +
+            this.series.name + ': ' + this.y + '<br/>' +
+            'Total: ' + this.point.stackTotal;
         }
     },
 
@@ -52,20 +59,84 @@ export default {
     },
 
     series: [{
-        name: 'John',
-        data: [5, 3, 4, 7, 2],
+        name: 'Kill',
+        data: [5, 3, 4, 7, 2, 6, 4, 7, 9, 11],
         stack: 'male'
     }, {
-        name: 'Joe',
-        data: [3, 4, 4, 2, 5],
+        name: 'kill',
+        data: [3, 4, 4, 4, 4, 4, 7, 2, 5, 3],
+        stack: 'female'
+    },{
+        name: 'Shoot',
+        data: [3, 4, 4, 2, 5, 3, 4, 4, 4, 7],
+        stack: 'female'
+    },{
+        name: 'Shoot',
+        data: [3, 4, 4, 2, 5, 3, 4, 4, 4, 7],
         stack: 'male'
     }, {
-        name: 'Jane',
-        data: [2, 5, 6, 2, 1],
+        name: 'Stab',
+        data: [2, 5, 6, 2, 1, 8, 6, 9, 7, 2],
+        stack: 'male'
+    }, {
+        name: 'Stab',
+        data: [2, 5, 6, 2, 1, 8, 6, 9, 7, 2],
         stack: 'female'
     }, {
-        name: 'Janet',
-        data: [3, 0, 4, 4, 3],
+        name: 'Gun',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Gun',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'Drug',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'Drug',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Fight',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Fight',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'hate',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'hate',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Die',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'Die',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Threat',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'female'
+    }, {
+        name: 'Threat',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'harm',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
+        stack: 'male'
+    }, {
+        name: 'harm',
+        data: [3, 0, 4, 4, 3, 1, 4, 7, 5, 2],
         stack: 'female'
     }]
     });
@@ -74,7 +145,7 @@ export default {
         type: 'area'
     },
     title: {
-        text: 'Historic and Estimated Worldwide Population Distribution by Region'
+        text: 'Corresponding COVID-19 Cases for the Top-10 Violent Tweet Areas '
     },
     subtitle: {
         text: 'Source: Wikipedia.org'
@@ -85,7 +156,7 @@ export default {
         }
     },
     xAxis: {
-        categories: ['1750', '1800', '1850', '1900', '1950', '1999', '2050'],
+        categories: ['1-month', '2-month', '3-month', '4-month', '5-month', '6-month', '7-month'],
         tickmarkPlacement: 'on',
         title: {
             enabled: false
@@ -100,7 +171,7 @@ export default {
         }
     },
     tooltip: {
-        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.percentage:.1f}%</b> ({point.y:,.0f} millions)<br/>',
+        pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.percentage:.1f}%</b> ({point.y:,.0f} k)<br/>',
         split: true
     },
     plotOptions: {
@@ -115,19 +186,19 @@ export default {
         }
     },
     series: [{
-        name: 'Asia',
+        name: 'area-1',
         data: [502, 635, 809, 947, 1402, 3634, 5268]
     }, {
-        name: 'Africa',
+        name: 'area-2',
         data: [106, 107, 111, 133, 221, 767, 1766]
     }, {
-        name: 'Europe',
+        name: 'area-3',
         data: [163, 203, 276, 408, 547, 729, 628]
     }, {
-        name: 'America',
+        name: 'area-4',
         data: [18, 31, 54, 156, 339, 818, 1201]
     }, {
-        name: 'Oceania',
+        name: 'area-5',
         data: [2, 2, 2, 6, 13, 30, 46]
     }]
       });
