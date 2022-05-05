@@ -212,9 +212,9 @@ export default {
         var legendMatrix = $(".highcharts-legend")[0].transform.baseVal[0].matrix;
 
         $(".highcharts-legend-item.highcharts-column-series, .highcharts-legend-item.highcharts-spline-series").toArray().forEach(function(item, i) {
-            if (i % 4 === 0) {
+            if (i % 5 === 0) {
                 var itemMatrix = item.transform.baseVal[0].matrix; // legend item position
-                _this.stackLabels.push(_this.chart.renderer.text(_this.stacks[i / 4] + ':', itemMatrix.e + legendMatrix.e, itemMatrix.f + legendMatrix.f - 5));
+                _this.stackLabels.push(_this.chart.renderer.text(_this.stacks[i / 5] + ':', itemMatrix.e + legendMatrix.e, itemMatrix.f + legendMatrix.f - 5));
             };
         });
         
