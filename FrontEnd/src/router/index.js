@@ -10,7 +10,7 @@ import DepressionAnalysis from '../views/DepressionAnalysis.vue'
 import AgeDistribution from '../views/AgeDistribution.vue'
 import GenderAnalysis from '../views/GenderAnalysis.vue'
 import ViolentTweet from '../views/ViolentTweet.vue'
-import CrimeHeatMap from '../views/CrimeHeatMap.vue'
+import CrimeCovid from '../views/CrimeCovid.vue'
 import ProjectInformation from '../views/ProjectInformation.vue'
 import TeamInformation from '../views/TeamInformation.vue'
 
@@ -55,9 +55,9 @@ const routes = [{
     component: ViolentTweet,
   },
   {
-    path: '/crimeheatmap',
-    name: 'Crime Heat Map',
-    component: CrimeHeatMap,
+    path: '/crimecovid',
+    name: 'Crime Covid',
+    component: CrimeCovid,
   },
   {
     path: '/projectinformation',

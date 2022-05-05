@@ -17,8 +17,8 @@
       <el-sub-menu index="3">
         <template #title>Crime Analysis</template>
         <el-menu-item index="/Hacromap">Crime Cases and COVID Cases Map</el-menu-item>
-        <el-menu-item index="/violentweet">Violent Tweet and COVID Analysis</el-menu-item>
-        <el-menu-item index="/crimeheatmap">IGRT matching procedures</el-menu-item>
+        <el-menu-item index="/violentweet">Violent Tweet with Gender and Area for COVID Analysis</el-menu-item>
+        <el-menu-item index="/crimecovid">IGRT matching procedures</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="4">
         <template #title>Real Estate Analysis</template>
