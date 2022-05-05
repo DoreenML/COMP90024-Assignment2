@@ -1,6 +1,6 @@
 <template>
   <figure class='highcharts-figure'>
-    <div id='container1'></div>
+    <div id='container'></div>
     <div id='container2'></div>
   </figure>
   <div class="spacer"></div>
@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     displayHighCharts() {
-      Highcharts.chart('container1', {
+      Highcharts.chart('container', {
       title: {
         text: 'Symptom Key Word Timeline Analysis'
     },
@@ -117,7 +117,7 @@ export default {
 }
 
 #container {
-  height: 400px;
+  height: 600px;
 }
 
 .spacer {
