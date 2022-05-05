@@ -22,7 +22,7 @@ export default {
         type: 'area'
     },
     title: {
-        text: 'Corresponding COVID-19 Cases for the Top-10 Violent Tweet Areas '
+        text: 'Corresponding COVID-19 Cases for the Top-10 Violent Tweet Areas Timeline'
     },
     subtitle: {
         text: 'aaaa'

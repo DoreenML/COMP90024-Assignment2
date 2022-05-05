@@ -18,11 +18,12 @@
         <template #title>Crime Analysis</template>
         <el-menu-item index="/Hacromap">Crime Cases and COVID Cases Map</el-menu-item>
         <el-menu-item index="/violentweet">Violent Tweet with Gender and Area for COVID Analysis</el-menu-item>
-        <el-menu-item index="/crimecovid">COVID Cases for Violent Tweets Area</el-menu-item>
+        <el-menu-item index="/crimecovid">COVID Cases for Violent Tweets Area Through Time</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="4">
         <template #title>Real Estate Analysis</template>
         <el-menu-item index="/Hacromap">Real Estate price and COVID Map</el-menu-item>
+        <el-menu-item index="/realestatetopictrend">Real Estate Related Topic Trend</el-menu-item>
         <el-menu-item index="/Hacromap">Barriers to implementing</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="5">

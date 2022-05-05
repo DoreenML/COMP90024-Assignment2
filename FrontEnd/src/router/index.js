@@ -11,6 +11,7 @@ import AgeDistribution from '../views/AgeDistribution.vue'
 import GenderAnalysis from '../views/GenderAnalysis.vue'
 import ViolentTweet from '../views/ViolentTweet.vue'
 import CrimeCovid from '../views/CrimeCovid.vue'
+import RealEstateTopicTrend from '../views/RealEstateTopicTrend.vue'
 import ProjectInformation from '../views/ProjectInformation.vue'
 import TeamInformation from '../views/TeamInformation.vue'
 
@@ -68,6 +69,11 @@ const routes = [{
     path: '/teaminformation',
     name: 'Team Information',
     component: TeamInformation,
+  },
+  {
+    path: '/realestatetopictrend',
+    name: 'Real Estate Topic Trend',
+    component: RealEstateTopicTrend,
   }
 ]
 
