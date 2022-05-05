@@ -18,8 +18,8 @@
         <tbody>
             <tr>
                 <th>Qi Li</th>
-                <td>ID</td>
-                <td>Email</td>
+                <td>1138875</td>
+                <td>lql4@student.unimelb.edu.au</td>
             </tr>
             <tr>
                 <th>Xiaohan Ma</th>

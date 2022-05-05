@@ -4,51 +4,41 @@
   <figure class='highcharts-figure'>
     <div id='container'></div>
     <p class="highcharts-description">
-        <b>Motion Assessment Method Table</b>
+        <b>Project Description Table</b>
     </p>
     <table id="datatable">
         <thead>
             <tr>
-                <th>Abbreviation</th>
-                <th>Terminology</th>
+                <th>Page Name</th>
+                <th>Category</th>
                 <th>Description</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>BHG</th>
-                <td>Breath-hold Gating</td>
-                <td>Two methods to do BHG: actively and passively.
-                    Active: The doctor could use the machine to
-                    temporarily block the patient's breath.
-                    Passive: Patients could actively hold their
-                    breath (used in this survey)</td>
+                <th>n</th>
+                <td>c</td>
+                <td>d</td>
             </tr>
             <tr>
-                <th>SABR</th>
-                <td>Stereotactic Ablative Radiotherapy</td>
-                <td>A highly focused radiation treatment that gives an
-                    intense dose of radiation concentrated on a tumor,
-                    while limiting the dose to the surrounding organs.</td>
+                <th>n</th>
+                <td>c</td>
+                <td>d</td>
             </tr>
             <tr>
-                <th>Conventional</th>
-                <td>Conventional Treatment</td>
-                <td>The traditional way of treating cancer</td>
+                <th>n</th>
+                <td>c</td>
+                <td>d</td>
             </tr>
             <tr>
-                <th>FBG</th>
-                <td>Free-breathing Gating</td>
-                <td>FBG is different from normal BHG and during the treatment of
-                    FBG the patients are allowed to breathe normally while the MM
-                    facilities try to capture the breadth pattern of the patient.</td>
+                <th>n</th>
+                <td>c</td>
+                <td>d</td>
             </tr>
             <tr>
-                <th>TT</th>
-                <td>Tumour Tracking</td>
-                <td>The facility uses X-rays to first find the location of the tumor and
-                    then computer algorithms are applied to the facilities to identify
-                    the tumor at all times during the treatment. </td>
+                <th>n</th>
+                <td>c</td>
+                <td>d</td>
             </tr>
         </tbody>
     </table>
