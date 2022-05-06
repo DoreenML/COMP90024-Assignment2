@@ -102,7 +102,7 @@ def find_radius(area_code):
 def fill_geo_dict():
     geo_dict = {}
     for i in range(276):
-        geo_dict[i] = (find_center(i)[0],find_center(i)[1],find_radius(i))
+        geo_dict[i] = (find_center(i)[0],find_center(i)[1],find_radius(i)*111110)
     return geo_dict
 
 geo_dict = fill_geo_dict()
