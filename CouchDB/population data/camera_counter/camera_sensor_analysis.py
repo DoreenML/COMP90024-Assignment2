@@ -9,8 +9,8 @@ couch = couchdb.Server(couch_url)
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-JSON_FILE = 'business_data.json'
-DATABASE_NAME = 'business_data'
+JSON_FILE = 'Pedestrian_Counting_System_-_Sensor_Locations.json'
+DATABASE_NAME = 'sensor_location_data'
 
 def read_json(file_name):
     # load file
@@ -18,14 +18,13 @@ def read_json(file_name):
     data = json.load(file)
     return data
 
-business_data = read_json(JSON_FILE)
-print(len(business_data))
-Total_entry = 339534
-Continue_from = 0
-db = couch[DATABASE_NAME]
+Lsensor_data = read_json(JSON_FILE)
+Total_entry = len(Lsensor_data)
+Continue_from = 0 
 
+db = couch[DATABASE_NAME]
 for idx in range(Continue_from, Total_entry):
-    db.save(business_data[idx])
+    # print(Lsensor_data[idx])
+    db.save(Lsensor_data[idx])
     print("current index:", idx)
     print("Percent remaining:", (1 - idx/Total_entry)*100)
-    

@@ -32,11 +32,15 @@ def store_crime_dict():
     return crime_dict
 
 crime_dict = store_crime_dict()
-# print(type(crime_dict[1234]))
+print(len(crime_dict))
 
 db = couch['crime_data']
-for idx in range(62984):
+Total_entry = 62984
+Continue_from = 37
+for idx in range(Continue_from, Total_entry):
     db.save(crime_dict[idx])
+    print("current index:", idx)
+    print("Percent remaining:", (1 - idx/Total_entry)*100)
 
 
 
