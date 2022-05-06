@@ -1,0 +1,3490 @@
+[
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Population",
+  "Sub_Category": "Total",
+  "Sub_Order": 1,
+  "Value": 40348
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Gender",
+  "Sub_Category": "Male",
+  "Sub_Order": 1,
+  "Value": 18066
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Gender",
+  "Sub_Category": "Female",
+  "Sub_Order": 2,
+  "Value": 22282
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "15-19 years",
+  "Sub_Order": 1,
+  "Value": 10592
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "20-24 years",
+  "Sub_Order": 2,
+  "Value": 29756
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "Other",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 0-4 years",
+  "Sub_Order": 1,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 5-9 years",
+  "Sub_Order": 2,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 10-14 years",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 15-19 years",
+  "Sub_Order": 4,
+  "Value": 4533
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 20-24 years",
+  "Sub_Order": 5,
+  "Value": 13533
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 25-29 years",
+  "Sub_Order": 6,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 30-34 years",
+  "Sub_Order": 7,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 35-39 years",
+  "Sub_Order": 8,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 40-44 years",
+  "Sub_Order": 9,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 45-49 years",
+  "Sub_Order": 10,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 50-54 years",
+  "Sub_Order": 11,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 55-59 years",
+  "Sub_Order": 12,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 60-64 years",
+  "Sub_Order": 13,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 65-69 years",
+  "Sub_Order": 14,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 70-74 years",
+  "Sub_Order": 15,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 75-79 years",
+  "Sub_Order": 16,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 80-84 years",
+  "Sub_Order": 17,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 85-89 years",
+  "Sub_Order": 18,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 90-94 years",
+  "Sub_Order": 19,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 95-99 years",
+  "Sub_Order": 20,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 100 years and over",
+  "Sub_Order": 21,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 0-4 years",
+  "Sub_Order": 22,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 5-9 years",
+  "Sub_Order": 23,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 10-14 years",
+  "Sub_Order": 24,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 15-19 years",
+  "Sub_Order": 25,
+  "Value": 6059
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 20-24 years",
+  "Sub_Order": 26,
+  "Value": 16223
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 25-29 years",
+  "Sub_Order": 27,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 30-34 years",
+  "Sub_Order": 28,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 35-39 years",
+  "Sub_Order": 29,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 40-44 years",
+  "Sub_Order": 30,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 45-49 years",
+  "Sub_Order": 31,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 50-54 years",
+  "Sub_Order": 32,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 55-59 years",
+  "Sub_Order": 33,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 60-64 years",
+  "Sub_Order": 34,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 65-69 years",
+  "Sub_Order": 35,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 70-74 years",
+  "Sub_Order": 36,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 75-79 years",
+  "Sub_Order": 37,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 80-84 years",
+  "Sub_Order": 38,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 85-89 years",
+  "Sub_Order": 39,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 90-94 years",
+  "Sub_Order": 40,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 95-99 years",
+  "Sub_Order": 41,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 100 years and over",
+  "Sub_Order": 42,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 1,
+  "Value": 13015
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 2,
+  "Value": 8296
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 3,
+  "Value": 3234
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 4,
+  "Value": 2034
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 5,
+  "Value": 960
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 6,
+  "Value": 952
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 7,
+  "Value": 752
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 8,
+  "Value": 750
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 9,
+  "Value": 558
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 10,
+  "Value": 544
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 11,
+  "Value": 499
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 12,
+  "Value": 459
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Taiwan",
+  "Sub_Order": 13,
+  "Value": 400
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 14,
+  "Value": 299
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Colombia",
+  "Sub_Order": 15,
+  "Value": 258
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 16,
+  "Value": 224
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Brazil",
+  "Sub_Order": 17,
+  "Value": 207
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 18,
+  "Value": 188
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sri Lanka",
+  "Sub_Order": 19,
+  "Value": 178
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Italy",
+  "Sub_Order": 20,
+  "Value": 160
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 2444
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 22,
+  "Value": 15
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 23,
+  "Value": 3900
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 8296
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 28115
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 3,
+  "Value": 15
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 4,
+  "Value": 3900
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 1,
+  "Value": 14382
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 2,
+  "Value": 10543
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 3,
+  "Value": 2054
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 4,
+  "Value": 1849
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Chinese, nfd",
+  "Sub_Order": 5,
+  "Value": 1148
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 6,
+  "Value": 872
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 686
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 8,
+  "Value": 456
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Thai",
+  "Sub_Order": 9,
+  "Value": 447
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 10,
+  "Value": 403
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malay",
+  "Sub_Order": 11,
+  "Value": 364
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 12,
+  "Value": 303
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 251
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 14,
+  "Value": 226
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 225
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Portuguese",
+  "Sub_Order": 16,
+  "Value": 190
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 17,
+  "Value": 190
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 18,
+  "Value": 131
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Sinhalese",
+  "Sub_Order": 19,
+  "Value": 122
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Burmese",
+  "Sub_Order": 20,
+  "Value": 120
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 1498
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 22,
+  "Value": 3844
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 10543
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non-English language",
+  "Sub_Order": 2,
+  "Value": 25917
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 3844
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 10543
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 8747
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 14233
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 2829
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 92
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 3785
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 120
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Buddhism",
+  "Sub_Order": 3,
+  "Value": 3798
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Christianity",
+  "Sub_Order": 2,
+  "Value": 7062
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Hinduism",
+  "Sub_Order": 5,
+  "Value": 790
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Islam",
+  "Sub_Order": 4,
+  "Value": 1524
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Judaism",
+  "Sub_Order": 6,
+  "Value": 63
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Secular Beliefs and Other Spiritual Beliefs and No Religious Affiliation",
+  "Sub_Order": 1,
+  "Value": 21681
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Other Religions",
+  "Sub_Order": 7,
+  "Value": 160
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 8,
+  "Value": 229
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 9,
+  "Value": 5050
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Preschool\/ primary",
+  "Sub_Order": 1,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Government",
+  "Sub_Order": 2,
+  "Value": 828
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Catholic",
+  "Sub_Order": 3,
+  "Value": 184
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Other Non Government",
+  "Sub_Order": 4,
+  "Value": 588
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Technical or Further Educational Institution (including TAFE Colleges)",
+  "Sub_Order": 5,
+  "Value": 1719
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "University or other Tertiary Institution",
+  "Sub_Order": 6,
+  "Value": 25400
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Other",
+  "Sub_Order": 7,
+  "Value": 1254
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 8,
+  "Value": 4254
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Attendance not applicable",
+  "Sub_Order": 9,
+  "Value": 6131
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Postgraduate Degree Level",
+  "Sub_Order": 1,
+  "Value": 890
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Graduate Diploma and Graduate Certificate Level",
+  "Sub_Order": 2,
+  "Value": 186
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Bachelor Degree Level",
+  "Sub_Order": 3,
+  "Value": 9079
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Advanced Diploma and Diploma Level",
+  "Sub_Order": 4,
+  "Value": 2242
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Certificate Level",
+  "Sub_Order": 5,
+  "Value": 1439
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Level of education inadequately described",
+  "Sub_Order": 6,
+  "Value": 420
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Level of education not stated",
+  "Sub_Order": 7,
+  "Value": 4528
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Not applicable (no formal qualification)",
+  "Sub_Order": 8,
+  "Value": 21573
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 11104
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 4235
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 21217
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour force not stated",
+  "Sub_Order": 4,
+  "Value": 3799
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 5,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 3536
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 6736
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 832
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 638
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 3597
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 21217
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour force not stated",
+  "Sub_Order": 7,
+  "Value": 3799
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 8,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 7,
+  "Value": 458
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 2237
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 6,
+  "Value": 832
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 1,
+  "Value": 2847
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 4,
+  "Value": 1216
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 3,
+  "Value": 2034
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 8,
+  "Value": 157
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 5,
+  "Value": 1152
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 66
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 108
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Not in the workforce",
+  "Sub_Order": 11,
+  "Value": 29246
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Agriculture, Forestry and Fishing",
+  "Sub_Order": 16,
+  "Value": 36
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Mining",
+  "Sub_Order": 18,
+  "Value": 3
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Manufacturing",
+  "Sub_Order": 9,
+  "Value": 223
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Electricity, Gas, Water and Waste Services",
+  "Sub_Order": 17,
+  "Value": 34
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Construction",
+  "Sub_Order": 11,
+  "Value": 218
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Wholesale Trade",
+  "Sub_Order": 15,
+  "Value": 131
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Retail Trade",
+  "Sub_Order": 2,
+  "Value": 1639
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Accommodation and Food Services",
+  "Sub_Order": 1,
+  "Value": 3516
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Transport, Postal and Warehousing",
+  "Sub_Order": 13,
+  "Value": 182
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Information Media and Telecommunications",
+  "Sub_Order": 10,
+  "Value": 221
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Financial and Insurance Services",
+  "Sub_Order": 8,
+  "Value": 342
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Rental, Hiring and Real Estate Services",
+  "Sub_Order": 12,
+  "Value": 185
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Professional, Scientific and Technical Services",
+  "Sub_Order": 3,
+  "Value": 1121
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Administrative and Support Services",
+  "Sub_Order": 7,
+  "Value": 368
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Public Administration and Safety",
+  "Sub_Order": 14,
+  "Value": 152
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Education and Training",
+  "Sub_Order": 4,
+  "Value": 894
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Health Care and Social Assistance",
+  "Sub_Order": 5,
+  "Value": 539
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Arts and Recreation Services",
+  "Sub_Order": 6,
+  "Value": 470
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Other Services",
+  "Sub_Order": 19,
+  "Value": 290
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 20,
+  "Value": 353
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 21,
+  "Value": 191
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Not in the workforce",
+  "Sub_Order": 22,
+  "Value": 29246
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 569
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 16386
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 2894
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 3389
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 2336
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 2102
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 2204
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 1676
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 1742
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 1409
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 599
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 248
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 140
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 205
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 147
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 16,
+  "Value": 4296
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 17,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 27676
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 7878
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 492
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 4,
+  "Value": 4296
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not a volunteer",
+  "Sub_Order": 1,
+  "Value": 27607
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Volunteer",
+  "Sub_Order": 2,
+  "Value": 8581
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 4164
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 121
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 36099
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 4132
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 34934
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 1126
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 4295
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 35469
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 110
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 573
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 8
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 5,
+  "Value": 4189
+ },
+ {
+  "Profile": "Younger people (15-24 years)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 6,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Population",
+  "Sub_Category": "Total",
+  "Sub_Order": 1,
+  "Value": 95616
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Gender",
+  "Sub_Category": "Male",
+  "Sub_Order": 1,
+  "Value": 48070
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Gender",
+  "Sub_Category": "Female",
+  "Sub_Order": 2,
+  "Value": 47546
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "15-19 years",
+  "Sub_Order": 1,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "20-24 years",
+  "Sub_Order": 2,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age",
+  "Sub_Category": "Other",
+  "Sub_Order": 3,
+  "Value": 95616
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 0-4 years",
+  "Sub_Order": 1,
+  "Value": 2178
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 5-9 years",
+  "Sub_Order": 2,
+  "Value": 1261
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 10-14 years",
+  "Sub_Order": 3,
+  "Value": 963
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 15-19 years",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 20-24 years",
+  "Sub_Order": 5,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 25-29 years",
+  "Sub_Order": 6,
+  "Value": 12933
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 30-34 years",
+  "Sub_Order": 7,
+  "Value": 9307
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 35-39 years",
+  "Sub_Order": 8,
+  "Value": 5306
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 40-44 years",
+  "Sub_Order": 9,
+  "Value": 3248
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 45-49 years",
+  "Sub_Order": 10,
+  "Value": 2555
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 50-54 years",
+  "Sub_Order": 11,
+  "Value": 2279
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 55-59 years",
+  "Sub_Order": 12,
+  "Value": 2046
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 60-64 years",
+  "Sub_Order": 13,
+  "Value": 1781
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 65-69 years",
+  "Sub_Order": 14,
+  "Value": 1574
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 70-74 years",
+  "Sub_Order": 15,
+  "Value": 1089
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 75-79 years",
+  "Sub_Order": 16,
+  "Value": 686
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 80-84 years",
+  "Sub_Order": 17,
+  "Value": 406
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 85-89 years",
+  "Sub_Order": 18,
+  "Value": 291
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 90-94 years",
+  "Sub_Order": 19,
+  "Value": 120
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 95-99 years",
+  "Sub_Order": 20,
+  "Value": 39
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Male 100 years and over",
+  "Sub_Order": 21,
+  "Value": 8
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 0-4 years",
+  "Sub_Order": 22,
+  "Value": 2211
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 5-9 years",
+  "Sub_Order": 23,
+  "Value": 1211
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 10-14 years",
+  "Sub_Order": 24,
+  "Value": 915
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 15-19 years",
+  "Sub_Order": 25,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 20-24 years",
+  "Sub_Order": 26,
+  "Value": 0
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 25-29 years",
+  "Sub_Order": 27,
+  "Value": 13314
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 30-34 years",
+  "Sub_Order": 28,
+  "Value": 8870
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 35-39 years",
+  "Sub_Order": 29,
+  "Value": 4517
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 40-44 years",
+  "Sub_Order": 30,
+  "Value": 2969
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 45-49 years",
+  "Sub_Order": 31,
+  "Value": 2568
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 50-54 years",
+  "Sub_Order": 32,
+  "Value": 2379
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 55-59 years",
+  "Sub_Order": 33,
+  "Value": 2108
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 60-64 years",
+  "Sub_Order": 34,
+  "Value": 1861
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 65-69 years",
+  "Sub_Order": 35,
+  "Value": 1613
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 70-74 years",
+  "Sub_Order": 36,
+  "Value": 1013
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 75-79 years",
+  "Sub_Order": 37,
+  "Value": 693
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 80-84 years",
+  "Sub_Order": 38,
+  "Value": 513
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 85-89 years",
+  "Sub_Order": 39,
+  "Value": 419
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 90-94 years",
+  "Sub_Order": 40,
+  "Value": 250
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 95-99 years",
+  "Sub_Order": 41,
+  "Value": 102
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Age and gender",
+  "Sub_Category": "Female 100 years and over",
+  "Sub_Order": 42,
+  "Value": 20
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 1,
+  "Value": 8410
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 2,
+  "Value": 36145
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 3,
+  "Value": 3395
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 4,
+  "Value": 1250
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 5,
+  "Value": 999
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 6,
+  "Value": 2164
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 7,
+  "Value": 5324
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 8,
+  "Value": 1168
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 9,
+  "Value": 1334
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 10,
+  "Value": 2300
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 11,
+  "Value": 1239
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 12,
+  "Value": 2687
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Taiwan",
+  "Sub_Order": 13,
+  "Value": 1198
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 14,
+  "Value": 808
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Colombia",
+  "Sub_Order": 15,
+  "Value": 779
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 16,
+  "Value": 860
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Brazil",
+  "Sub_Order": 17,
+  "Value": 420
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 18,
+  "Value": 937
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sri Lanka",
+  "Sub_Order": 19,
+  "Value": 499
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Italy",
+  "Sub_Order": 20,
+  "Value": 1095
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 10609
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 22,
+  "Value": 117
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 23,
+  "Value": 11825
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 36145
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 47475
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 3,
+  "Value": 117
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 4,
+  "Value": 11825
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 1,
+  "Value": 11023
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 2,
+  "Value": 44458
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 3,
+  "Value": 3234
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 4,
+  "Value": 1082
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Chinese, nfd",
+  "Sub_Order": 5,
+  "Value": 325
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 6,
+  "Value": 1985
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 1338
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 8,
+  "Value": 1842
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Thai",
+  "Sub_Order": 9,
+  "Value": 1126
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 10,
+  "Value": 1337
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malay",
+  "Sub_Order": 11,
+  "Value": 281
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 12,
+  "Value": 1982
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 823
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 14,
+  "Value": 877
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 695
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Portuguese",
+  "Sub_Order": 16,
+  "Value": 463
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 17,
+  "Value": 1526
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 18,
+  "Value": 716
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Sinhalese",
+  "Sub_Order": 19,
+  "Value": 258
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Burmese",
+  "Sub_Order": 20,
+  "Value": 39
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 8480
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 22,
+  "Value": 11662
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 44458
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non-English language",
+  "Sub_Order": 2,
+  "Value": 39432
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 11662
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 44458
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 20233
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 12766
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 4997
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 1401
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 11401
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 349
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Buddhism",
+  "Sub_Order": 3,
+  "Value": 5573
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Christianity",
+  "Sub_Order": 2,
+  "Value": 26230
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Hinduism",
+  "Sub_Order": 5,
+  "Value": 4704
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Islam",
+  "Sub_Order": 4,
+  "Value": 3767
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Judaism",
+  "Sub_Order": 6,
+  "Value": 416
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Secular Beliefs and Other Spiritual Beliefs and No Religious Affiliation",
+  "Sub_Order": 1,
+  "Value": 39481
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Other Religions",
+  "Sub_Order": 7,
+  "Value": 582
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 8,
+  "Value": 554
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Religious affiliation",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 9,
+  "Value": 14311
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Preschool\/ primary",
+  "Sub_Order": 1,
+  "Value": 2684
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Government",
+  "Sub_Order": 2,
+  "Value": 528
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Catholic",
+  "Sub_Order": 3,
+  "Value": 124
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Secondary - Other Non Government",
+  "Sub_Order": 4,
+  "Value": 261
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Technical or Further Educational Institution (including TAFE Colleges)",
+  "Sub_Order": 5,
+  "Value": 2591
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "University or other Tertiary Institution",
+  "Sub_Order": 6,
+  "Value": 8960
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Other",
+  "Sub_Order": 7,
+  "Value": 2167
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 8,
+  "Value": 11995
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Education institution attendance",
+  "Sub_Category": "Attendance not applicable",
+  "Sub_Order": 9,
+  "Value": 65520
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Postgraduate Degree Level",
+  "Sub_Order": 1,
+  "Value": 14706
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Graduate Diploma and Graduate Certificate Level",
+  "Sub_Order": 2,
+  "Value": 3107
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Bachelor Degree Level",
+  "Sub_Order": 3,
+  "Value": 29112
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Advanced Diploma and Diploma Level",
+  "Sub_Order": 4,
+  "Value": 6896
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Certificate Level",
+  "Sub_Order": 5,
+  "Value": 5390
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Level of education inadequately described",
+  "Sub_Order": 6,
+  "Value": 808
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Level of education not stated",
+  "Sub_Order": 7,
+  "Value": 11799
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Level of education",
+  "Sub_Category": "Not applicable (no formal qualification)",
+  "Sub_Order": 8,
+  "Value": 23783
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 54043
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 3769
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 18622
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour force not stated",
+  "Sub_Order": 4,
+  "Value": 10435
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 5,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 38327
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 13413
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 2303
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 2213
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 1556
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 18622
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour force not stated",
+  "Sub_Order": 7,
+  "Value": 10435
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 8,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 7,
+  "Value": 8955
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 23417
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 6,
+  "Value": 3893
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 1,
+  "Value": 4451
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 4,
+  "Value": 6105
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 3,
+  "Value": 3182
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 8,
+  "Value": 730
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 5,
+  "Value": 2364
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 637
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 309
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Not in the workforce",
+  "Sub_Order": 11,
+  "Value": 41564
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Agriculture, Forestry and Fishing",
+  "Sub_Order": 16,
+  "Value": 150
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Mining",
+  "Sub_Order": 18,
+  "Value": 176
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Manufacturing",
+  "Sub_Order": 9,
+  "Value": 1779
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Electricity, Gas, Water and Waste Services",
+  "Sub_Order": 17,
+  "Value": 571
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Construction",
+  "Sub_Order": 11,
+  "Value": 1589
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Wholesale Trade",
+  "Sub_Order": 15,
+  "Value": 1296
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Retail Trade",
+  "Sub_Order": 2,
+  "Value": 3348
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Accommodation and Food Services",
+  "Sub_Order": 1,
+  "Value": 5520
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Transport, Postal and Warehousing",
+  "Sub_Order": 13,
+  "Value": 1585
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Information Media and Telecommunications",
+  "Sub_Order": 10,
+  "Value": 1929
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Financial and Insurance Services",
+  "Sub_Order": 8,
+  "Value": 4246
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Rental, Hiring and Real Estate Services",
+  "Sub_Order": 12,
+  "Value": 1161
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Professional, Scientific and Technical Services",
+  "Sub_Order": 3,
+  "Value": 10481
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Administrative and Support Services",
+  "Sub_Order": 7,
+  "Value": 1935
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Public Administration and Safety",
+  "Sub_Order": 14,
+  "Value": 2630
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Education and Training",
+  "Sub_Order": 4,
+  "Value": 4858
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Health Care and Social Assistance",
+  "Sub_Order": 5,
+  "Value": 5590
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Arts and Recreation Services",
+  "Sub_Order": 6,
+  "Value": 1702
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Other Services",
+  "Sub_Order": 19,
+  "Value": 1334
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 20,
+  "Value": 1651
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 21,
+  "Value": 521
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Industry",
+  "Sub_Category": "Not in the workforce",
+  "Sub_Order": 22,
+  "Value": 41564
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 452
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 7487
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 1649
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 3547
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 4172
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 4239
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 4509
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 4561
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 6026
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 7722
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 6737
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 6159
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 4369
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 7768
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 5778
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 16,
+  "Value": 11709
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 17,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 21546
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 35714
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 17915
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 4,
+  "Value": 11709
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not a volunteer",
+  "Sub_Order": 1,
+  "Value": 60285
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Volunteer",
+  "Sub_Order": 2,
+  "Value": 15328
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 11264
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Volunteer status",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 2246
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 81049
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 12314
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 69371
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 5818
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 3,
+  "Value": 11694
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 4,
+  "Value": 8728
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 62847
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 9200
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 3296
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 182
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Not stated",
+  "Sub_Order": 5,
+  "Value": 11361
+ },
+ {
+  "Profile": "Remaining population (0-14 yrs and 25 yrs and over)",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Not applicable (under 15 years)",
+  "Sub_Order": 6,
+  "Value": 8728
+ }
+]

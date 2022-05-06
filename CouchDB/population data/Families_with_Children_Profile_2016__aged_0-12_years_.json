@@ -1,0 +1,5370 @@
+[
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 11938
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 6250
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 2,
+  "Value": 1483
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 3,
+  "Value": 651
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 4,
+  "Value": 265
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 5,
+  "Value": 187
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 6,
+  "Value": 139
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Somalia",
+  "Sub_Order": 7,
+  "Value": 203
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 8,
+  "Value": 175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 9,
+  "Value": 147
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Saudi Arabia",
+  "Sub_Order": 10,
+  "Value": 176
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 11,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 12,
+  "Value": 128
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 13,
+  "Value": 96
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 14,
+  "Value": 102
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Ethiopia",
+  "Sub_Order": 15,
+  "Value": 99
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 16,
+  "Value": 96
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 17,
+  "Value": 89
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Eritrea",
+  "Sub_Order": 18,
+  "Value": 62
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 19,
+  "Value": 61
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sudan",
+  "Sub_Order": 20,
+  "Value": 58
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 1078
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 22,
+  "Value": 252
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 6250
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 5410
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 3,
+  "Value": 252
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived prior to 1996",
+  "Sub_Order": 1,
+  "Value": 537
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1996-2005",
+  "Sub_Order": 2,
+  "Value": 918
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 2006-2015",
+  "Sub_Order": 3,
+  "Value": 3283
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1 Jan 2016 - 9 August 2016",
+  "Sub_Order": 4,
+  "Value": 477
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not stated",
+  "Sub_Order": 5,
+  "Value": 238
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not applicable",
+  "Sub_Order": 6,
+  "Value": 6493
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 5271
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 2,
+  "Value": 1145
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 3,
+  "Value": 532
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 4,
+  "Value": 548
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 5,
+  "Value": 442
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 6,
+  "Value": 348
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 204
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Telugu",
+  "Sub_Order": 8,
+  "Value": 281
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 9,
+  "Value": 178
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 10,
+  "Value": 192
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 11,
+  "Value": 185
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 12,
+  "Value": 171
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 127
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 14,
+  "Value": 110
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 100
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malayalam",
+  "Sub_Order": 16,
+  "Value": 98
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Marathi",
+  "Sub_Order": 17,
+  "Value": 102
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "German",
+  "Sub_Order": 18,
+  "Value": 79
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Bengali",
+  "Sub_Order": 19,
+  "Value": 65
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Greek",
+  "Sub_Order": 20,
+  "Value": 59
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 1204
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 22,
+  "Value": 166
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 23,
+  "Value": 286
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 5271
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 2,
+  "Value": 6170
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 3,
+  "Value": 166
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 4,
+  "Value": 286
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 5271
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 3307
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 1651
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 848
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 549
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 185
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 135
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 110
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 11499
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Need for assistance not stated",
+  "Sub_Order": 3,
+  "Value": 329
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 5814
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 775
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not stated",
+  "Sub_Order": 3,
+  "Value": 176
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not applicable",
+  "Sub_Order": 4,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 899
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 5545
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 135
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 66
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not stated",
+  "Sub_Order": 5,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not applicable",
+  "Sub_Order": 6,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 2977
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 1158
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 418
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 169
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 128
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 1873
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 7,
+  "Value": 50
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 8,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 4553
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 297
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 1873
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 4,
+  "Value": 50
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 5,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 1,
+  "Value": 920
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 2324
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 3,
+  "Value": 264
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 4,
+  "Value": 196
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 5,
+  "Value": 421
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 6,
+  "Value": 183
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 7,
+  "Value": 75
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 8,
+  "Value": 101
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 48
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 27
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not applicable",
+  "Sub_Order": 11,
+  "Value": 7391
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 47
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 1097
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 201
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 303
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 244
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 209
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 301
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 307
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 294
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 486
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 439
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 621
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 456
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 938
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 687
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 16,
+  "Value": 128
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 17,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 2101
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 2448
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 2081
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 4,
+  "Value": 128
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 5,
+  "Value": 5175
+ },
+ {
+  "Profile": "Families with children 0-5 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 3456
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 2440
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 1363
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 2,
+  "Value": 182
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 3,
+  "Value": 121
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 4,
+  "Value": 39
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 5,
+  "Value": 62
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 6,
+  "Value": 80
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Somalia",
+  "Sub_Order": 7,
+  "Value": 38
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 8,
+  "Value": 45
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 9,
+  "Value": 33
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Saudi Arabia",
+  "Sub_Order": 10,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 11,
+  "Value": 42
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 12,
+  "Value": 29
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 13,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 14,
+  "Value": 17
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Ethiopia",
+  "Sub_Order": 15,
+  "Value": 16
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 16,
+  "Value": 18
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 17,
+  "Value": 21
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Eritrea",
+  "Sub_Order": 18,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 19,
+  "Value": 17
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sudan",
+  "Sub_Order": 20,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 194
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 22,
+  "Value": 53
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 1363
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 1012
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 238
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 3,
+  "Value": 53
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived prior to 1996",
+  "Sub_Order": 1,
+  "Value": 183
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1996-2005",
+  "Sub_Order": 2,
+  "Value": 222
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 2006-2015",
+  "Sub_Order": 3,
+  "Value": 517
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1 Jan 2016 - 9 August 2016",
+  "Sub_Order": 4,
+  "Value": 50
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not stated",
+  "Sub_Order": 5,
+  "Value": 63
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not applicable",
+  "Sub_Order": 6,
+  "Value": 1415
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 1328
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 2,
+  "Value": 161
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 3,
+  "Value": 120
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 4,
+  "Value": 59
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 5,
+  "Value": 78
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 6,
+  "Value": 76
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 97
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Telugu",
+  "Sub_Order": 8,
+  "Value": 31
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 9,
+  "Value": 31
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 10,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 11,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 12,
+  "Value": 26
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 31
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 14,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 14
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malayalam",
+  "Sub_Order": 16,
+  "Value": 12
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Marathi",
+  "Sub_Order": 17,
+  "Value": 5
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "German",
+  "Sub_Order": 18,
+  "Value": 12
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Bengali",
+  "Sub_Order": 19,
+  "Value": 18
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Greek",
+  "Sub_Order": 20,
+  "Value": 4
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 249
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 22,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 23,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 1328
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 2,
+  "Value": 1087
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 4,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 1328
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 693
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 6,
+  "Value": 38
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 260
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 113
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 27
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 11
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 47
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 2338
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Need for assistance not stated",
+  "Sub_Order": 3,
+  "Value": 51
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 1081
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 180
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not stated",
+  "Sub_Order": 3,
+  "Value": 44
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not applicable",
+  "Sub_Order": 4,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 943
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 59
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 31
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not stated",
+  "Sub_Order": 5,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not applicable",
+  "Sub_Order": 6,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 590
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 252
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 43
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 41
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 337
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 7,
+  "Value": 6
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 8,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 867
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 84
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 337
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 4,
+  "Value": 6
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 5,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 1,
+  "Value": 199
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 365
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 3,
+  "Value": 68
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 4,
+  "Value": 61
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 5,
+  "Value": 78
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 7,
+  "Value": 15
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 8,
+  "Value": 31
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 12
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 8
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not applicable",
+  "Sub_Order": 11,
+  "Value": 1565
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 14
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 201
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 45
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 72
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 53
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 45
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 62
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 61
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 76
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 84
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 66
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 77
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 78
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 163
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 156
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 16,
+  "Value": 44
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 17,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 430
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 426
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 397
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 4,
+  "Value": 44
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 5,
+  "Value": 1139
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 8,
+  "Value": 32
+ },
+ {
+  "Profile": "Families with children 6-8 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 695
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 2382
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 1324
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 2,
+  "Value": 81
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 3,
+  "Value": 178
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 4,
+  "Value": 53
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 5,
+  "Value": 60
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 6,
+  "Value": 85
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Somalia",
+  "Sub_Order": 7,
+  "Value": 50
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 8,
+  "Value": 36
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 9,
+  "Value": 24
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Saudi Arabia",
+  "Sub_Order": 10,
+  "Value": 4
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 11,
+  "Value": 29
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 12,
+  "Value": 11
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 13,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 14,
+  "Value": 21
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Ethiopia",
+  "Sub_Order": 15,
+  "Value": 12
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 16,
+  "Value": 16
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 17,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Eritrea",
+  "Sub_Order": 18,
+  "Value": 29
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 19,
+  "Value": 11
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sudan",
+  "Sub_Order": 20,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 233
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 22,
+  "Value": 69
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 1324
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 981
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 3,
+  "Value": 69
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived prior to 1996",
+  "Sub_Order": 1,
+  "Value": 232
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1996-2005",
+  "Sub_Order": 2,
+  "Value": 235
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 2006-2015",
+  "Sub_Order": 3,
+  "Value": 397
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1 Jan 2016 - 9 August 2016",
+  "Sub_Order": 4,
+  "Value": 63
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not stated",
+  "Sub_Order": 5,
+  "Value": 61
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not applicable",
+  "Sub_Order": 6,
+  "Value": 1389
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 1287
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 2,
+  "Value": 220
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 3,
+  "Value": 126
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 4,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 5,
+  "Value": 92
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 6,
+  "Value": 112
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Telugu",
+  "Sub_Order": 8,
+  "Value": 19
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 9,
+  "Value": 21
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 10,
+  "Value": 24
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 11,
+  "Value": 14
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 12,
+  "Value": 13
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 18
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 14,
+  "Value": 38
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 8
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malayalam",
+  "Sub_Order": 16,
+  "Value": 13
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Marathi",
+  "Sub_Order": 17,
+  "Value": 5
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "German",
+  "Sub_Order": 18,
+  "Value": 18
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Bengali",
+  "Sub_Order": 19,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Greek",
+  "Sub_Order": 20,
+  "Value": 22
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 182
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 22,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 23,
+  "Value": 26
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 1287
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 2,
+  "Value": 1088
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 4,
+  "Value": 26
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 1287
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 648
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 263
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 141
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 13
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 4
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 42
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 2283
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Need for assistance not stated",
+  "Sub_Order": 3,
+  "Value": 55
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 1185
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 166
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not stated",
+  "Sub_Order": 3,
+  "Value": 55
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not applicable",
+  "Sub_Order": 4,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 419
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 848
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 73
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 30
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not stated",
+  "Sub_Order": 5,
+  "Value": 44
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not applicable",
+  "Sub_Order": 6,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 565
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 280
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 24
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 38
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 47
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 435
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 7,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 8,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 869
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 85
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 435
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 4,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 5,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 1,
+  "Value": 177
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 356
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 3,
+  "Value": 46
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 4,
+  "Value": 67
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 5,
+  "Value": 97
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 6,
+  "Value": 59
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 7,
+  "Value": 20
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 18
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 7
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not applicable",
+  "Sub_Order": 11,
+  "Value": 1510
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 256
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 89
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 107
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 57
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 60
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 61
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 65
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 68
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 83
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 84
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 73
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 54
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 130
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 156
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 16,
+  "Value": 49
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 17,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 579
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 434
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 340
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 4,
+  "Value": 49
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 5,
+  "Value": 976
+ },
+ {
+  "Profile": "Families with children 9-12 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 674
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 16760
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 8935
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "India",
+  "Sub_Order": 2,
+  "Value": 1747
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "China (excludes SARs and Taiwan)",
+  "Sub_Order": 3,
+  "Value": 951
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Malaysia",
+  "Sub_Order": 4,
+  "Value": 357
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "England",
+  "Sub_Order": 5,
+  "Value": 305
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Vietnam",
+  "Sub_Order": 6,
+  "Value": 303
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Somalia",
+  "Sub_Order": 7,
+  "Value": 286
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "New Zealand",
+  "Sub_Order": 8,
+  "Value": 257
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Indonesia",
+  "Sub_Order": 9,
+  "Value": 207
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Saudi Arabia",
+  "Sub_Order": 10,
+  "Value": 192
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "United States of America",
+  "Sub_Order": 11,
+  "Value": 178
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Korea, Republic of (South)",
+  "Sub_Order": 12,
+  "Value": 176
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Singapore",
+  "Sub_Order": 13,
+  "Value": 148
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Hong Kong (SAR of China)",
+  "Sub_Order": 14,
+  "Value": 142
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Ethiopia",
+  "Sub_Order": 15,
+  "Value": 133
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Philippines",
+  "Sub_Order": 16,
+  "Value": 132
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Japan",
+  "Sub_Order": 17,
+  "Value": 118
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Eritrea",
+  "Sub_Order": 18,
+  "Value": 94
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Thailand",
+  "Sub_Order": 19,
+  "Value": 84
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Sudan",
+  "Sub_Order": 20,
+  "Value": 74
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Other countries",
+  "Sub_Order": 21,
+  "Value": 1515
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - detailed",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 22,
+  "Value": 375
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Australia",
+  "Sub_Order": 1,
+  "Value": 8935
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Overseas",
+  "Sub_Order": 2,
+  "Value": 7399
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Country of birth - overview",
+  "Sub_Category": "Country of birth not stated\/ inadequately described",
+  "Sub_Order": 3,
+  "Value": 375
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived prior to 1996",
+  "Sub_Order": 1,
+  "Value": 956
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1996-2005",
+  "Sub_Order": 2,
+  "Value": 1371
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 2006-2015",
+  "Sub_Order": 3,
+  "Value": 4192
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrived 1 Jan 2016 - 9 August 2016",
+  "Sub_Order": 4,
+  "Value": 582
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not stated",
+  "Sub_Order": 5,
+  "Value": 355
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Year of arrival",
+  "Sub_Category": "Arrival year not applicable",
+  "Sub_Order": 6,
+  "Value": 9292
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 7881
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Mandarin",
+  "Sub_Order": 2,
+  "Value": 1530
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Somali",
+  "Sub_Order": 3,
+  "Value": 778
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Hindi",
+  "Sub_Order": 4,
+  "Value": 630
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Arabic",
+  "Sub_Order": 5,
+  "Value": 605
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Cantonese",
+  "Sub_Order": 6,
+  "Value": 535
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Vietnamese",
+  "Sub_Order": 7,
+  "Value": 426
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Telugu",
+  "Sub_Order": 8,
+  "Value": 328
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Indonesian",
+  "Sub_Order": 9,
+  "Value": 232
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Spanish",
+  "Sub_Order": 10,
+  "Value": 228
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Tamil",
+  "Sub_Order": 11,
+  "Value": 228
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Korean",
+  "Sub_Order": 12,
+  "Value": 209
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Japanese",
+  "Sub_Order": 13,
+  "Value": 182
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Italian",
+  "Sub_Order": 14,
+  "Value": 176
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "French",
+  "Sub_Order": 15,
+  "Value": 124
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Malayalam",
+  "Sub_Order": 16,
+  "Value": 119
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Marathi",
+  "Sub_Order": 17,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "German",
+  "Sub_Order": 18,
+  "Value": 114
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Bengali",
+  "Sub_Order": 19,
+  "Value": 89
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Greek",
+  "Sub_Order": 20,
+  "Value": 84
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 21,
+  "Value": 1621
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 22,
+  "Value": 165
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - detailed",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 23,
+  "Value": 333
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "English",
+  "Sub_Order": 1,
+  "Value": 7881
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Other languages",
+  "Sub_Order": 2,
+  "Value": 8353
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Non verbal",
+  "Sub_Order": 3,
+  "Value": 165
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Language spoken at home - overview",
+  "Sub_Category": "Language spoken not stated\/ inadequately described",
+  "Sub_Order": 4,
+  "Value": 333
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks English only",
+  "Sub_Order": 1,
+  "Value": 7881
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Very well",
+  "Sub_Order": 2,
+  "Value": 4642
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Well",
+  "Sub_Order": 3,
+  "Value": 2175
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not well",
+  "Sub_Order": 4,
+  "Value": 1095
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Speaks other language and speaks English: Not at all",
+  "Sub_Order": 5,
+  "Value": 601
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - both language and proficiency not stated",
+  "Sub_Order": 6,
+  "Value": 205
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Proficiency in English",
+  "Sub_Category": "Not stated - language stated, proficiency not stated",
+  "Sub_Order": 7,
+  "Value": 151
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Has need for assistance with core activities",
+  "Sub_Order": 1,
+  "Value": 199
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Does not have need for assistance with core activities",
+  "Sub_Order": 2,
+  "Value": 16124
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Need for assistance with core activities",
+  "Sub_Category": "Need for assistance not stated",
+  "Sub_Order": 3,
+  "Value": 435
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "No unpaid assistance provided",
+  "Sub_Order": 1,
+  "Value": 8079
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Provided unpaid assistance",
+  "Sub_Order": 2,
+  "Value": 1119
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not stated",
+  "Sub_Order": 3,
+  "Value": 277
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing paid assistance",
+  "Sub_Category": "Unpaid assistance not applicable",
+  "Sub_Order": 4,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Did not provide child care",
+  "Sub_Order": 1,
+  "Value": 1564
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children",
+  "Sub_Order": 2,
+  "Value": 7332
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for other child\/children",
+  "Sub_Order": 3,
+  "Value": 269
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Cared for own child\/children and other child\/children",
+  "Sub_Order": 4,
+  "Value": 127
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not stated",
+  "Sub_Order": 5,
+  "Value": 185
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Providing child care",
+  "Sub_Category": "Child care not applicable",
+  "Sub_Order": 6,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked full-time",
+  "Sub_Order": 1,
+  "Value": 4133
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, worked part-time",
+  "Sub_Order": 2,
+  "Value": 1698
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Employed, away from work",
+  "Sub_Order": 3,
+  "Value": 464
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for full-time work",
+  "Sub_Order": 4,
+  "Value": 253
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Unemployed, looking for part-time work",
+  "Sub_Order": 5,
+  "Value": 217
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 6,
+  "Value": 2642
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 7,
+  "Value": 65
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - detailed",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 8,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Employed",
+  "Sub_Order": 1,
+  "Value": 6295
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Unemployed",
+  "Sub_Order": 2,
+  "Value": 470
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Not in the labour force",
+  "Sub_Order": 3,
+  "Value": 2642
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not stated",
+  "Sub_Order": 4,
+  "Value": 65
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Labour force status - overview",
+  "Sub_Category": "Labour status not applicable",
+  "Sub_Order": 5,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Managers",
+  "Sub_Order": 1,
+  "Value": 1290
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Professionals",
+  "Sub_Order": 2,
+  "Value": 3046
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Technicians and Trades Workers",
+  "Sub_Order": 3,
+  "Value": 383
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Community and Personal Service Workers",
+  "Sub_Order": 4,
+  "Value": 321
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Clerical and Administrative Workers",
+  "Sub_Order": 5,
+  "Value": 590
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Sales Workers",
+  "Sub_Order": 6,
+  "Value": 280
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Machinery Operators and Drivers",
+  "Sub_Order": 7,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Labourers",
+  "Sub_Order": 8,
+  "Value": 154
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Inadequately described",
+  "Sub_Order": 9,
+  "Value": 73
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not stated",
+  "Sub_Order": 10,
+  "Value": 36
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Occupation",
+  "Sub_Category": "Occupation not applicable",
+  "Sub_Order": 11,
+  "Value": 10463
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Negative income",
+  "Sub_Order": 1,
+  "Value": 68
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Nil income",
+  "Sub_Order": 2,
+  "Value": 1553
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1 - $149",
+  "Sub_Order": 3,
+  "Value": 329
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$150 - $299",
+  "Sub_Order": 4,
+  "Value": 481
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$300 - $399",
+  "Sub_Order": 5,
+  "Value": 357
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$400 - $499",
+  "Sub_Order": 6,
+  "Value": 317
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$500 - $649",
+  "Sub_Order": 7,
+  "Value": 427
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$650 - $799",
+  "Sub_Order": 8,
+  "Value": 431
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$800 - $999",
+  "Sub_Order": 9,
+  "Value": 443
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,000 - $1,249",
+  "Sub_Order": 10,
+  "Value": 647
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,250 - $1,499",
+  "Sub_Order": 11,
+  "Value": 590
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,500 - $1,749",
+  "Sub_Order": 12,
+  "Value": 772
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$1,750 - $1,999",
+  "Sub_Order": 13,
+  "Value": 592
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$2,000 - $2,999",
+  "Sub_Order": 14,
+  "Value": 1235
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "$3,000 or more",
+  "Sub_Order": 15,
+  "Value": 999
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 16,
+  "Value": 223
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - detailed",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 17,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Less than $500 (Low)",
+  "Sub_Order": 1,
+  "Value": 3105
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$500 - $1,749 (Moderate)",
+  "Sub_Order": 2,
+  "Value": 3310
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "$1,750 or more (High)",
+  "Sub_Order": 3,
+  "Value": 2826
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not stated",
+  "Sub_Order": 4,
+  "Value": 223
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Personal weekly income - overview",
+  "Sub_Category": "Income not applicable",
+  "Sub_Order": 5,
+  "Value": 7282
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 4825
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "No dependent students",
+  "Sub_Order": 1,
+  "Value": 4486
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "One dependent student",
+  "Sub_Order": 2,
+  "Value": 273
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Two dependent students",
+  "Sub_Order": 3,
+  "Value": 50
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Three or more dependent students",
+  "Sub_Order": 4,
+  "Value": 17
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "No non-dependent children",
+  "Sub_Order": 1,
+  "Value": 4748
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "One non-dependent child",
+  "Sub_Order": 2,
+  "Value": 60
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Two non-dependent children",
+  "Sub_Order": 3,
+  "Value": 13
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Three or more non-dependent children",
+  "Sub_Order": 4,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Separate house",
+  "Sub_Order": 1,
+  "Value": 354
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with one storey",
+  "Sub_Order": 2,
+  "Value": 364
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys",
+  "Sub_Order": 3,
+  "Value": 865
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a one or two storey block",
+  "Sub_Order": 4,
+  "Value": 135
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a three storey block",
+  "Sub_Order": 5,
+  "Value": 389
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a four or more storey block",
+  "Sub_Order": 6,
+  "Value": 2675
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Other dwelling structure",
+  "Sub_Order": 7,
+  "Value": 11
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Dwelling type not stated",
+  "Sub_Order": 8,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned outright",
+  "Sub_Order": 1,
+  "Value": 505
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned with a mortgage",
+  "Sub_Order": 2,
+  "Value": 1549
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Real estate agent",
+  "Sub_Order": 3,
+  "Value": 1794
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: State or territory housing authority",
+  "Sub_Order": 4,
+  "Value": 456
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Person not in same household",
+  "Sub_Order": 5,
+  "Value": 291
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Housing co-operative, community or church group",
+  "Sub_Order": 6,
+  "Value": 35
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Other landlord type",
+  "Sub_Order": 7,
+  "Value": 34
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Landlord type not stated",
+  "Sub_Order": 8,
+  "Value": 41
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Other tenure type",
+  "Sub_Order": 9,
+  "Value": 29
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Tenure type not stated",
+  "Sub_Order": 10,
+  "Value": 92
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "No motor vehicles",
+  "Sub_Order": 1,
+  "Value": 1018
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "One motor vehicle",
+  "Sub_Order": 2,
+  "Value": 2453
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Two motor vehicles",
+  "Sub_Order": 3,
+  "Value": 1083
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Three motor vehicles",
+  "Sub_Order": 4,
+  "Value": 123
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Four or more motor vehicles",
+  "Sub_Order": 5,
+  "Value": 25
+ },
+ {
+  "Profile": "Families with children 0-12 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Vehicles not stated",
+  "Sub_Order": 6,
+  "Value": 127
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 1080
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 334
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "No dependent students",
+  "Sub_Order": 1,
+  "Value": 187
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "One dependent student",
+  "Sub_Order": 2,
+  "Value": 122
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Two dependent students",
+  "Sub_Order": 3,
+  "Value": 19
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Three or more dependent students",
+  "Sub_Order": 4,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "No non-dependent children",
+  "Sub_Order": 1,
+  "Value": 314
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "One non-dependent child",
+  "Sub_Order": 2,
+  "Value": 21
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Two non-dependent children",
+  "Sub_Order": 3,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Three or more non-dependent children",
+  "Sub_Order": 4,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Separate house",
+  "Sub_Order": 1,
+  "Value": 36
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with one storey",
+  "Sub_Order": 2,
+  "Value": 23
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys",
+  "Sub_Order": 3,
+  "Value": 92
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a one or two storey block",
+  "Sub_Order": 4,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a three storey block",
+  "Sub_Order": 5,
+  "Value": 13
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a four or more storey block",
+  "Sub_Order": 6,
+  "Value": 156
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Other dwelling structure",
+  "Sub_Order": 7,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Dwelling type not stated",
+  "Sub_Order": 8,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned outright",
+  "Sub_Order": 1,
+  "Value": 79
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned with a mortgage",
+  "Sub_Order": 2,
+  "Value": 115
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Real estate agent",
+  "Sub_Order": 3,
+  "Value": 76
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: State or territory housing authority",
+  "Sub_Order": 4,
+  "Value": 37
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Person not in same household",
+  "Sub_Order": 5,
+  "Value": 15
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Housing co-operative, community or church group",
+  "Sub_Order": 6,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Other landlord type",
+  "Sub_Order": 7,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Landlord type not stated",
+  "Sub_Order": 8,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Other tenure type",
+  "Sub_Order": 9,
+  "Value": 0
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Tenure type not stated",
+  "Sub_Order": 10,
+  "Value": 6
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "No motor vehicles",
+  "Sub_Order": 1,
+  "Value": 54
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "One motor vehicle",
+  "Sub_Order": 2,
+  "Value": 150
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Two motor vehicles",
+  "Sub_Order": 3,
+  "Value": 94
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Three motor vehicles",
+  "Sub_Order": 4,
+  "Value": 10
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Four or more motor vehicles",
+  "Sub_Order": 5,
+  "Value": 3
+ },
+ {
+  "Profile": "Families with children 13-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Vehicles not stated",
+  "Sub_Order": 6,
+  "Value": 13
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 222
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 170
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "No dependent students",
+  "Sub_Order": 1,
+  "Value": 159
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "One dependent student",
+  "Sub_Order": 2,
+  "Value": 15
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Two dependent students",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Three or more dependent students",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "No non-dependent children",
+  "Sub_Order": 1,
+  "Value": 168
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "One non-dependent child",
+  "Sub_Order": 2,
+  "Value": 7
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Two non-dependent children",
+  "Sub_Order": 3,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Three or more non-dependent children",
+  "Sub_Order": 4,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Separate house",
+  "Sub_Order": 1,
+  "Value": 7
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with one storey",
+  "Sub_Order": 2,
+  "Value": 11
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys",
+  "Sub_Order": 3,
+  "Value": 16
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a one or two storey block",
+  "Sub_Order": 4,
+  "Value": 6
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a three storey block",
+  "Sub_Order": 5,
+  "Value": 18
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a four or more storey block",
+  "Sub_Order": 6,
+  "Value": 110
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Other dwelling structure",
+  "Sub_Order": 7,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Dwelling type not stated",
+  "Sub_Order": 8,
+  "Value": 3
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned outright",
+  "Sub_Order": 1,
+  "Value": 18
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned with a mortgage",
+  "Sub_Order": 2,
+  "Value": 43
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Real estate agent",
+  "Sub_Order": 3,
+  "Value": 89
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: State or territory housing authority",
+  "Sub_Order": 4,
+  "Value": 12
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Person not in same household",
+  "Sub_Order": 5,
+  "Value": 7
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Housing co-operative, community or church group",
+  "Sub_Order": 6,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Other landlord type",
+  "Sub_Order": 7,
+  "Value": 3
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Landlord type not stated",
+  "Sub_Order": 8,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Other tenure type",
+  "Sub_Order": 9,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Tenure type not stated",
+  "Sub_Order": 10,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "No motor vehicles",
+  "Sub_Order": 1,
+  "Value": 42
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "One motor vehicle",
+  "Sub_Order": 2,
+  "Value": 93
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Two motor vehicles",
+  "Sub_Order": 3,
+  "Value": 22
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Three motor vehicles",
+  "Sub_Order": 4,
+  "Value": 3
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Four or more motor vehicles",
+  "Sub_Order": 5,
+  "Value": 0
+ },
+ {
+  "Profile": "Other family with child under 15 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Vehicles not stated",
+  "Sub_Order": 6,
+  "Value": 4
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Population (persons in families)",
+  "Sub_Category": "Count of persons in families",
+  "Sub_Order": 1,
+  "Value": 40071
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 19277
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "No dependent students",
+  "Sub_Order": 1,
+  "Value": 17927
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "One dependent student",
+  "Sub_Order": 2,
+  "Value": 1043
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Two dependent students",
+  "Sub_Order": 3,
+  "Value": 272
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Three or more dependent students",
+  "Sub_Order": 4,
+  "Value": 36
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "No non-dependent children",
+  "Sub_Order": 1,
+  "Value": 17633
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "One non-dependent child",
+  "Sub_Order": 2,
+  "Value": 1374
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Two non-dependent children",
+  "Sub_Order": 3,
+  "Value": 236
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Three or more non-dependent children",
+  "Sub_Order": 4,
+  "Value": 28
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Separate house",
+  "Sub_Order": 1,
+  "Value": 726
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with one storey",
+  "Sub_Order": 2,
+  "Value": 885
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys",
+  "Sub_Order": 3,
+  "Value": 1987
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a one or two storey block",
+  "Sub_Order": 4,
+  "Value": 586
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a three storey block",
+  "Sub_Order": 5,
+  "Value": 1582
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a four or more storey block",
+  "Sub_Order": 6,
+  "Value": 13364
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Other dwelling structure",
+  "Sub_Order": 7,
+  "Value": 44
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Dwelling type not stated",
+  "Sub_Order": 8,
+  "Value": 106
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned outright",
+  "Sub_Order": 1,
+  "Value": 3560
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned with a mortgage",
+  "Sub_Order": 2,
+  "Value": 3788
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Real estate agent",
+  "Sub_Order": 3,
+  "Value": 9138
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: State or territory housing authority",
+  "Sub_Order": 4,
+  "Value": 586
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Person not in same household",
+  "Sub_Order": 5,
+  "Value": 1415
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Housing co-operative, community or church group",
+  "Sub_Order": 6,
+  "Value": 83
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Other landlord type",
+  "Sub_Order": 7,
+  "Value": 152
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Landlord type not stated",
+  "Sub_Order": 8,
+  "Value": 103
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Other tenure type",
+  "Sub_Order": 9,
+  "Value": 113
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Tenure type not stated",
+  "Sub_Order": 10,
+  "Value": 339
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "No motor vehicles",
+  "Sub_Order": 1,
+  "Value": 6191
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "One motor vehicle",
+  "Sub_Order": 2,
+  "Value": 8551
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Two motor vehicles",
+  "Sub_Order": 3,
+  "Value": 3430
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Three motor vehicles",
+  "Sub_Order": 4,
+  "Value": 519
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Four or more motor vehicles",
+  "Sub_Order": 5,
+  "Value": 150
+ },
+ {
+  "Profile": "Families with no children 0-14 years",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Vehicles not stated",
+  "Sub_Order": 6,
+  "Value": 438
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Population (families)",
+  "Sub_Category": "Count of families",
+  "Sub_Order": 1,
+  "Value": 24606
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "No dependent students",
+  "Sub_Order": 1,
+  "Value": 22754
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "One dependent student",
+  "Sub_Order": 2,
+  "Value": 1453
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Two dependent students",
+  "Sub_Order": 3,
+  "Value": 346
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Dependent students in family",
+  "Sub_Category": "Three or more dependent students",
+  "Sub_Order": 4,
+  "Value": 58
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "No non-dependent children",
+  "Sub_Order": 1,
+  "Value": 22859
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "One non-dependent child",
+  "Sub_Order": 2,
+  "Value": 1454
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Two non-dependent children",
+  "Sub_Order": 3,
+  "Value": 258
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Non dependent students in family",
+  "Sub_Category": "Three or more non-dependent children",
+  "Sub_Order": 4,
+  "Value": 33
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Separate house",
+  "Sub_Order": 1,
+  "Value": 1124
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with one storey",
+  "Sub_Order": 2,
+  "Value": 1283
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys",
+  "Sub_Order": 3,
+  "Value": 2964
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a one or two storey block",
+  "Sub_Order": 4,
+  "Value": 734
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a three storey block",
+  "Sub_Order": 5,
+  "Value": 1998
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Flat or apartment in a four or more storey block",
+  "Sub_Order": 6,
+  "Value": 16310
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Other dwelling structure",
+  "Sub_Order": 7,
+  "Value": 57
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing type",
+  "Sub_Category": "Dwelling type not stated",
+  "Sub_Order": 8,
+  "Value": 140
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned outright",
+  "Sub_Order": 1,
+  "Value": 4160
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Owned with a mortgage",
+  "Sub_Order": 2,
+  "Value": 5497
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Real estate agent",
+  "Sub_Order": 3,
+  "Value": 11100
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: State or territory housing authority",
+  "Sub_Order": 4,
+  "Value": 1095
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Person not in same household",
+  "Sub_Order": 5,
+  "Value": 1729
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Housing co-operative, community or church group",
+  "Sub_Order": 6,
+  "Value": 124
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Other landlord type",
+  "Sub_Order": 7,
+  "Value": 185
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Rented: Landlord type not stated",
+  "Sub_Order": 8,
+  "Value": 146
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Other tenure type",
+  "Sub_Order": 9,
+  "Value": 147
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Housing tenure",
+  "Sub_Category": "Tenure type not stated",
+  "Sub_Order": 10,
+  "Value": 440
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "No motor vehicles",
+  "Sub_Order": 1,
+  "Value": 7313
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "One motor vehicle",
+  "Sub_Order": 2,
+  "Value": 11248
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Two motor vehicles",
+  "Sub_Order": 3,
+  "Value": 4629
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Three motor vehicles",
+  "Sub_Order": 4,
+  "Value": 655
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Four or more motor vehicles",
+  "Sub_Order": 5,
+  "Value": 180
+ },
+ {
+  "Profile": "Total all families",
+  "Census_Year": 2016,
+  "Category": "Vehicle ownership",
+  "Sub_Category": "Vehicles not stated",
+  "Sub_Order": 6,
+  "Value": 584
+ }
+]
