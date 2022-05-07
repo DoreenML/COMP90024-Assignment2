@@ -21,7 +21,7 @@ def read_json(file_name):
 business_data = read_json(JSON_FILE)
 print(len(business_data))
 Total_entry = 339534
-Continue_from = 0
+Continue_from = 164102
 db = couch[DATABASE_NAME]
 
 for idx in range(Continue_from, Total_entry):

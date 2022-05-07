@@ -23,9 +23,10 @@ print(len(house_data))
 
 db = couch[DATABASE_NAME]
 Total_entry = 249251
-Continue_from = 6
+Continue_from = 245356
 for idx in range(Continue_from, Total_entry):
     db.save(house_data[idx])
     print("current index:", idx)
     print("Percent remaining:", (1 - idx/Total_entry)*100)
+
     

@@ -1,18 +1,24 @@
 
 import csv
 import json
-import os 
+import os
+import couchdb
  
  # define the local location of files
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
+couch_url = "http://admin:adminPass@172.26.133.126:5984/"
+couch = couchdb.Server(couch_url)
+
 jsonFilePath = 'camera_sensor.json'
 csvFilePath = 'Pedestrian_Counting_System_-_Monthly__counts_per_hour_.csv'
+Total_entry = 3711503
 
+sensor_dict = {}
 # Function to convert a CSV to JSON
 # Takes the file paths as arguments
-def make_json(csvFilePath, jsonFilePath):
+def make_json(csvFilePath):
      
     # create a dictionary
      
@@ -24,17 +30,16 @@ def make_json(csvFilePath, jsonFilePath):
         # and add it to data
         counter = 0
         for rows in csvReader:
-            data = {}
-            data[counter] = rows
+            sensor_dict[counter] = rows
             counter += 1
-            print("Converting remaining:", (1 - (counter/4220000))*100)
+
  
-    # Open a json writer, and use the json.dumps()
-    # function to dump data
-    with open(os.path.join(__location__, jsonFilePath), 'w', encoding='utf-8') as jsonf:
-        jsonf.write(json.dumps(data, indent=4))
-         
-# Driver Code
- 
-# Call the make_json function
-make_json(csvFilePath, jsonFilePath)
+make_json(csvFilePath)
+print("---- Sensor dictionary Ready")
+
+db = couch['street_sensor_data']
+Continue_from = 123053
+for idx in range(Continue_from, Total_entry):
+    db.save(sensor_dict[idx])
+    print("current index:", idx)
+    print("Percent remaining:", (1 - idx/Total_entry)*100)
