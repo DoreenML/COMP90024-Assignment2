@@ -4,6 +4,15 @@ import axios from 'axios';
 // create an axios instance with default options
 const http = axios.create({ baseURL: 'http://34.129.239.78:20482/api/v1/diagram/' });
 
+// create test input
+
+export function getValue(){
+        return {
+            greeting: 'Hello, Vue!',
+            flaskGreeting: ''
+        }
+}
+
 export function getTotalUtilisation() {
   // then return the promise of the axios instance
   return http.get('utilisation/total')
