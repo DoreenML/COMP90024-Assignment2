@@ -21,7 +21,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: 'COVID-19 Related Topic Trend',
+          text: "Health Related Topic Trend Through Timeline",
         },
         subtitle: {
           text: 'Plot 1-2 Key words for COVID-19 that appears frequently for the top 10 area',

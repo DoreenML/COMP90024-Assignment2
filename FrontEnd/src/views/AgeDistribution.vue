@@ -7,6 +7,7 @@
 <script>
 import Highcharts from 'highcharts';
 import $ from 'jquery';
+import { getmap } from './api.js';
 export default {
   data() {
     return {
