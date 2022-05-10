@@ -11,7 +11,6 @@
 import * as echarts from 'echarts'
 export default {
   name: 'HomeMap',
-
   mounted() {
     this.echartInit()
   },
@@ -15400,7 +15399,7 @@ export default {
       
       var data = [{
         name: '1',
-        value: 29
+        value: 2
       },
       {
         name: '2',
