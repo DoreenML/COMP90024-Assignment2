@@ -37,9 +37,9 @@ def read_json(file_name):
 # define path to data
 JSON_FILE_CRIME = './dataUpload/crime_data.json'
 JSON_FILE_HOUSE = './dataUpload/house_data.json'
-JSON_FILE_AGE = './dataUpload/age_data/age_data.json'
-JSON_FILE_CAMERA_LOCATION = './dataUpload/camera_counter/Pedestrian_Counting_System_-_Sensor_Locations.json'
-JSON_FILE_CAMERA_DATA = './dataUpload/camera_counter/Pedestrian_Counting_System_-_Monthly__counts_per_hour_.csv'
+JSON_FILE_AGE = './dataUpload/age_data.json'
+JSON_FILE_CAMERA_LOCATION = './dataUpload/Pedestrian_Counting_System_-_Sensor_Locations.json'
+JSON_FILE_CAMERA_DATA = './dataUpload/Pedestrian_Counting_System_-_Monthly__counts_per_hour_.csv'
 JSON_FILE_BUSINESS = './dataUpload/business_data.json'
 
 # define save method
@@ -82,29 +82,29 @@ patoolib.extract_archive("./dataUpload")
 # db = retrieve_couchdb(couch, "crime_data")
 # threadSameMethod(crime_save_list, db)
 
-# save house data mark
+# save house data
 house_save_list = read_json(JSON_FILE_HOUSE)
 db = retrieve_couchdb(couch, "house_data")
 threadSameMethod(house_save_list, db)
 
-# # save age group
-# age_save_list = read_json(JSON_FILE_AGE)
-# db = retrieve_couchdb(couch, "age_data")
-# threadSameMethod(age_save_list, db)
+# save age group
+age_save_list = read_json(JSON_FILE_AGE)
+db = retrieve_couchdb(couch, "age_data")
+threadSameMethod(age_save_list, db)
 
-# # save camera sensor location data
-# camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
-# db = retrieve_couchdb(couch, "camera_location_data")
-# threadSameMethod(camera_location_list, db)
+# save camera sensor location data
+camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
+db = retrieve_couchdb(couch, "camera_location_data")
+threadSameMethod(camera_location_list, db)
 
 # save camera sensor data
-# camera_save_list = read_csv(JSON_FILE_CAMERA_DATA)
-# db = retrieve_couchdb(couch, "camera_data")
-# threadSameMethod(camera_save_list, db)
+camera_save_list = read_csv(JSON_FILE_CAMERA_DATA)
+db = retrieve_couchdb(couch, "camera_data")
+threadSameMethod(camera_save_list, db)
 
 # save business_data
-# business_save_list = read_json(JSON_FILE_BUSINESS)
-# db = retrieve_couchdb(couch, "business_data")
-# threadSameMethod(business_save_list, db)
+business_save_list = read_json(JSON_FILE_BUSINESS)
+db = retrieve_couchdb(couch, "business_data")
+threadSameMethod(business_save_list, db)
 
 shutil.rmtree('./dataUpload')
