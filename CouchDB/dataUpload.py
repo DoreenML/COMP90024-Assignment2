@@ -6,6 +6,7 @@ import patoolib
 import shutil
 
 from threading import Thread
+
 # set passwd and username and url of couch
 adminName = "admin"
 adminPasswd = "a13552676625"
@@ -14,7 +15,7 @@ url = "127.0.0.1:5984/"
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
 couch = couchdb.Server(couch_url)
 # define thread length
-threadLength = 128
+threadLength = 32
 
 
 def read_csv(csvFilePath, sensor_dict_list=[]):
@@ -41,6 +42,7 @@ JSON_FILE_AGE = './dataUpload/age_data.json'
 JSON_FILE_CAMERA_LOCATION = './dataUpload/Pedestrian_Counting_System_-_Sensor_Locations.json'
 JSON_FILE_CAMERA_DATA = './dataUpload/Pedestrian_Counting_System_-_Monthly__counts_per_hour_.csv'
 JSON_FILE_BUSINESS = './dataUpload/business_data.json'
+
 
 # define save method
 def couch_save_data(saveList, db, rank, length):
@@ -71,17 +73,19 @@ def store_crime_data():
 def threadSameMethod(save_list, db):
     threads = [Thread(target=couch_save_data, args=(save_list, db, i, threadLength)) for i in
                range(threadLength)]
-    print(db.name + "Length is " + str(len(save_list)))
+    print(db.name + " length is " + str(len(save_list)))
     for threadRun in threads:
         threadRun.start()
 
-# extract data
-patoolib.extract_archive("./dataUpload")
-# # save crime data
-# crime_save_list = store_crime_data()
-# db = retrieve_couchdb(couch, "crime_data")
-# threadSameMethod(crime_save_list, db)
 
+# extract data
+os.mkdir("dataUpload")
+patoolib.extract_archive("./dataUpload.rar", outdir="./dataUpload")
+# # save crime data
+crime_save_list = store_crime_data()
+db = retrieve_couchdb(couch, "crime_data")
+threadSameMethod(crime_save_list, db)
+#
 # save house data
 house_save_list = read_json(JSON_FILE_HOUSE)
 db = retrieve_couchdb(couch, "house_data")
@@ -106,5 +110,5 @@ threadSameMethod(camera_save_list, db)
 business_save_list = read_json(JSON_FILE_BUSINESS)
 db = retrieve_couchdb(couch, "business_data")
 threadSameMethod(business_save_list, db)
-
+#
 shutil.rmtree('./dataUpload')
