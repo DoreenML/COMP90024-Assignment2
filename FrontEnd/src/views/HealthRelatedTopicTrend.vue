@@ -8,20 +8,36 @@
 
 <script>
 import Highcharts from 'highcharts';
+import { GetHealthRelatedTopicTrend} from '../api/api';
 // import accessibility from 'highcharts/modules/accessibility';
 
 export default {
-  mounted() {
-    this.displayHighCharts();
+  data()
+ {
+   return {
+     title: '',
+     num_:null,
+   }
+ },
+   mounted() {
+    GetHealthRelatedTopicTrend().then((response) => {
+      console.log(response)
+      this.title =response.data.greeting;
+      this.area_1 = response.data.area_1;
+      this.area_2 = response.data.area_2;
+      this.area_3 = response.data.area_3;
+      this.displayHighCharts();
+    })
   },
   methods: {
     displayHighCharts() {
+      const _this = this;
       Highcharts.chart('container1', {
         chart: {
           type: 'column',
         },
         title: {
-          text: "Health Related Topic Trend Through Timeline",
+          text: "COVID-19 symptom and Area Analysis",
         },
         subtitle: {
           text: 'Plot 1-2 Key words for COVID-19 that appears frequently for the top 10 area',
@@ -75,47 +91,47 @@ export default {
             data: [
               {
                 name: 'vomiting',
-                y: 12.74,
+                y: _this.area_1.vomiting,
                 drilldown: 'vomiting',
               },
               {
                 name: 'burn',
-                y: 20.57,
+                y: _this.area_1.burn,
                 drilldown: 'burn',
               },
               {
                 name: 'chill',
-                y: 27.23,
+                y: _this.area_1.chill,
                 drilldown: 'chill',
               },
               {
                 name: 'fever',
-                y: 77.23,
+                y: _this.area_1.fever,
                 drilldown: 'fever',
               },
               {
                 name: 'pimples',
-                y: 17.23,
+                y: _this.area_1.pimples,
                 drilldown: 'pimples',
               },
               {
                 name: 'fractured',
-                y: 17.23,
+                y: _this.area_1.fractured,
                 drilldown: 'fractured',
               },
               {
                 name: 'toothache',
-                y: 17.23,
+                y: _this.area_1.toothache,
                 drilldown: 'toothache',
               },
               {
                 name: 'tumor',
-                y: 17.23,
+                y: _this.area_1.tumor,
                 drilldown: 'tumor',
               },
               {
                 name: 'mood',
-                y: 17.23,
+                y: _this.area_1.mood,
                 drilldown: 'mood',
               },
             ],
@@ -126,47 +142,47 @@ export default {
             data: [
               {
                 name: 'vomiting',
-                y: 8,
+                y: _this.area_2.vomiting,
                 drilldown: 'vomiting',
               },
               {
                 name: 'burn',
-                y: 6,
+                y: _this.area_2.burn,
                 drilldown: 'burn',
               },
               {
                 name: 'chill',
-                y: 43,
+                y: _this.area_2.chill,
                 drilldown: 'chill',
               },
               {
                 name: 'fever',
-                y: 9,
+                y: _this.area_2.fever,
                 drilldown: 'fever',
               },
               {
                 name: 'pimples',
-                y: 7,
+                y: _this.area_2.pimples,
                 drilldown: 'pimples',
               },
               {
                 name: 'fractured',
-                y: 17.23,
+                y: _this.area_2.fractured,
                 drilldown: 'fractured',
               },
               {
                 name: 'toothache',
-                y: 14,
+                y:  _this.area_2.toothache,
                 drilldown: 'toothache',
               },
               {
                 name: 'tumor',
-                y: 2,
+                y:  _this.area_2.tumor,
                 drilldown: 'tumor',
               },
               {
                 name: 'mood',
-                y: 19,
+                y:  _this.area_2.mood,
                 drilldown: 'mood',
               },
             ],
@@ -177,47 +193,47 @@ export default {
             data: [
               {
                 name: 'vomiting',
-                y: 45,
+                y: _this.area_3.vomiting,
                 drilldown: 'vomiting',
               },
               {
                 name: 'burn',
-                y: 76,
+                y: _this.area_3.burn,
                 drilldown: 'burn',
               },
               {
                 name: 'chill',
-                y: 12,
+                y: _this.area_3.chill,
                 drilldown: 'chill',
               },
               {
                 name: 'fever',
-                y: 91,
+                y: _this.area_3.fever,
                 drilldown: 'fever',
               },
               {
                 name: 'pimples',
-                y: 34,
+                y: _this.area_3.pimples,
                 drilldown: 'pimples',
               },
               {
                 name: 'fractured',
-                y: 56,
+                y: _this.area_3.fractured,
                 drilldown: 'fractured',
               },
               {
                 name: 'toothache',
-                y: 18,
+                y: _this.area_3.toothache,
                 drilldown: 'toothache',
               },
               {
                 name: 'tumor',
-                y: 82,
+                y: _this.area_3.tumor,
                 drilldown: 'tumor',
               },
               {
                 name: 'mood',
-                y: 79,
+                y: _this.area_3.mood,
                 drilldown: 'mood',
               },
             ],
