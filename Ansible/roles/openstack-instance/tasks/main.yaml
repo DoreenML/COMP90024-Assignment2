@@ -6,7 +6,7 @@
     name: '{{ item.name }}'
     image: '{{ instance_image }}'
     key_name: '{{ instance_key_name }}'
-    flavor: '{{ item.instance_flavor }}'
+    flavor: '{{ instance_flavor }}'
     availability_zone: '{{ availability_zone }}'
     security_groups: '{{ sg_names }}'
     volumes: '{{ item.volumes }}'
@@ -22,14 +22,16 @@
   loop: '{{ os_instance.results }}'
   when: item.openstack is defined
 
-#- name: Wait for connection
-#  wait_for:
-#    host: "{{ item.openstack.public_v4 }}"
-#    port: 22
-#    timeout: 120
-#    search_regex: OpenSSH
-#  loop: '{{ os_instance.results }}'
-#  when: item.openstack is defined
+
+# wait utile instance ready
+- name: Wait for connection
+  wait_for:
+    host: "{{ item.openstack.public_v4 }}"
+    port: 22
+    timeout: 120
+    search_regex: OpenSSH
+  loop: '{{ os_instance.results }}'
+  when: item.openstack is defined
 
 
 

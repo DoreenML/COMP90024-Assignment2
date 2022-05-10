@@ -1,0 +1,26 @@
+---
+
+# Reset rep env
+# rm -rf
+- name: Delete remote working directory if exists
+  file:
+    state: absent
+    path: '{{ remote_working_directory }}'
+
+# mkdir
+- name: Creates remote working directory
+  file:
+    path: '{{ remote_working_directory }}'
+    state: directory
+    mode: 0755
+
+# git clone
+- name: Clone a github repository
+  git:
+    repo: https://github.com/QiLiJazzBebop/tweetCrwalerAuto.git
+    dest: '{{ remote_working_directory }}'
+    clone: yes
+    update: yes
+
+
+
