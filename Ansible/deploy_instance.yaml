@@ -1,4 +1,4 @@
-#---
+---
 #- hosts: dbServers
 #  vars_files:
 #    - host_vars/constant.yaml
@@ -18,21 +18,37 @@
 #    - host_vars/constant.yaml
 #  gather_facts: true
 #  roles:
-#    - role: clone-github-rep
+#    - role: copy-rep
 #    - role: deploy-harvester-covid
+#
+#- hosts: instance3
+#  vars_files:
+#    - host_vars/constant.yaml
+#  gather_facts: true
+#  roles:
+#    - role: copy-rep
+#    - role: deploy-harvester-covid
+#
+#- hosts: instance4
+#  vars_files:
+#    - host_vars/constant.yaml
+#  gather_facts: true
+#  roles:
+#    - role: copy-rep
+#    - role: deploy-stream4
 
-- hosts: instance3
+- hosts: instance1
   vars_files:
     - host_vars/constant.yaml
   gather_facts: true
   roles:
-    - role: clone-github-rep
-    - role: deploy-harvester-covid
+    - role: copy-rep
+    - role: deploy-couchdb-data
 
 #- hosts: instance4
 #  vars_files:
 #    - host_vars/constant.yaml
 #  gather_facts: true
 #  roles:
-#    - role: clone-github-rep
-#    - role: deploy-stream4
+#    - role: copy-rep
+#    - role: deploy-frontend

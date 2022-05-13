@@ -7,6 +7,6 @@ COPY . .
 # Install dependencies
 RUN pip3 install -r requirements.txt
 
-CMD ["tweepySearchCovid.py"]
+CMD ["dataUpload.py"]
 
 ENTRYPOINT ["python3"]

@@ -1,1 +1,2 @@
-# COMP90024-Assignment2
+# snapShotOfLivingInMelbourne
+version control for ccc assignment2

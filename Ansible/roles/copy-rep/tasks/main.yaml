@@ -17,7 +17,7 @@
 # git clone
 - name: Clone a github repository
   git:
-    repo: https://github.com/QiLiJazzBebop/tweetCrwalerAuto.git
+    repo: "https://{{ githubuser }}:{{ githubpassword }}@github.com/QiLiJazzBebop/snapShotOfLivingInMelbourne.git"
     dest: '{{ remote_working_directory }}'
     clone: yes
     update: yes

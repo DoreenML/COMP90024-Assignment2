@@ -10,5 +10,5 @@
   roles:
     - role: install-add-proxy
     - role: install-dependencies
-    - role: install-clone-github-rep
+    - role: install-copy-rep
     - role: install-mount-volume

@@ -2,20 +2,21 @@ import csv
 import json
 import os
 import couchdb
-import patoolib
 import shutil
+from shapely.geometry import Point
+from shapely.geometry.polygon import Polygon
 
 from threading import Thread
 
 # set passwd and username and url of couch
 adminName = "admin"
-adminPasswd = "a13552676625"
-url = "127.0.0.1:5984/"
+adminPasswd = "adminPass"
+url = "172.26.130.135:5984/"
 # define couch
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
 couch = couchdb.Server(couch_url)
 # define thread length
-threadLength = 32
+threadLength = 512
 
 
 def read_csv(csvFilePath, sensor_dict_list=[]):
@@ -28,6 +29,31 @@ def read_csv(csvFilePath, sensor_dict_list=[]):
     return sensor_dict_list
 
 
+def read_csv_camera_filter(csvFilePath, sensor_dict_list=[]):
+    # Open a csv reader called DictReader
+    with open(os.path.join("./", csvFilePath), encoding='utf-8') as csvf:
+        csvReader = csv.DictReader(csvf)
+        # Convert each row into a dictionary
+        for row in csvReader:
+            data = dict(row)
+            if data['Year'] in ['2022', '2021', '2020']:
+                sensorData = dict(row)
+                saveSensorData = {}
+                try:
+                    saveSensorData['ID'] = sensorData['ID']
+                    saveSensorData['Hourly_Counts'] = int(sensorData['Hourly_Counts'])
+                    saveSensorData['Sensor_ID'] = int(sensorData['Sensor_ID'])
+                    saveSensorData['Time'] = int(sensorData['Time'])
+                    saveSensorData['Mdate'] = int(sensorData['Mdate'])
+                    saveSensorData['Month'] = sensorData['Month']
+                    saveSensorData['Year'] = int(sensorData['Year'])
+                    saveSensorData['Day'] = sensorData['Day']
+                    sensor_dict_list.append(saveSensorData)
+                except:
+                    pass
+    return sensor_dict_list
+
+
 def read_json(file_name):
     # load file
     file = open(file_name, 'r', encoding='utf-8-sig')
@@ -35,14 +61,60 @@ def read_json(file_name):
     return data
 
 
+# post code to aurin suburb id
+
+def form_area_dict():
+    area_dict = {}
+    data = read_json("dataUpload/phidu_admissions_preventable_diagnosis_vaccine_pha_2016_17-6982188917692169592.json")
+    for idx in range(276):
+        area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
+    return area_dict
+
+
+area_dict = form_area_dict()
+
+
+def find_area(cor_list):
+    point = Point(cor_list)
+    for idx in range(276):
+        polygon = Polygon(area_dict[idx])
+        if (polygon.contains(point)):
+            return idx + 1
+    return -1
+
+
+def read_json_australian_post_code(file_name):
+    # load file
+    file = open(file_name, 'r', encoding='utf-8-sig')
+    data = json.load(file)
+
+    dataReturn = []
+    idList = []
+    for postcodeData in data:
+        if (3000 <= int(postcodeData['postcode']) <= 3999) or (
+                8000 <= int(postcodeData['postcode']) <= 8999):
+            coordinate = [postcodeData['Long_precise'], postcodeData['Lat_precise']]
+            suburbID = find_area(coordinate)
+            if suburbID != -1:
+                if postcodeData["postcode"] not in idList:
+                    saveDict = {}
+                    saveDict['_id'] = postcodeData["postcode"]
+                    saveDict['suburbID'] = suburbID
+                    dataReturn.append(saveDict)
+                    idList.append(postcodeData["postcode"])
+    return dataReturn
+
+
 # define path to data
-JSON_FILE_CRIME = './dataUpload/crime_data.json'
-JSON_FILE_HOUSE = './dataUpload/house_data.json'
+JSON_FILE_CRIME = './dataUpload/crime_data.csv'
+JSON_FILE_HOUSE = './dataUpload/house_data.csv'
 JSON_FILE_AGE = './dataUpload/age_data.json'
 JSON_FILE_CAMERA_LOCATION = './dataUpload/Pedestrian_Counting_System_-_Sensor_Locations.json'
 JSON_FILE_CAMERA_DATA = './dataUpload/Pedestrian_Counting_System_-_Monthly__counts_per_hour_.csv'
 JSON_FILE_BUSINESS = './dataUpload/business_data.json'
+JSON_FILE_AUSTRALIAN_CODE = "./dataUpload/australian_postcodes.json"
 
+JSON_FILE_NLP_BASE = "./dataUpload/NLP_Analysis/"
 
 # define save method
 def couch_save_data(saveList, db, rank, length):
@@ -59,18 +131,7 @@ def retrieve_couchdb(servers, serverName):
     return database
 
 
-def store_crime_data():
-    crime_save_list = []
-    table_list = ['Table 01', 'Table 02', 'Table 03', 'Table 04', 'Table 05', 'Table 06']
-    crime_data = read_json(JSON_FILE_CRIME)
-    for table_idx in range(6):
-        lst = crime_data[table_list[table_idx]]
-        for item in lst:
-            crime_save_list.append(item)
-    return crime_save_list
-
-
-def threadSameMethod(save_list, db):
+def threadSaveMethod(save_list, db):
     threads = [Thread(target=couch_save_data, args=(save_list, db, i, threadLength)) for i in
                range(threadLength)]
     print(db.name + " length is " + str(len(save_list)))
@@ -78,37 +139,47 @@ def threadSameMethod(save_list, db):
         threadRun.start()
 
 
-# extract data
-os.mkdir("dataUpload")
-patoolib.extract_archive("./dataUpload.rar", outdir="./dataUpload")
 # # save crime data
-crime_save_list = store_crime_data()
-db = retrieve_couchdb(couch, "crime_data")
-threadSameMethod(crime_save_list, db)
+# crime_save_list = read_csv(JSON_FILE_CRIME)
+# db = retrieve_couchdb(couch, "crime_data")
+# threadSaveMethod(crime_save_list, db)
 #
 # save house data
-house_save_list = read_json(JSON_FILE_HOUSE)
-db = retrieve_couchdb(couch, "house_data")
-threadSameMethod(house_save_list, db)
+# house_save_list = read_csv(JSON_FILE_HOUSE)
+# db = retrieve_couchdb(couch, "house_data")
+# threadSaveMethod(house_save_list, db)
 
-# save age group
-age_save_list = read_json(JSON_FILE_AGE)
-db = retrieve_couchdb(couch, "age_data")
-threadSameMethod(age_save_list, db)
-
-# save camera sensor location data
-camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
-db = retrieve_couchdb(couch, "camera_location_data")
-threadSameMethod(camera_location_list, db)
-
+# # save age group
+# age_save_list = read_json(JSON_FILE_AGE)
+# db = retrieve_couchdb(couch, "age_data")
+# threadSaveMethod(age_save_list, db)
+#
+# # save camera sensor location data
+# camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
+# db = retrieve_couchdb(couch, "camera_location_data")
+# threadSaveMethod(camera_location_list, db)
+#
 # save camera sensor data
-camera_save_list = read_csv(JSON_FILE_CAMERA_DATA)
-db = retrieve_couchdb(couch, "camera_data")
-threadSameMethod(camera_save_list, db)
+# camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
+# db = retrieve_couchdb(couch, "camera_data")
+# threadSaveMethod(camera_save_list, db)
 
 # save business_data
-business_save_list = read_json(JSON_FILE_BUSINESS)
-db = retrieve_couchdb(couch, "business_data")
-threadSameMethod(business_save_list, db)
-#
-shutil.rmtree('./dataUpload')
+# business_save_list = read_json(JSON_FILE_BUSINESS)
+# db = retrieve_couchdb(couch, "business_data")
+# threadSaveMethod(business_save_list, db)
+
+
+# save australian postcode data
+# australian_save_list = read_json_australian_post_code(JSON_FILE_AUSTRALIAN_CODE)
+# print(len(australian_save_list))
+# db = retrieve_couchdb(couch, "postcode_to_suburb")
+# threadSaveMethod(australian_save_list, db)
+
+# read tweet data
+# Melbourne_save_list = read_json(JSON_FILE_NLP_BASE + "Melbourne_mental_suburb.json")
+# db = retrieve_couchdb(couch, "melbourne_mental_data")
+# threadSaveMethod(Melbourne_save_list, db)
+
+# #
+# shutil.rmtree('./dataUpload')
