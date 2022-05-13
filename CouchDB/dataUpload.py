@@ -2,10 +2,8 @@ import csv
 import json
 import os
 import couchdb
-import shutil
-from shapely.geometry import Point
-from shapely.geometry.polygon import Polygon
 
+from BackEnd.util import find_area
 from threading import Thread
 
 # set passwd and username and url of couch
@@ -54,33 +52,6 @@ def read_csv_camera_filter(csvFilePath, sensor_dict_list=[]):
     return sensor_dict_list
 
 
-def read_json(file_name):
-    # load file
-    file = open(file_name, 'r', encoding='utf-8-sig')
-    data = json.load(file)
-    return data
-
-
-# post code to aurin suburb id
-
-def form_area_dict():
-    area_dict = {}
-    data = read_json("dataUpload/phidu_admissions_preventable_diagnosis_vaccine_pha_2016_17-6982188917692169592.json")
-    for idx in range(276):
-        area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
-    return area_dict
-
-
-area_dict = form_area_dict()
-
-
-def find_area(cor_list):
-    point = Point(cor_list)
-    for idx in range(276):
-        polygon = Polygon(area_dict[idx])
-        if (polygon.contains(point)):
-            return idx + 1
-    return -1
 
 
 def read_json_australian_post_code(file_name):
