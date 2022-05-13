@@ -1,9 +1,40 @@
 from flask import Flask
 from flask_cors import CORS
 from flask import jsonify
+import couchdb
+import util
+import collections
 
 app = Flask(__name__)
 CORS(app)
+
+# default couch
+adminName = "admin"
+adminPasswd = "adminPass"
+url = "172.26.130.135:5984/"
+# define couch
+couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
+couch = couchdb.Server(couch_url)
+
+def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="backend",
+                        viewName="view_postcode_to_aurin"):
+    db = couch[datasetName]
+    view = db.view(designName + "/" + viewName)
+
+    returnDict = {}
+    for doc in view:
+        returnDict[doc['key']] = doc['value']
+    return returnDict
+
+
+postCodeToAurin = getPostCodeToSuburb(couch)
+thirty_days, sixty_days = util.getCovidData(couch, postCodeToAurin)
+thirty_days = collections.OrderedDict(sorted(thirty_days.items()))
+sixty_days = collections.OrderedDict(sorted(sixty_days.items()))
+print(thirty_days)
+print('\n')
+print(sixty_days)
+
 
 @app.route("/HealthRelatedTopicTrend")
 def Chart_HealthRelatedTopicTrend():
@@ -50,9 +81,13 @@ def Chart_HealthRelatedTopicTrend():
 def Chart_HealthMap():
     # port for the polygon
     data = {}
-    data['polygon'] = {}
-    data['polygon']['_179'] = 42
-    data['polygon']['_180'] = 92
+    returnList = []
+    for i in range(1, 183):
+        returnList.append({
+            'name': str(i),
+            'value': i,
+        })
+    data['polygon'] = returnList
 
     # port for the scatter
     data['scatter'] = {}
@@ -61,7 +96,6 @@ def Chart_HealthMap():
 
     data = jsonify(data)
     return data
-    
 
 if __name__ == '__main__':
     app.run()
