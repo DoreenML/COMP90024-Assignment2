@@ -46,5 +46,22 @@ def Chart_HealthRelatedTopicTrend():
     data = jsonify(data)
     return data
 
+@app.route("/HealthMap")
+def Chart_HealthMap():
+    # port for the polygon
+    data = {}
+    data['polygon'] = {}
+    data['polygon']['_179'] = 42
+    data['polygon']['_180'] = 92
+
+    # port for the scatter
+    data['scatter'] = {}
+    data['scatter']['_1'] = {}
+    data['scatter']['_1']['supermarket'] = 100
+
+    data = jsonify(data)
+    return data
+    
+
 if __name__ == '__main__':
     app.run()

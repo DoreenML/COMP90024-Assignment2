@@ -12,6 +12,14 @@ export function GetHealthRelatedTopicTrend() {
   });
 }
 
+export function GetHealthMap() {
+  // then return the promise of the axios instance
+  return http.get('/HealthMap').catch((e) => {
+    // catch errors here
+      console.log(e);
+  });
+}
+
 // export function getTreatmentSite() {
 //   return http.get('utilisation/treatmentsite')
 //     .catch((e) => {
