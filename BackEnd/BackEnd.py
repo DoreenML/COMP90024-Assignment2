@@ -1,3 +1,4 @@
+from re import A
 from flask import Flask
 from flask_cors import CORS
 from flask import jsonify
@@ -28,12 +29,14 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 
 postCodeToAurin = getPostCodeToSuburb(couch)
-thirty_days, sixty_days = util.getCovidData(couch, postCodeToAurin)
-thirty_days = collections.OrderedDict(sorted(thirty_days.items()))
-sixty_days = collections.OrderedDict(sorted(sixty_days.items()))
-print(thirty_days)
+a, b = util.getCovidData(couch, postCodeToAurin)
+a = dict(sorted(a.items(), key=lambda x: x[0]))
+b = dict(sorted(b.items(), key=lambda x: x[0]))
+print(len(list(a.keys())))
+
+print(a)
 print('\n')
-print(sixty_days)
+print(b)
 
 
 @app.route("/HealthRelatedTopicTrend")
@@ -77,17 +80,34 @@ def Chart_HealthRelatedTopicTrend():
     data = jsonify(data)
     return data
 
+def getListOfDict(a):
+    returnList = []
+    valueList = list(a.values())
+    count = 0
+    for i in range(1, 184):
+        if i in list(a.keys()):
+            returnList.append({
+                'name': i,
+                'value': a[i],
+            })
+        else:
+            returnList.append({
+                'name': i,
+                'value': valueList[(183 + count) % len(a)],
+            })
+            count += 1
+    return returnList
+
+list_a = getListOfDict(a)
+list_b = getListOfDict(b)
+list_sub = [ {'name': i, 'value': list_b[i]['value'] - list_a[i]['value']} for i in range(183)]
+
+
 @app.route("/HealthMap")
 def Chart_HealthMap():
     # port for the polygon
     data = {}
-    returnList = []
-    for i in range(1, 183):
-        returnList.append({
-            'name': str(i),
-            'value': i,
-        })
-    data['polygon'] = returnList
+    data['polygon'] = list_sub
 
     # port for the scatter
     data['scatter'] = {}

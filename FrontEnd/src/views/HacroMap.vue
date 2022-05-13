@@ -15431,18 +15431,18 @@ export default {
           }
         },
         visualMap: {
-          text: ['100', '50'],
+          text: ['1700', '0'],
           orient: 'horizontal',
           inverse: false,
           seriesIndex: [1],
           inRange: {
-            color: ['rgba(39, 245, 226, .8)',
-              'rgba(39, 136, 245, .8)',
-              'rgba(161, 39, 245, .8)'
+            color: ['rgba(46, 107, 229, .8)',
+              'rgba(46, 107, 229, .55)',
+              'rgba(46, 107, 229, .4)'
             ]
           },
           min: 0,
-          max: 24,
+          max: 1700,
           itemWidth: 13,
           itemHeight: 65,
           bottom: 10,
