@@ -36,9 +36,24 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 postCodeToAurin = getPostCodeToSuburb(couch)
 a, b = util.getCovidData(couch, postCodeToAurin)
-print(len(a))
 
-print(len(b))
+def getListOfDict(a):
+    returnList = []
+    valueList = list(a.values())
+    for i in range(1, 183):
+        if i in list(a.keys()):
+            returnList.append({
+                'name': i,
+                'value': a[i],
+            })
+        else:
+            returnList.append({
+                'name': i,
+                'value': valueList[i],
+            })
+    return returnList
+
+print(getListOfDict(a))
 
 # demo for front-end
 # @app.route("/HealthRelatedTopicTrend")
