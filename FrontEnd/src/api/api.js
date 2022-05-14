@@ -19,17 +19,11 @@ export function GetHealthMap() {
       console.log(e);
   });
 }
+export function GetDepressChart() {
+  // then return the promise of the axios instance
+  return http.get('/DepressionChart').catch((e) => {
+    // catch errors here
+      console.log(e);
+  });
+}
 
-// export function getTreatmentSite() {
-//   return http.get('utilisation/treatmentsite')
-//     .catch((e) => {
-//       console.log(e);
-//     });
-// }
-
-// export function getReasons() {
-//   return http.get('/implementing/reasons')
-//     .catch((e) => {
-//       console.log(e);
-//     });
-// }
