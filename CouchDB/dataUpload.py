@@ -131,39 +131,39 @@ def threadSaveMethod(save_list, db):
 # threadSaveMethod(age_save_list, db)
 #
 # save camera sensor data
-camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
-db = retrieve_couchdb(couch, "camera_data")
-mapFunction = '''function (doc) {
-                  MonthInt = 1
-                  if (month.equals("January")){
-                     monthInt = 1;}
-                    else if (month.equals("February")){
-                     monthInt = 2;}
-                    else if (month.equals("March")){
-                     monthInt = 3;}
-                    else if (month.equals("April")){
-                     monthInt = 4;}
-                    else if (month.equals("May")){
-                     monthInt = 5;}
-                    else if (month.equals("June")){
-                     monthInt = 6;}
-                    else if (month.equals("July")){
-                     monthInt = 7;}
-                    else if (month.equals("August")){
-                     monthInt = 8;}
-                    else if (month.equals("September")){
-                     monthInt = 9;}
-                    else if (month.equals("October")){
-                     monthInt = 10;}
-                    else if (month.equals("November")){
-                     monthInt = 11;}
-                    else if (month.equals("December")){
-                     monthInt = 12;}
-                
-                  emit([doc.Sensor_ID, doc.Year, MonthInt, doc.Day, doc.Time], doc.Hourly_Counts);
-                }'''
-createView(db, "backend", "view_by_hour", mapFunction)
-threadSaveMethod(camera_save_list, db)
+# camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
+# db = retrieve_couchdb(couch, "camera_data")
+# mapFunction = '''function (doc) {
+#                   MonthInt = 1
+#                   if (month.equals("January")){
+#                      monthInt = 1;}
+#                     else if (month.equals("February")){
+#                      monthInt = 2;}
+#                     else if (month.equals("March")){
+#                      monthInt = 3;}
+#                     else if (month.equals("April")){
+#                      monthInt = 4;}
+#                     else if (month.equals("May")){
+#                      monthInt = 5;}
+#                     else if (month.equals("June")){
+#                      monthInt = 6;}
+#                     else if (month.equals("July")){
+#                      monthInt = 7;}
+#                     else if (month.equals("August")){
+#                      monthInt = 8;}
+#                     else if (month.equals("September")){
+#                      monthInt = 9;}
+#                     else if (month.equals("October")){
+#                      monthInt = 10;}
+#                     else if (month.equals("November")){
+#                      monthInt = 11;}
+#                     else if (month.equals("December")){
+#                      monthInt = 12;}
+#
+#                   emit([doc.Sensor_ID, doc.Year, MonthInt, doc.Day, doc.Time], doc.Hourly_Counts);
+#                 }'''
+# createView(db, "backend", "view_by_hour", mapFunction)
+# threadSaveMethod(camera_save_list, db)
 #
 # save camera sensor location data
 # camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
@@ -190,13 +190,15 @@ threadSaveMethod(camera_save_list, db)
 # read sentiment relevant tweet data
 # Melbourne_save_list = read_json(JSON_FILE_NLP_BASE + "Melbourne_mental_suburb.json")
 # db = retrieve_couchdb(couch, "melbourne_mental_data")
-#
+
 # # create view
 # mapFunction = '''function (doc) {
-#   if (doc.rt*5 + doc.like >= 50){
-#     emit([1, doc.sentiment_polarity, doc.sentiment_subjectivity], parseInt(Math.log(doc.rt*5 + doc.like)));
-#   } else{
-#     emit([0, doc.sentiment_polarity, doc.sentiment_subjectivity], 1);
+#   if (doc.hashtag.length != 0){
+#     if (doc.rt*5 + doc.like >= 50){
+#       emit([1, doc.sentiment_polarity, doc.sentiment_subjectivity], doc.hashtag);
+#     } else{
+#       emit([0, doc.sentiment_polarity, doc.sentiment_subjectivity], doc.hashtag);
+#     }
 #   }
 # }'''
 #

@@ -3,7 +3,7 @@ from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
 import logging
 import json
-import calendar
+from constant import returnSensorWaveData
 
 
 # quick function
@@ -134,13 +134,15 @@ def getCovidData(couch, postCodeToAurin, datasetName="activate_covid_database", 
 # wave 2: 2020-06 to 2020-10
 # wave 3: 2021-07 to 2021-12
 # wave 4: 2022-01 to present
+
 def getWaveKey():
     keyList = []
     # demo sensor ID is 1, change dynamically
-    keyList.append([[1, 2020, 0, "Monday", "March"], [1, 2020, 23, "Sunday", "May"]])
-    keyList.append([[1, 2020, 0, "Monday", "June"], [1, 2020, 23, "Sunday", "October"]])
-    keyList.append([[1, 2021, 0, "Monday", "March"], [1, 2021, 23, "Sunday", "December"]])
-    keyList.append([[1, 2022, 0, "Monday", "January"], [1, 2022, 23, "Sunday", "April"]])
+    keyList.append([[1, 2020, 3, "Friday", 0], [1, 2020, 5, "Wednesday", 24]])
+    keyList.append([[1, 2020, 6, "Friday", 0], [1, 2020, 10, "Wednesday", 24]])
+    keyList.append([[1, 2021, 7, "Friday", 0], [1, 2021, 12, "Wednesday", 24]])
+    keyList.append([[1, 2022, 1, "Friday", 0], [1, 2022, 4, "Wednesday", 24]])
+
     return keyList
 
 
@@ -149,53 +151,39 @@ def getCameraData(couch, datasetName="camera_data", designName="backend", viewNa
 
     sensorDict = getCameraLocationData(couch)
     # iterate vist wave
-    for [startDate, endDate] in getWaveKey():
+    nowHour = datetime.now().hour
+    for wave, [startDate, endDate] in enumerate(getWaveKey()):
+        commonLabel = "wave_" + str(wave) + "_hour_" + str(nowHour)
         for sensorID in range(1, 80):
-            # specify sensor ID
-            startDate[0] = sensorID
-            endDate[0] = sensorID
-            # get view
-            view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=4, startkey=startDate, endkey=endDate, descending=False)
-            for doc in view:
-                print(doc)
-            break
-    # for doc in view:
-    #     [sensorID, year, time, day, month] = doc.key
-    #
-    #     sensorID = int(sensorID)
-    #     if sensorID in range(1, 80):
-    #         if time == current_hour_int and current_day_str == day:
-    #             averageNumber = doc.value['sum'] / doc.value['count']
-    #
-    #             if current_month_str == month and year == current_year_int:
-    #                 sensorDict[sensorID][labelThisMonth] = averageNumber
-    #             elif last_month_str == month and year == current_year_int:
-    #                 sensorDict[sensorID][labelLastMonth] = averageNumber
-    #             elif current_month_str == month and year == current_year_int - 1:
-    #                 sensorDict[sensorID][labelLastYear] = averageNumber
-    #
-    # # add ratio
-    # for i in range(1, 80):
-    #     if i in list(sensorDict.keys()):
-    #         try:
-    #             thisMonthAverage = sensorDict[i][labelThisMonth]
-    #             try:
-    #                 lastMonthAverage = sensorDict[i][labelLastMonth]
-    #                 sensorDict[i]['Compared to month average'] = str(
-    #                     ((thisMonthAverage - lastMonthAverage) / lastMonthAverage) * 100) + "%"
-    #             except:
-    #                 sensorDict[i]['Compared to month average'] = "data lost"
-    #             try:
-    #                 lastYearAverage = sensorDict[i][labelLastYear]
-    #                 sensorDict[i]['Compared to year average'] = str(
-    #                     ((thisMonthAverage - lastYearAverage) / lastYearAverage) * 100) + "%"
-    #             except:
-    #                 sensorDict[i]['Compared to year average'] = "data lost"
-    #         except:
-    #             sensorDict[i][labelThisMonth] = -1
-    #             sensorDict[i]['Compared to year average'] = "data lost"
-    #             sensorDict[i]['Compared to month average'] = "data lost"
-    #
+            try:
+                sensorDict[sensorID][commonLabel] = {}
+                # specify sensor ID
+                startDate[0] = sensorID
+                endDate[0] = sensorID
+                # get view
+                view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=5, startkey=startDate,
+                               endkey=endDate)
+                # define day list
+                dayList = ["Friday", "Monday", "Saturday", "Sunday", "Thursday", "Tuesday", "Wednesday"]
+                sensorDict[sensorID][commonLabel]['sum'] = 0
+                sensorDict[sensorID][commonLabel]['count'] = 0
+                sensorDict[sensorID][commonLabel]['max'] = 0
+                sensorDict[sensorID][commonLabel]['hour'] = nowHour
+                for doc in view:
+                    if doc.key[4] == nowHour:
+                        sensorDict[sensorID][commonLabel]['sum'] += doc.value['sum']
+                        sensorDict[sensorID][commonLabel]['count'] += doc.value['count']
+                        sensorDict[sensorID][commonLabel]['max'] = max(doc.value['max'],
+                                                                       sensorDict[sensorID][commonLabel]['max'])
+                try:
+                    sensorDict[sensorID][commonLabel]['avgCount'] = sensorDict[sensorID][commonLabel]['sum'] / \
+                                                                    sensorDict[sensorID][commonLabel]['count']
+                except:
+                    pass
+                del sensorDict[sensorID][commonLabel]['count']
+                del sensorDict[sensorID][commonLabel]['sum']
+            except:
+                pass
     return sensorDict
 
 
@@ -215,23 +203,58 @@ def getCameraLocationData(couch, datasetName="camera_location_data", designName=
 
 def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designName="backend", viewName="view_by_mental"):
     db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True)
+    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
     returnList = []
+
     for doc in view:
         [volumnClassifier, sentiment, subjective] = doc.key
         if volumnClassifier == 1:
             volumnClassifier = "high_volumn_tweet"
         else:
             volumnClassifier = "low_volumn_tweet"
-        returnList.append({
-            "tweetInfluence": volumnClassifier,
+        if {"tweetInfluence": volumnClassifier,
             "sentiment": sentiment,
-            "subjective": subjective,
-            "weight": doc.value
-        })
+            "subjective": subjective} not in returnList and (doc.value >= 5 or volumnClassifier == 1):
+            returnList.append({
+                "tweetInfluence": volumnClassifier,
+                "sentiment": sentiment,
+                "subjective": subjective
+            })
     return returnList
 
 
+def getMentalData(couch, datasetName="mental_data", designName="backend", viewName="view_by_hashtag"):
+    db = couch[datasetName]
+    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
+
+    tagList = ['auspol', 'Australia', 'PokemonGO', 'COVID19', 'OnThisDay', 'MedTwitter', "BREAKING"]
+    selectTagDictList = []
+    for tag in tagList:
+        saveDict = {'name': tag, "data": []}
+        selectTagDictList.append(saveDict)
+
+    tmpDateList = [[] for i in range(len(tagList))]
+    tmpValueList = [[] for i in range(len(tagList))]
+    for doc in view:
+        if doc.key[1] in tagList:
+            index = tagList.index(doc.key[1])
+            tmpDateList[index].append(doc.key[0])
+            tmpValueList[index].append(doc.value)
+            # selectTagDictList[index]['tag'].append(doc.value)
+
+
+    commonDate = tmpDateList[0]
+    for i in range(1, len(tmpDateList)):
+        commonDate = list(set(commonDate).intersection(tmpDateList[i]))
+        commonDate.sort()
+
+    for i, tagDict in enumerate(selectTagDictList):
+        for date in commonDate:
+            index = tmpDateList[i].index(date)
+            selectTagDictList[i]['data'].append(tmpValueList[i][index])
+    return selectTagDictList
+
+# help function
 def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="backend",
                         viewName="view_postcode_to_aurin"):
     db = couch[datasetName]

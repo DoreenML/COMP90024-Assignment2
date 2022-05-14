@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import couchdb
 import util
-
+import constant
 # define back_end
 app = Flask(__name__)
 CORS(app)
@@ -29,10 +29,9 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # test function
 # util.getCameraLocation(couch)
-# util.getCameraData(couch)
 # util.getHouseData(couch)
 # util.getPostCodeToSuburb(couch)
-
+dictList = util.getMentalData(couch)
 
 # Symptom and Depression Analysis
 # print(util.getMelbourneMentalData(couch))
@@ -42,35 +41,48 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # prepare data for map visualization
 # real time covid data
-postCodeToAurin = util.getPostCodeToSuburb(couch)
-list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
-list_60 = util.getCovidList(list_60)
-list_30 = util.getCovidList(list_30)
-
-list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
-
-
-# merge same point
-def mergeSamePoint(data):
-    returnList = []
-    for dot in data:
-        if dot not in returnList:
-            returnList.append(dot)
-    return returnList
-
-
-# # melbourne depression map
-melbourneMetalData = util.getMelbourneMentalData(couch)
-dataForLowVol = [[format(dot['sentiment'], '.1f'), format(dot['subjective'], '.2f')] for dot in melbourneMetalData if
-                    dot['tweetInfluence'] == "low_volumn_tweet"]
-dataForLowVol = mergeSamePoint(dataForLowVol)
-
-dataForHighVol = [[format(dot['sentiment'], '.1f'), format(dot['subjective'], '.2f')] for dot in melbourneMetalData if
-                  dot['tweetInfluence'] == "high_volumn_tweet"]
-dataForHighVol = mergeSamePoint(dataForHighVol)
-
-
+# postCodeToAurin = util.getPostCodeToSuburb(couch)
+# list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
+# list_60 = util.getCovidList(list_60)
+# list_30 = util.getCovidList(list_30)
 #
+# list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
+
+# sensorWaveData = util.getCameraData(couch)
+
+# sensorWaveFrontEnd = []
+# # get front end data format
+# for _, value in constant.returnSensorWaveData().items():
+#     try:
+#         saveSensorData = {}
+#         wave1 = value[list(value.keys())[3]]
+#         wave2 = value[list(value.keys())[4]]
+#         wave3 = value[list(value.keys())[5]]
+#         wave4 = value[list(value.keys())[6]]
+#
+#         saveSensorData['value'] = [value['longtitude'], value['latitude']]
+#         strTab = '<br/>'
+#         saveSensorData['name'] = \
+#             "sensor name: " + value['description'] + strTab \
+#             + list(value.keys())[3] + "average count: " + str(int(wave1['avgCount'])) + strTab \
+#             + list(value.keys())[4] + "average count: " + str(int(wave2['avgCount'])) + strTab \
+#             + list(value.keys())[5] + "average count: " + str(int(wave3['avgCount'])) + strTab \
+#             + list(value.keys())[6] + "average count: " + str(int(wave4['avgCount'])) + strTab
+#         sensorWaveFrontEnd.append(saveSensorData)
+#     except:
+#         pass
+
+# melbourne depression map
+# melbourneMetalData = util.getMelbourneMentalData(couch)
+# dataForLowVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if
+#                     dot['tweetInfluence'] == "low_volumn_tweet"]
+#
+# dataForHighVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if
+#                   dot['tweetInfluence'] == "high_volumn_tweet"]
+#
+# print(len(dataForLowVol), len(dataForLowVol))
+
+
 # # transfer data to front end map
 # @app.route("/HealthMap")
 # def Chart_HealthMap():
