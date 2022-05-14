@@ -61,6 +61,55 @@ def Chart_Depression():
     data = {}
     data['high'] = dataForHighVol
     data['low'] = dataForLowVol
+
+    data['first_wave'] = {} 
+    data['first_wave']['_1'] = 1499108
+    data['first_wave']['_2'] = 478149
+    data['first_wave']['_3'] = 299290
+    data['first_wave']['_4'] = 273256
+    data['first_wave']['_5'] = 193480
+    data['first_wave']['_6'] = 193480
+    data['first_wave']['_7'] = 91315
+    data['first_wave']['_8'] = 80478
+    data['first_wave']['_9'] = 78880
+    data['first_wave']['_10'] = 54687
+
+    data['second_wave'] = {} 
+    data['second_wave']['_1'] = 1465705
+    data['second_wave']['_2'] = 617975
+    data['second_wave']['_3'] = 508395
+    data['second_wave']['_4'] = 337720
+    data['second_wave']['_5'] = 238320
+    data['second_wave']['_6'] = 204560
+    data['second_wave']['_7'] = 204230
+    data['second_wave']['_8'] = 197457
+    data['second_wave']['_9'] = 169600
+    data['second_wave']['_10'] = 158375
+
+    data['third_wave'] = {} 
+    data['third_wave']['_1'] =3747280
+    data['third_wave']['_2'] =1696185
+    data['third_wave']['_3'] =1681301
+    data['third_wave']['_4'] =1345710
+    data['third_wave']['_5'] =823670
+    data['third_wave']['_6'] =500110
+    data['third_wave']['_7'] =423230
+    data['third_wave']['_8'] =339445
+    data['third_wave']['_9'] =201490
+    data['third_wave']['_10'] =194035
+
+    data['fourth_wave'] = {} 
+    data['fourth_wave']['_1'] =2205335
+    data['fourth_wave']['_2'] =1799435
+    data['fourth_wave']['_3'] =1272200
+    data['fourth_wave']['_4'] =1035780
+    data['fourth_wave']['_5'] =882610
+    data['fourth_wave']['_6'] =714680
+    data['fourth_wave']['_7'] =693805
+    data['fourth_wave']['_8'] =690750
+    data['fourth_wave']['_9'] =680140
+    data['fourth_wave']['_10'] =658520
+
     
     data = jsonify(data)
     return data

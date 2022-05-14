@@ -19,6 +19,10 @@ export default {
       console.log(response)
       this.high = response.data.high;
       this.low = response.data.low;
+      this.first_wave = response.data.first_wave
+      this.second_wave = response.data.second_wave
+      this.third_wave = response.data.third_wave
+      this.fourth_wave = response.data.fourth_wave
       this.displayHighCharts();
     })
     // this.displayHighCharts();
@@ -158,52 +162,52 @@ export default {
             data: [
               {
                 name: 'coronavirus',
-                y: 1499108,
+                y: _this.first_wave._1,
                 drilldown: 'coronavirus',
               },
               {
                 name: 'covid19',
-                y: 478149,
+                y: _this.first_wave._2,
                 drilldown: 'covid19',
               },
               {
                 name: 'respect',
-                y: 299290,
+                y: _this.first_wave._3,
                 drilldown: 'respect',
               },
               {
                 name: 'COVID19',
-                y: 273256,
+                y: _this.first_wave._4,
                 drilldown: 'COVID19',
               },
               {
                 name: 'BlackLivesMatter',
-                y: 193480,
+                y: _this.first_wave._5,
                 drilldown: 'BlackLivesMatter',
               },
               {
                 name: 'AbolishICE',
-                y: 193480,
+                y: _this.first_wave._6,
                 drilldown: 'AbolishICE',
               },
               {
                 name: 'COVID19Aus',
-                y: 91315,
+                y: _this.first_wave._7,
                 drilldown: 'COVID19Aus',
               },
               {
                 name: 'COVID',
-                y: 80478,
+                y: _this.first_wave._8,
                 drilldown: 'COVID',
               },
               {
                 name: 'FinalFantasy',
-                y: 78880,
+                y: _this.first_wave._9,
                 drilldown: 'FinalFantasy',
               },
               {
                 name: 'medtwitter',
-                y: 54687,
+                y: _this.first_wave._10,
                 drilldown: 'medtwitter',
               }
             ],
@@ -269,52 +273,52 @@ export default {
             data: [
               {
                 name: '10YearsOf1D',
-                y: 1465705,
+                y: _this.second_wave._1,
                 drilldown: '10YearsOf1D',
               },
               {
                 name: 'EndSARS',
-                y: 617975,
+                y: _this.second_wave._2,
                 drilldown: 'EndSARS',
               },
               {
                 name: 'TrumpIsNotWell',
-                y: 508395,
+                y: _this.second_wave._3,
                 drilldown: 'TrumpIsNotWell',
               },
               {
                 name: 'WhatsHappeninginThailand',
-                y: 337720,
+                y: _this.second_wave._4,
                 drilldown: 'WhatsHappeninginThailand',
               },
               {
                 name: 'EndSWAT',
-                y: 238320,
+                y: _this.second_wave._5,
                 drilldown: 'EndSWAT',
               },
               {
                 name: 'NewPokemonSnap',
-                y: 204560,
+                y: _this.second_wave._6,
                 drilldown: 'NewPokemonSnap',
               },
               {
                 name: 'PokemonSnapIsBack',
-                y: 204230,
+                y: _this.second_wave._7,
                 drilldown: 'PokemonSnapIsBack',
               },
               {
                 name: 'NintendoSwitch',
-                y: 197457,
+                y: _this.second_wave._8,
                 drilldown: 'NintendoSwitch',
               },
               {
                 name: 'DemocratsStandTall',
-                y: 169600,
+                y: _this.second_wave._9,
                 drilldown: 'DemocratsStandTall',
               },
               {
                 name: 'COVID19',
-                y: 158375,
+                y: _this.second_wave._10,
                 drilldown: 'COVID19',
               },
             ],
@@ -380,52 +384,52 @@ export default {
             data: [
               {
                 name: 'BTS',
-                y: 3747280,
+                y: _this.third_wave._1,
                 drilldown: 'BTS',
               },
               {
                 name: 'PHI',
-                y: 1696185,
+                y: _this.third_wave._2,
                 drilldown: 'PHI',
               },
               {
                 name: 'Gold',
-                y: 1681301,
+                y: _this.third_wave._3,
                 drilldown: 'Gold',
               },
               {
                 name: '11YearsOfOneDirection',
-                y: 1345710,
+                y: _this.third_wave._4,
                 drilldown: '11YearsOfOneDirection',
               },
               {
                 name: 'LateLateShow',
-                y: 823670,
+                y: _this.third_wave._5,
                 drilldown: 'LateLateShow',
               },
               {
                 name: 'ESCAPE2021',
-                y: 500110,
+                y: _this.third_wave._6,
                 drilldown: 'ESCAPE2021',
               },
               {
                 name: 'mobpsycho100',
-                y: 423230,
+                y: _this.third_wave._7,
                 drilldown: 'mobpsycho100',
               },
               {
                 name: 'Solchicks',
-                y: 339445,
+                y: _this.third_wave._8,
                 drilldown: 'Solchicks',
               },
               {
                 name: 'SEVENTEEN',
-                y: 201490,
+                y: _this.third_wave._9,
                 drilldown: 'SEVENTEEN',
               },
               {
                 name: 'ReturnToHogwarts',
-                y: 194035,
+                y: _this.third_wave._10,
                 drilldown: 'ReturnToHogwarts',
               },
             ],
@@ -491,52 +495,52 @@ export default {
             data: [
               {
                 name: 'Oscars',
-                y: 2205335,
+                y: _this.fourth_wave._1,
                 drilldown: 'Oscars',
               },
               {
                 name: 'SEVENTEEN',
-                y: 1799435,
+                y: _this.fourth_wave._2,
                 drilldown: 'SEVENTEEN',
               },
               {
                 name: 'TIME100Companies',
-                y: 1272200,
+                y: _this.fourth_wave._3,
                 drilldown: 'TIME100Companies',
               },
               {
                 name: 'DoctorStrange',
-                y: 1035780,
+                y: _this.fourth_wave._4,
                 drilldown: 'DoctorStrange',
               },
               {
                 name: 'MINGYU',
-                y: 882610,
+                y: _this.fourth_wave._5,
                 drilldown: 'MINGYU',
               },
               {
                 name: 'JOSHUA',
-                y: 714680,
+                y: _this.fourth_wave._6,
                 drilldown: 'JOSHUA',
               },
               {
                 name: 'DINO',
-                y: 693805,
+                y: _this.fourth_wave._7,
                 drilldown: 'DINO',
               },
               {
                 name: 'JUN',
-                y: 690750,
+                y: _this.fourth_wave._8,
                 drilldown: 'JUN',
               },
               {
                 name: 'WOODZ',
-                y: 680140,
+                y: _this.fourth_wave._9,
                 drilldown: 'WOODZ',
               },
               {
                 name: 'JEONGHAN',
-                y: 658520,
+                y: _this.fourth_wave._10,
                 drilldown: 'JEONGHAN',
               },
             ],

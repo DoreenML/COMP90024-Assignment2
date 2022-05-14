@@ -15436,9 +15436,9 @@ export default {
           inverse: false,
           seriesIndex: [1],
           inRange: {
-            color: ['rgba(46, 107, 229, .8)',
+            color: ['rgba(46, 107, 229, .4)',
               'rgba(46, 107, 229, .55)',
-              'rgba(46, 107, 229, .4)'
+              'rgba(46, 107, 229, .8)'
             ]
           },
           min: 0,
@@ -15456,7 +15456,7 @@ export default {
             roam: false,
             data: [
               {
-                'name': 'Number of supermarket: ' + _this.scatter_info._1.supermarket + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12 + '<br/>' + 'Number of Transport: ' + 5,
+                'name': 'Number of people: ' + _this.scatter_info._1.supermarket + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12 + '<br/>' + 'Number of Transport: ' + 5,
                 'value': [144.736074032, -38.3545459769997],
               }, {
                 'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
