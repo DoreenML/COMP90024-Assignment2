@@ -29,12 +29,10 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # test function
 # util.getCameraLocation(couch)
-# print(util.getCameraData(couch))
+util.getCameraData(couch)
 # util.getHouseData(couch)
 # util.getPostCodeToSuburb(couch)
 
-# Hospital Resources and COVID Cases Map
-# print(util.getCameraData(couch))
 
 # Symptom and Depression Analysis
 # print(util.getMelbourneMentalData(couch))

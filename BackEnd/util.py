@@ -50,6 +50,7 @@ def getTwoMonthDateRange():
     daysString = [dateUnit.strftime("%Y-%m-%d") for dateUnit in days]
     return daysString
 
+
 # method for couchdb
 def createView(dbConn, designDoc, viewName, mapFunction, reduceFunction='_sum'):
     data = {
@@ -85,17 +86,6 @@ def getCameraLocation(couch, datasetName="camera_location_data", designName="cam
             "latitude": doc.value[1],
             "longitude": doc.value[2],
         }
-    return returnDict
-
-
-def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
-    db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
-
-    returnDict = {}
-    for doc in view:
-        print(doc)
-        break
     return returnDict
 
 
@@ -140,68 +130,70 @@ def getCovidData(couch, postCodeToAurin, datasetName="activate_covid_database", 
     return returnDictOneMonth, returnDictTwoMonth
 
 
+# wave 1: 2020-03 to 2020-05
+# wave 2: 2020-06 to 2020-10
+# wave 3: 2021-07 to 2021-12
+# wave 4: 2022-01 to present
+def getWaveKey():
+    keyList = []
+    # demo sensor ID is 1, change dynamically
+    keyList.append([[1, 2020, 0, "Sunday", "March"], [1, 2020, 0, "Sunday", "May"]])
+    keyList.append([[1, 2020, 0, "Monday", "June"], [1, 2020, 0, "Thursday", "October"]])
+    keyList.append([[1, 2021, 0, "Wednesday", "March"], [1, 2021, 0, "Friday", "December"]])
+    keyList.append([[1, 2022, 0, "Saturday", "January"], [1, 2022, 0, "Sunday", "April"]])
+    return keyList
+
+
 def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
     db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True)
-
-    # get date
-    current_year_int = int(datetime.now().strftime('%Y'))
-    # in case January
-    try:
-        current_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m')) - 2]
-    except:
-        current_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m'))]
-
-    current_hour_int = int(datetime.now().strftime('%H'))
-    current_day_str = datetime.now().strftime('%A')
-    # in case february
-    try:
-        last_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m')) - 3]
-    except:
-        last_month_str = current_month_str
 
     sensorDict = getCameraLocationData(couch)
-
-    labelThisMonth = 'this_month_' + current_day_str + '_average_at_' + str(current_hour_int)
-    labelLastMonth = 'last_month_' + current_day_str + '_average_at_' + str(current_hour_int)
-    labelLastYear = 'last_year_' + current_day_str + '_average_at_' + str(current_hour_int)
-    for doc in view:
-        [sensorID, year, time, day, month] = doc.key
-
-        sensorID = int(sensorID)
-        if sensorID in range(1, 80):
-            if time == current_hour_int and current_day_str == day:
-                averageNumber = doc.value['sum'] / doc.value['count']
-
-                if current_month_str == month and year == current_year_int:
-                    sensorDict[sensorID][labelThisMonth] = averageNumber
-                elif last_month_str == month and year == current_year_int:
-                    sensorDict[sensorID][labelLastMonth] = averageNumber
-                elif current_month_str == month and year == current_year_int - 1:
-                    sensorDict[sensorID][labelLastYear] = averageNumber
-
-    # add ratio
-    for i in range(1, 80):
-        if i in list(sensorDict.keys()):
-            try:
-                thisMonthAverage = sensorDict[i][labelThisMonth]
-                try:
-                    lastMonthAverage = sensorDict[i][labelLastMonth]
-                    sensorDict[i]['Compared to month average'] = str(
-                        ((thisMonthAverage - lastMonthAverage) / lastMonthAverage) * 100) + "%"
-                except:
-                    sensorDict[i]['Compared to month average'] = "data lost"
-                try:
-                    lastYearAverage = sensorDict[i][labelLastYear]
-                    sensorDict[i]['Compared to year average'] = str(
-                        ((thisMonthAverage - lastYearAverage) / lastYearAverage) * 100) + "%"
-                except:
-                    sensorDict[i]['Compared to year average'] = "data lost"
-            except:
-                sensorDict[i][labelThisMonth] = -1
-                sensorDict[i]['Compared to year average'] = "data lost"
-                sensorDict[i]['Compared to month average'] = "data lost"
-
+    # iterate vist wave
+    for [startDate, endDate] in getWaveKey():
+        for sensorID in range(1, 80):
+            # specify sensor ID
+            startDate[0] = sensorID
+            endDate[0] = sensorID
+            # get view
+            view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=4, startkey=startDate, endkey=endDate)
+            print(view)
+    # for doc in view:
+    #     [sensorID, year, time, day, month] = doc.key
+    #
+    #     sensorID = int(sensorID)
+    #     if sensorID in range(1, 80):
+    #         if time == current_hour_int and current_day_str == day:
+    #             averageNumber = doc.value['sum'] / doc.value['count']
+    #
+    #             if current_month_str == month and year == current_year_int:
+    #                 sensorDict[sensorID][labelThisMonth] = averageNumber
+    #             elif last_month_str == month and year == current_year_int:
+    #                 sensorDict[sensorID][labelLastMonth] = averageNumber
+    #             elif current_month_str == month and year == current_year_int - 1:
+    #                 sensorDict[sensorID][labelLastYear] = averageNumber
+    #
+    # # add ratio
+    # for i in range(1, 80):
+    #     if i in list(sensorDict.keys()):
+    #         try:
+    #             thisMonthAverage = sensorDict[i][labelThisMonth]
+    #             try:
+    #                 lastMonthAverage = sensorDict[i][labelLastMonth]
+    #                 sensorDict[i]['Compared to month average'] = str(
+    #                     ((thisMonthAverage - lastMonthAverage) / lastMonthAverage) * 100) + "%"
+    #             except:
+    #                 sensorDict[i]['Compared to month average'] = "data lost"
+    #             try:
+    #                 lastYearAverage = sensorDict[i][labelLastYear]
+    #                 sensorDict[i]['Compared to year average'] = str(
+    #                     ((thisMonthAverage - lastYearAverage) / lastYearAverage) * 100) + "%"
+    #             except:
+    #                 sensorDict[i]['Compared to year average'] = "data lost"
+    #         except:
+    #             sensorDict[i][labelThisMonth] = -1
+    #             sensorDict[i]['Compared to year average'] = "data lost"
+    #             sensorDict[i]['Compared to month average'] = "data lost"
+    #
     return sensorDict
 
 
@@ -247,6 +239,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
     for doc in view:
         returnDict[doc['key']] = doc['value']
     return returnDict
+
 
 def getCovidList(givenCovidDict):
     returnList = []
