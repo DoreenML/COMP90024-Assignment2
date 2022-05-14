@@ -16,7 +16,7 @@ export default {
     GetHealthMap().then((response) => {
       console.log(response)
       this.polygon =response.data.polygon;
-      this.scatter_info = response.data.scatter;
+      this.scatter = response.data.scatter;
       this.echartInit();
     })
     // this.echartInit()
@@ -31,7 +31,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360802,
-            "name": "1",
+            "name": "Essendon",
             "center": [144.936421255, -37.7601411249997],
             "centroid": [144.93243801, -37.7526109959997],
             "childrenNum": 0,
@@ -92,7 +92,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "2",
+            "name": "Carlton North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -129,7 +129,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "3",
+            "name": "Coburg",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -167,7 +167,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "4",
+            "name": "Northcote",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -214,7 +214,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "5",
+            "name": "Thornbury",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -248,7 +248,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "6",
+            "name": "Ascot Vale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -291,7 +291,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "7",
+            "name": "Brunswick West",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -346,7 +346,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "8",
+            "name": "Travancore",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -379,7 +379,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "9",
+            "name": "Burton Reserve",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -411,7 +411,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "10",
+            "name": "Southbank",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -470,7 +470,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "11",
+            "name": "South Yarra",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -515,7 +515,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "12",
+            "name": "Footscray",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -553,7 +553,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "13",
+            "name": "Oceania",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -584,7 +584,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "14",
+            "name": "CBD",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -619,7 +619,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "15",
+            "name": "Parkville",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -653,7 +653,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "16",
+            "name": "Albert Park",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -695,7 +695,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "17",
+            "name": "Brighton",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -726,7 +726,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "18",
+            "name": "Port Phillip Bay",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -788,7 +788,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "19",
+            "name": "South Melbourne",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -823,7 +823,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "20",
+            "name": "St Kilda West",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -871,7 +871,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "21",
+            "name": "Caulfield North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -906,7 +906,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "22",
+            "name": "Windsor",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -943,7 +943,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "23",
+            "name": "Fairfield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1028,7 +1028,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "24",
+            "name": "Carlton North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1066,7 +1066,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "25",
+            "name": "Fitzroy",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1091,7 +1091,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "26",
+            "name": "Burnley",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1135,7 +1135,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "27",
+            "name": "Ashburton",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1172,7 +1172,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "28",
+            "name": "Surrey Hills",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1228,7 +1228,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "29",
+            "name": "Camberwell",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1261,7 +1261,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "30",
+            "name": "Glen Iris",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1307,7 +1307,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "31",
+            "name": "Hawthorn",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1345,7 +1345,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "32",
+            "name": "Kew",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1433,7 +1433,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "33",
+            "name": "Mont Albert North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1529,7 +1529,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "34",
+            "name": "Donvale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1599,7 +1599,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "35",
+            "name": "Bulleen",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1672,7 +1672,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "36",
+            "name": "Blackburn",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1732,7 +1732,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "37",
+            "name": "Box Hill South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1784,7 +1784,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "38",
+            "name": "Forest Hill",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1826,7 +1826,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "39",
+            "name": "Box Hill South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1855,7 +1855,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "40",
+            "name": "Beaumaris",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1905,7 +1905,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "41",
+            "name": "Brighton",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1948,7 +1948,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "42",
+            "name": "Cheltenham",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -1977,7 +1977,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "43",
+            "name": "Hampton",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2014,7 +2014,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "44",
+            "name": "Oakleigh South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2045,7 +2045,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "45",
+            "name": "Brighton East",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2082,7 +2082,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "46",
+            "name": "Gardenvale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2118,7 +2118,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "47",
+            "name": "Elsternwick",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2145,7 +2145,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "48",
+            "name": "Malvern East",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2171,7 +2171,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "49",
+            "name": "Murrumbeena",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2200,7 +2200,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "50",
+            "name": "Chelsea",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2248,7 +2248,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "51",
+            "name": "Patterson Lakes",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2289,7 +2289,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "52",
+            "name": "City of Kingston",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2324,7 +2324,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "53",
+            "name": "Hampton East",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2367,7 +2367,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "54",
+            "name": "Carnegie",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2424,7 +2424,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "55",
+            "name": "Watsonia",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2468,7 +2468,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "56",
+            "name": "Templestowe",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2566,7 +2566,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "57",
+            "name": "Lower Plenty",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2650,7 +2650,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "58",
+            "name": "Macleod",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2692,7 +2692,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "59",
+            "name": "Ivanhoe",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2768,7 +2768,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "60",
+            "name": "Ivanhoe East",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2823,7 +2823,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "61",
+            "name": "Bundoora",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2881,7 +2881,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "62",
+            "name": "Bellfield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2927,7 +2927,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "63",
+            "name": "Reservoir",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -2978,7 +2978,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "64",
+            "name": "Coburg North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3031,7 +3031,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "65",
+            "name": "Research",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3106,7 +3106,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "66",
+            "name": "Kinglake Central",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3433,7 +3433,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "67",
+            "name": "Clonbinane",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3649,7 +3649,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "68",
+            "name": "Wattle Glen",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3838,7 +3838,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "69",
+            "name": "Bundoora",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3889,7 +3889,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "70",
+            "name": "City of Whittlesea",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -3926,7 +3926,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "71",
+            "name": "Epping",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4036,7 +4036,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "72",
+            "name": "Thomastown",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4129,7 +4129,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "73",
+            "name": "Plenty",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4182,7 +4182,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "74",
+            "name": "Mill Park",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4241,7 +4241,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "75",
+            "name": "Yarrambat",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4343,7 +4343,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "76",
+            "name": "Hazeldene",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4623,7 +4623,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "77",
+            "name": "City of Moonee Valley",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4700,7 +4700,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "78",
+            "name": "Keilor",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4779,7 +4779,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "79",
+            "name": "Maribyrnong",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4823,7 +4823,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "80",
+            "name": "Oak Park",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -4888,7 +4888,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "81",
+            "name": "Cherokee",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5111,7 +5111,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "82",
+            "name": "Lancefield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5465,7 +5465,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "83",
+            "name": "Hadfield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5497,7 +5497,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "84",
+            "name": "Fawkner",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5546,7 +5546,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "85",
+            "name": ":Pascoe Vale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5593,7 +5593,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "86",
+            "name": "Glenroy",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5652,7 +5652,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "87",
+            "name": "Sunbury",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5946,7 +5946,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "88",
+            "name": "Broadmeadows",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -5992,7 +5992,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "89",
+            "name": "Lalor",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6061,7 +6061,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "90",
+            "name": "Keilar",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6230,7 +6230,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "91",
+            "name": "Coolaroo",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6288,7 +6288,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "92",
+            "name": "Somerton",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6517,7 +6517,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "93",
+            "name": "Sassafras",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6549,7 +6549,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "94",
+            "name": "Ferntree Gully",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6593,7 +6593,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "95",
+            "name": "Scoresby",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6695,7 +6695,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "96",
+            "name": "Dandenong North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6785,7 +6785,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "97",
+            "name": "Wantirna South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -6892,7 +6892,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "98",
+            "name": "Donvala",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7001,7 +7001,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "99",
+            "name": "Bayswater North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7109,7 +7109,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "100",
+            "name": "Croydon South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7304,7 +7304,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "101",
+            "name": "Ringwood North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7378,7 +7378,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "102",
+            "name": "Heathmont",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7450,7 +7450,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "103",
+            "name": "Nunawading",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7501,7 +7501,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "104",
+            "name": "Vermont South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7555,7 +7555,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "105",
+            "name": "Mitcham",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7606,7 +7606,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "106",
+            "name": "Menzies Creek",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7690,7 +7690,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "107",
+            "name": "Mount Dandenong",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7752,7 +7752,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "108",
+            "name": "Toolangi",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -7979,7 +7979,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "109",
+            "name": "Montrose",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -8352,7 +8352,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "110",
+            "name": "Seville East",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -8403,7 +8403,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "111",
+            "name": "Macclesfield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -8859,7 +8859,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "112",
+            "name": "Powelltown",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -9074,7 +9074,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "113",
+            "name": "Gembrook",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -9559,7 +9559,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "114",
+            "name": "Tonimbuk",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -9993,7 +9993,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "115",
+            "name": "Heath Hill",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10163,7 +10163,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "116",
+            "name": "Pakenham",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10361,7 +10361,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "117",
+            "name": "Berwack",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10468,7 +10468,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "118",
+            "name": "Beaconsfield",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10581,7 +10581,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "119",
+            "name": "Dandnong North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10654,7 +10654,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "120",
+            "name": "Hallam",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10697,7 +10697,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "121",
+            "name": "Hellam",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10751,7 +10751,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "122",
+            "name": "Berweck",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10788,7 +10788,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "123",
+            "name": "Tooradin",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -10856,7 +10856,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "124",
+            "name": "Lynbrook",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11018,7 +11018,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "125",
+            "name": "Cranbourne South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11054,7 +11054,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "126",
+            "name": "Narre Warren",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11080,7 +11080,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "127",
+            "name": "Lynbrok",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11116,7 +11116,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "128",
+            "name": "Berwick",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11151,7 +11151,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "129",
+            "name": "Clarinda",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11197,7 +11197,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "130",
+            "name": "Dandenong",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11231,7 +11231,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "131",
+            "name": "Endeavour Hills",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11291,7 +11291,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "132",
+            "name": "Clayton South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11341,7 +11341,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "133",
+            "name": "Dandenong South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11375,7 +11375,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "134",
+            "name": "Keysborough",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11427,7 +11427,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "135",
+            "name": "Noble Park",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11492,7 +11492,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "136",
+            "name": "Clarinde",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11563,7 +11563,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "137",
+            "name": "Notting Hill",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11598,7 +11598,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "138",
+            "name": "Glen Waverley",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11635,7 +11635,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "139",
+            "name": "Rowville",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11724,7 +11724,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "140",
+            "name": "Mount Waverley",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11780,7 +11780,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "141",
+            "name": "Brooklyn",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11806,7 +11806,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "142",
+            "name": "St Albans",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11859,7 +11859,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "143",
+            "name": "Cairnlea",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11904,7 +11904,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "144",
+            "name": "Delahey",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11956,7 +11956,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "145",
+            "name": "Kealba",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -11983,7 +11983,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "146",
+            "name": "Burnside",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12030,7 +12030,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "147",
+            "name": "Avondale Heights",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12069,7 +12069,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "148",
+            "name": "Taylors Lakes",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12125,7 +12125,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "149",
+            "name": "Keilor North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12154,7 +12154,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "150",
+            "name": "Willimstown",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12231,7 +12231,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "151",
+            "name": "Altona",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12284,7 +12284,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "152",
+            "name": "Newport",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12346,7 +12346,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "153",
+            "name": "Williamstown",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12383,7 +12383,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "154",
+            "name": "Altona Meadows",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12471,7 +12471,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "155",
+            "name": "Avondale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12507,7 +12507,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "156",
+            "name": "Seddon",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12549,7 +12549,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "157",
+            "name": "Aberfeldie",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12598,7 +12598,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "158",
+            "name": "Yarraville",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12642,7 +12642,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "159",
+            "name": "Coimadai",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -12683,7 +12683,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "160",
+            "name": "Ravenhall",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13006,7 +13006,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "161",
+            "name": "Bonnie Brook",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13042,7 +13042,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "162",
+            "name": "Long Forest",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13168,7 +13168,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "163",
+            "name": "Deanside",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13249,7 +13249,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "164",
+            "name": "Werribee",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13505,7 +13505,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "165",
+            "name": "Cocoroc",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13562,7 +13562,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "166",
+            "name": "Altona North",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13659,7 +13659,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "167",
+            "name": "Point Cook",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13704,7 +13704,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "168",
+            "name": "Eynesbury",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13777,7 +13777,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "169",
+            "name": "Little River",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -13884,7 +13884,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "170",
+            "name": "Mount Cottrell",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14018,7 +14018,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "171",
+            "name": "Seaford",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14124,7 +14124,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "172",
+            "name": "Frankstan",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14177,7 +14177,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "173",
+            "name": "Frankston",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14221,7 +14221,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "174",
+            "name": "Frankstan South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14257,7 +14257,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "175",
+            "name": "Langwarrin",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14298,7 +14298,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "176",
+            "name": "Dromana",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14341,7 +14341,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "177",
+            "name": "Shoreham",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14405,7 +14405,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "178",
+            "name": "Hmas Cerberus",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14772,7 +14772,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "179",
+            "name": "Somerville",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -14947,7 +14947,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "180",
+            "name": "Frankston South",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -15053,7 +15053,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "181",
+            "name": "Portsea",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -15101,7 +15101,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "182",
+            "name": "Rosebud",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -15337,7 +15337,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "183",
+            "name": "Navigators",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -15454,27 +15454,7 @@ export default {
             type: 'scatter',
             coordinateSystem: 'geo',
             roam: false,
-            data: [
-              {
-                'name': 'Number of people: ' + _this.scatter_info._1.supermarket + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12 + '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.736074032, -38.3545459769997],
-              }, {
-                'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.80477999, -37.6695360059997],
-              }, {
-                'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.978111008, -37.7802081849997],
-              }, {
-                'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.97430194, -37.8521918519997],
-              }, {
-                'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.769622679, -37.2206692289997],
-              }, {
-                'name': 'Number of supermarket: ' + 5 + '<br/>' + 'Number of hospital: ' + 7 + '<br/>' + 'Number of Entertainment: ' + 12+ '<br/>' + 'Number of Transport: ' + 5,
-                'value': [144.517750998, -37.4085976679997],
-              }
-            ],
+            data: _this.scatter.info,
             symbolSize: 10,
             label: {
               normal: {

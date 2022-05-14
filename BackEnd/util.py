@@ -220,8 +220,9 @@ def getCameraLocationData(couch, datasetName="camera_location_data", designName=
 
 def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designName="backend", viewName="view_by_mental"):
     db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True)
+    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
     returnList = []
+
     for doc in view:
         [volumnClassifier, sentiment, subjective] = doc.key
         if volumnClassifier == 1:
@@ -229,14 +230,12 @@ def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designNam
         else:
             volumnClassifier = "low_volumn_tweet"
         if {"tweetInfluence": volumnClassifier,
-                "sentiment": round(sentiment, 1),
-                "subjective": round(subjective, 1),
-                "weight": doc.value} not in returnList:
+                "sentiment": sentiment,
+                "subjective": subjective} not in returnList and (doc.value >= 5 or volumnClassifier == 1):
             returnList.append({
                 "tweetInfluence": volumnClassifier,
-                "sentiment": round(sentiment, 1),
-                "subjective": round(subjective, 1),
-                "weight": doc.value
+                "sentiment": sentiment,
+                "subjective": subjective
             })
     return returnList
 

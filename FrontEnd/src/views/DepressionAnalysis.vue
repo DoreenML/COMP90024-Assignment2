@@ -71,7 +71,7 @@ export default {
     plotOptions: {
         scatter: {
             marker: {
-                radius: 5,
+                radius: 3,
                 states: {
                     hover: {
                         enabled: true,
@@ -94,12 +94,12 @@ export default {
     },
     series: [{
         name: 'Low Influence',
-        color: 'rgba(223, 83, 83, .5)',
+        color: 'rgba(118, 245, 39, .8)',
         data: _this.low
 
     }, {
         name: 'High Influence',
-        color: 'rgba(119, 152, 191, .5)',
+        color: 'rgba(223, 83, 83, .8)',
         data: _this.high
     }]
     });

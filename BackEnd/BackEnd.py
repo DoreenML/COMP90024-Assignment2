@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import couchdb
 import util
+import constant
 
 # define back_end
 app = Flask(__name__)
@@ -115,6 +116,30 @@ def Chart_Depression():
     return data
 
 
+sensorWaveFrontEnd = []
+# get front end data format
+for _, value in constant.returnSensorWaveData().items():
+    try:
+        saveSensorData = {}
+        wave1 = value[list(value.keys())[3]]
+        wave2 = value[list(value.keys())[4]]
+        wave3 = value[list(value.keys())[5]]
+        wave4 = value[list(value.keys())[6]]
+
+        saveSensorData['value'] = [value['longtitude'], value['latitude']]
+        strTab = '<br/>'
+        saveSensorData['name'] = \
+            "sensor name: " + value['description'] + strTab \
+            + list(value.keys())[3] + "average count: " + str(int(wave1['avgCount'])) + strTab \
+            + list(value.keys())[4] + "average count: " + str(int(wave2['avgCount'])) + strTab \
+            + list(value.keys())[5] + "average count: " + str(int(wave3['avgCount'])) + strTab \
+            + list(value.keys())[6] + "average count: " + str(int(wave4['avgCount'])) + strTab
+        sensorWaveFrontEnd.append(saveSensorData)
+    except:
+        pass
+
+# print(sensorWaveFrontEnd)
+
 # transfer data to front end map
 @app.route("/HealthMap")
 def Chart_HealthMap():
@@ -124,9 +149,7 @@ def Chart_HealthMap():
 
     # port for the scatter
     data['scatter'] = {}
-    data['scatter']['_1'] = {}
-
-    data['scatter']['_1']['supermarket'] = 100
+    data['scatter']['info'] = sensorWaveFrontEnd
 
     data = jsonify(data)
     return data
