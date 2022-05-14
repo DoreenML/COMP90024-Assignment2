@@ -30,7 +30,7 @@ export function GetDepressChart() {
 
 export function GetMentalTimeline() {
   // then return the promise of the axios instance
-  return http.get('/mentaltimeline').catch((e) => {
+  return http.get('/MentalTimeLine').catch((e) => {
     // catch errors here
       console.log(e);
   });

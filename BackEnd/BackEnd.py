@@ -197,14 +197,20 @@ def Chart_HealthRelatedTopicTrend():
     return data
 
 # demo for front-end
-@app.route("/mentaltimeline")
+@app.route("/MentalTimeLine")
 def Chart_MentalTimeline():
     data = {}
     dictList = util.getMentalData(couch)
-    data['mental'] = dictList
+    data['mental'] = {}
+    data['mental']['_0'] = dictList[0]['data']
+    data['mental']['_1'] = dictList[1]['data']
+    data['mental']['_2'] = dictList[2]['data']
+    data['mental']['_3'] = dictList[3]['data']
+    data['mental']['_4'] = dictList[4]['data']
+    data['mental']['_5'] = dictList[5]['data']
+    data['mental']['_6'] = dictList[6]['data']
     data = jsonify(data)
     return data
-
 
 if __name__ == '__main__':
     # retrieve data

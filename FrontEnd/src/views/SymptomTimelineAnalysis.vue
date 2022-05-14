@@ -3,26 +3,31 @@
     <div id='container'></div>
     <div id='container2'></div>
   </figure>
-  <div class="spacer"></div>
 </template>
 
 <script>
 import Highcharts from 'highcharts';
-// import { GetMentalTimeline} from '../api/api';
+import { GetMentalTimeline} from '../api/api';
 // import accessibility from 'highcharts/modules/accessibility';
 
 export default {
   mounted() {
-    // GetMentalTimeline().then((response) => {
-    //   console.log(response)
-    //   this.mental =response.data.mental;
-    //   this.displayHighCharts();
-    // })
-    this.displayHighCharts();
+    GetMentalTimeline().then((response) => {
+      console.log(response)
+      this.mental_0 =response.data.mental._0;
+      this.mental_1 =response.data.mental._1;
+      this.mental_2 =response.data.mental._2;
+      this.mental_3 =response.data.mental._3;
+      this.mental_4 =response.data.mental._4;
+      this.mental_5 =response.data.mental._5;
+      this.mental_6 =response.data.mental._6;
+      this.displayHighCharts();
+    })
+    // this.displayHighCharts();
   },
   methods: {
     displayHighCharts() {
-      // const _this = this;
+      const _this = this;
       Highcharts.chart('container', {
       title: {
         text: 'Symptom Key Word Timeline Analysis'
@@ -67,13 +72,13 @@ export default {
     "<span style='color:{point.color}'>{point.name}</span>: <b>{point.y:1f}</b><br/>",
     },
 
-    series: [{name: 'auspol', data: [3690, 32417, 35120, 62434, 228056, 72306, 695554]}, 
-    {name: 'Australia', data: [2531, 4512, 2056, 11497, 54077, 472, 1668]}, 
-    {name: 'PokemonGO', data: [4204, 1096, 1577, 106, 4982, 1499, 6110]}, 
-    {name: 'COVID19', data: [3338767, 101118, 52636, 89719, 115309, 302063, 123423]}, 
-    {name: 'OnThisDay', data: [5823, 306, 211, 5116, 566, 281, 30710]}, 
-    {name: 'MedTwitter', data: [55836, 1621, 351, 1351, 5150, 7268, 3897]}, 
-    {name: 'BREAKING', data: [9633, 728, 24725, 20419, 26095, 20573, 53830]}],
+    series: [{name: 'auspol', data: _this.mental_0}, 
+    {name: 'Australia', data: _this.mental_1}, 
+    {name: 'PokemonGO', data: _this.mental_2}, 
+    {name: 'COVID19', data: _this.mental_3}, 
+    {name: 'OnThisDay', data: _this.mental_4}, 
+    {name: 'MedTwitter', data: _this.mental_5}, 
+    {name: 'BREAKING', data: _this.mental_6}],
 
     responsive: {
         rules: [{
