@@ -29,7 +29,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # test function
 # util.getCameraLocation(couch)
-# util.getCameraData(couch)
+# print(util.getCameraData(couch))
 # util.getHouseData(couch)
 # util.getPostCodeToSuburb(couch)
 
@@ -42,31 +42,28 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 # Symptom and Depression Analysis
 
 
-# preapre data for map visulization
+# prepare data for map visualization
 # real time covid data
 postCodeToAurin = util.getPostCodeToSuburb(couch)
 list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
-list_60 = util.getListOfDict(list_60)
-list_30 = util.getListOfDict(list_30)
+list_60 = util.getCovidList(list_60)
+list_30 = util.getCovidList(list_30)
 
 list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
 
-# melbourne depression map
+# # melbourne depression map
 melbourneMetalData = util.getMelbourneMentalData(couch)
 dataForLowVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "low_volumn_tweet"]
 dataForHighVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "high_volumn_tweet"]
 
-print(dataForLowVol)
 
 # transfer data to front end map
 @app.route("/HealthMap")
 def Chart_HealthMap():
     # port for the polygon
-    data = {}
-    data['polygon'] = list_sub
+    data = {'polygon': list_sub, 'scatter': {}}
 
     # port for the scatter
-    data['scatter'] = {}
     data['scatter']['_1'] = {}
 
     data['scatter']['_1']['supermarket'] = 100
@@ -82,10 +79,10 @@ def Chart_HealthRelatedTopicTrend():
     return data
 
 
-# @app.route("/covidRelatedAurin")
-# def Chart_HealthRelatedTopicTrend():
-#     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
-#     return data
+@app.route("/covidRelatedAurin")
+def Chart_HealthRelatedTopicTrend():
+    data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
+    return data
 
 
 if __name__ == '__main__':
