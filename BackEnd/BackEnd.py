@@ -34,7 +34,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 # util.getPostCodeToSuburb(couch)
 
 # Hospital Resources and COVID Cases Map
-print(util.getCameraData(couch))
+# print(util.getCameraData(couch))
 
 # Symptom and Depression Analysis
 # print(util.getMelbourneMentalData(couch))
@@ -42,44 +42,52 @@ print(util.getCameraData(couch))
 # Symptom and Depression Analysis
 
 
-## For map visulizaiton
-# postCodeToAurin = getPostCodeToSuburb(couch)
-# a, b = util.getCovidData(couch, postCodeToAurin)
-#
-# def getListOfDict(a):
-#     returnList = []
-#     valueList = list(a.values())
-#     count = 0
-#     for i in range(1, 184):
-#         if i in list(a.keys()):
-#             returnList.append({
-#                 'name': i,
-#                 'value': a[i],
-#             })
-#         else:
-#             returnList.append({
-#                 'name': i,
-#                 'value': valueList[(183 + count) % len(a)],
-#             })
-#             count += 1
-#     return returnList
-#
-# list_a = getListOfDict(a)
-# list_b = getListOfDict(b)
-# list_sub = [ {'name': i, 'value': list_b[i]['value'] - list_a[i]['value']} for i in range(183)]
+# preapre data for map visulization
+# real time covid data
+postCodeToAurin = util.getPostCodeToSuburb(couch)
+list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
+list_60 = util.getListOfDict(list_60)
+list_30 = util.getListOfDict(list_30)
+
+list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
+
+# melbourne depression map
+melbourneMetalData = util.getMelbourneMentalData(couch)
+dataForLowVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "low_volumn_tweet"]
+dataForHighVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "high_volumn_tweet"]
+
+print(dataForLowVol)
+
+# transfer data to front end map
+@app.route("/HealthMap")
+def Chart_HealthMap():
+    # port for the polygon
+    data = {}
+    data['polygon'] = list_sub
+
+    # port for the scatter
+    data['scatter'] = {}
+    data['scatter']['_1'] = {}
+
+    data['scatter']['_1']['supermarket'] = 100
+
+    data = jsonify(data)
+    return data
+
 
 # demo for front-end
-# @app.route("/HealthRelatedTopicTrend")
-# def Chart_HealthRelatedTopicTrend():
-#     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
-#     return data
+@app.route("/HealthRelatedTopicTrend")
+def Chart_HealthRelatedTopicTrend():
+    data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
+    return data
 
-#
+
 # @app.route("/covidRelatedAurin")
 # def Chart_HealthRelatedTopicTrend():
 #     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
 #     return data
-#
-# if __name__ == '__main__':
-#     # retrieve data
-#     app.run()
+
+
+if __name__ == '__main__':
+    # retrieve data
+    app.run()
