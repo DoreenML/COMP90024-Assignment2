@@ -228,12 +228,16 @@ def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designNam
             volumnClassifier = "high_volumn_tweet"
         else:
             volumnClassifier = "low_volumn_tweet"
-        returnList.append({
-            "tweetInfluence": volumnClassifier,
-            "sentiment": sentiment,
-            "subjective": subjective,
-            "weight": doc.value
-        })
+        if {"tweetInfluence": volumnClassifier,
+                "sentiment": round(sentiment, 1),
+                "subjective": round(subjective, 1),
+                "weight": doc.value} not in returnList:
+            returnList.append({
+                "tweetInfluence": volumnClassifier,
+                "sentiment": round(sentiment, 1),
+                "subjective": round(subjective, 1),
+                "weight": doc.value
+            })
     return returnList
 
 
