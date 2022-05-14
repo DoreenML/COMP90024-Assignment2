@@ -19,9 +19,18 @@ export function GetHealthMap() {
       console.log(e);
   });
 }
+
 export function GetDepressChart() {
   // then return the promise of the axios instance
   return http.get('/DepressionChart').catch((e) => {
+    // catch errors here
+      console.log(e);
+  });
+}
+
+export function GetMentalTimeline() {
+  // then return the promise of the axios instance
+  return http.get('/mentaltimeline').catch((e) => {
     // catch errors here
       console.log(e);
   });

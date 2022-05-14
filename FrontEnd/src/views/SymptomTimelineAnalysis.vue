@@ -8,14 +8,21 @@
 
 <script>
 import Highcharts from 'highcharts';
+// import { GetMentalTimeline} from '../api/api';
 // import accessibility from 'highcharts/modules/accessibility';
 
 export default {
   mounted() {
+    // GetMentalTimeline().then((response) => {
+    //   console.log(response)
+    //   this.mental =response.data.mental;
+    //   this.displayHighCharts();
+    // })
     this.displayHighCharts();
   },
   methods: {
     displayHighCharts() {
+      // const _this = this;
       Highcharts.chart('container', {
       title: {
         text: 'Symptom Key Word Timeline Analysis'
@@ -60,34 +67,13 @@ export default {
     "<span style='color:{point.color}'>{point.name}</span>: <b>{point.y:1f}</b><br/>",
     },
 
-    series: [{
-        name: 'vomiting',
-        data: [10234, 23451, 26734, 12345, 19862, 19931, 37133, 54175, 10234, 10234, 37133, 19862]
-    }, {
-        name: 'burn',
-        data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434, 29851, 24064, 29742, 29851]
-    }, {
-        name: 'chill',
-        data: [31744, 17722, 16005, 19771, 20185, 24377, 32147, 39387, 19771, 16005, 19771, 20185]
-    }, {
-        name: 'fever',
-        data: [2632, 6245, 1988, 2169, 5112, 2452, 4400, 4227, 6245, 1988, 2169, 5112, 2452, 4400]
-    }, {
-        name: 'pimples',
-        data: [12908, 2948, 3105, 41248, 7989, 61816, 58274, 48111, 3105, 41248, 7989]
-    }, {
-        name: 'fractured',
-        data: [9290, 8948, 7105, 61248, 5989, 41816, 38274, 28111, 7105, 61248, 5989]
-    },{
-        name: 'toothache',
-        data: [7290, 4948, 1105, 2124, 3989, 9181, 7827, 18111, 4948, 1105, 2124]
-    },{
-        name: 'headache',
-        data: [12908, 2948, 3105, 51248, 7989, 91816, 28274, 78111, 2948, 3105, 51248]
-    },{
-        name: 'turmor',
-        data: [32908, 5948, 8105, 11248, 8989, 11816, 18274, 18111, 5948, 8105, 11248]
-    }],
+    series: [{name: 'auspol', data: [3690, 32417, 35120, 62434, 228056, 72306, 695554]}, 
+    {name: 'Australia', data: [2531, 4512, 2056, 11497, 54077, 472, 1668]}, 
+    {name: 'PokemonGO', data: [4204, 1096, 1577, 106, 4982, 1499, 6110]}, 
+    {name: 'COVID19', data: [3338767, 101118, 52636, 89719, 115309, 302063, 123423]}, 
+    {name: 'OnThisDay', data: [5823, 306, 211, 5116, 566, 281, 30710]}, 
+    {name: 'MedTwitter', data: [55836, 1621, 351, 1351, 5150, 7268, 3897]}, 
+    {name: 'BREAKING', data: [9633, 728, 24725, 20419, 26095, 20573, 53830]}],
 
     responsive: {
         rules: [{

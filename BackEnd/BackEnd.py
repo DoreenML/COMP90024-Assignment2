@@ -196,11 +196,14 @@ def Chart_HealthRelatedTopicTrend():
     data = jsonify(data)
     return data
 
-
-# @app.route("/covidRelatedAurin")
-# def Chart_HealthRelatedTopicTrend():
-#     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
-#     return data
+# demo for front-end
+@app.route("/mentaltimeline")
+def Chart_MentalTimeline():
+    data = {}
+    dictList = util.getMentalData(couch)
+    data['mental'] = dictList
+    data = jsonify(data)
+    return data
 
 
 if __name__ == '__main__':

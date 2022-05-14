@@ -267,3 +267,34 @@ def getCovidList(givenCovidDict):
             })
             count += 1
     return returnList
+
+def getMentalData(couch, datasetName="mental_data", designName="backend", viewName="view_by_hashtag"):
+    db = couch[datasetName]
+    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
+
+    tagList = ['auspol', 'Australia', 'PokemonGO', 'COVID19', 'OnThisDay', 'MedTwitter', "BREAKING"]
+    selectTagDictList = []
+    for tag in tagList:
+        saveDict = {'name': tag, "data": []}
+        selectTagDictList.append(saveDict)
+
+    tmpDateList = [[] for i in range(len(tagList))]
+    tmpValueList = [[] for i in range(len(tagList))]
+    for doc in view:
+        if doc.key[1] in tagList:
+            index = tagList.index(doc.key[1])
+            tmpDateList[index].append(doc.key[0])
+            tmpValueList[index].append(doc.value)
+            # selectTagDictList[index]['tag'].append(doc.value)
+
+
+    commonDate = tmpDateList[0]
+    for i in range(1, len(tmpDateList)):
+        commonDate = list(set(commonDate).intersection(tmpDateList[i]))
+        commonDate.sort()
+
+    for i, tagDict in enumerate(selectTagDictList):
+        for date in commonDate:
+            index = tmpDateList[i].index(date)
+            selectTagDictList[i]['data'].append(tmpValueList[i][index])
+    return selectTagDictList
