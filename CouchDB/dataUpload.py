@@ -2,8 +2,7 @@ import csv
 import json
 import os
 import couchdb
-
-from BackEnd.util import find_area
+from BackEnd.util import find_area, read_json, createView
 from threading import Thread
 
 # set passwd and username and url of couch
@@ -16,6 +15,10 @@ couch = couchdb.Server(couch_url)
 # define thread length
 threadLength = 512
 
+
+# define camera location for retrieve
+camera_location_list = []
+camera_ID_list = []
 
 def read_csv(csvFilePath, sensor_dict_list=[]):
     # Open a csv reader called DictReader
@@ -34,7 +37,7 @@ def read_csv_camera_filter(csvFilePath, sensor_dict_list=[]):
         # Convert each row into a dictionary
         for row in csvReader:
             data = dict(row)
-            if data['Year'] in ['2022', '2021', '2020']:
+            if data['Year'] in ['2022', '2021']:
                 sensorData = dict(row)
                 saveSensorData = {}
                 try:
@@ -47,12 +50,12 @@ def read_csv_camera_filter(csvFilePath, sensor_dict_list=[]):
                     saveSensorData['Year'] = int(sensorData['Year'])
                     saveSensorData['Day'] = sensorData['Day']
                     sensor_dict_list.append(saveSensorData)
+                    if sensorData['ID'] not in camera_ID_list:
+                        saveSensorLocationData = {}
+                        # wait done
                 except:
                     pass
     return sensor_dict_list
-
-
-
 
 def read_json_australian_post_code(file_name):
     # load file
@@ -125,16 +128,16 @@ def threadSaveMethod(save_list, db):
 # db = retrieve_couchdb(couch, "age_data")
 # threadSaveMethod(age_save_list, db)
 #
-# # save camera sensor location data
-# camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
-# db = retrieve_couchdb(couch, "camera_location_data")
-# threadSaveMethod(camera_location_list, db)
-#
 # save camera sensor data
 # camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
 # db = retrieve_couchdb(couch, "camera_data")
 # threadSaveMethod(camera_save_list, db)
-
+#
+# save camera sensor location data
+# camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
+# db = retrieve_couchdb(couch, "camera_location_data")
+# threadSaveMethod(camera_location_list, db)
+#
 # save business_data
 # business_save_list = read_json(JSON_FILE_BUSINESS)
 # db = retrieve_couchdb(couch, "business_data")
@@ -147,9 +150,26 @@ def threadSaveMethod(save_list, db):
 # db = retrieve_couchdb(couch, "postcode_to_suburb")
 # threadSaveMethod(australian_save_list, db)
 
-# read tweet data
+# read all_city metal data
+Mental_save_list = read_json(JSON_FILE_NLP_BASE + "Mental.json")
+db = retrieve_couchdb(couch, "mental_data")
+threadSaveMethod(Mental_save_list, db)
+
+# read sentiment relevant tweet data
 # Melbourne_save_list = read_json(JSON_FILE_NLP_BASE + "Melbourne_mental_suburb.json")
 # db = retrieve_couchdb(couch, "melbourne_mental_data")
+#
+# # create view
+# mapFunction = {}
+# mapFunction = '''function (doc) {
+#   if (doc.rt*5 + doc.like >= 50){
+#     emit([1, doc.sentiment_polarity, doc.sentiment_subjectivity], parseInt(Math.log(doc.rt*5 + doc.like)));
+#   } else{
+#     emit([0, doc.sentiment_polarity, doc.sentiment_subjectivity], 1);
+#   }
+# }'''
+#
+# createView(db, "backend", "view_by_mental", mapFunction)
 # threadSaveMethod(Melbourne_save_list, db)
 
 # #

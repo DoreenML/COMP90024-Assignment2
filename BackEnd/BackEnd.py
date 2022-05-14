@@ -33,31 +33,40 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 # util.getHouseData(couch)
 # util.getPostCodeToSuburb(couch)
 
+# Hospital Resources and COVID Cases Map
+print(util.getCameraData(couch))
 
-postCodeToAurin = getPostCodeToSuburb(couch)
-a, b = util.getCovidData(couch, postCodeToAurin)
+# Symptom and Depression Analysis
+# print(util.getMelbourneMentalData(couch))
 
-def getListOfDict(a):
-    returnList = []
-    valueList = list(a.values())
-    count = 0
-    for i in range(1, 184):
-        if i in list(a.keys()):
-            returnList.append({
-                'name': i,
-                'value': a[i],
-            })
-        else:
-            returnList.append({
-                'name': i,
-                'value': valueList[(183 + count) % len(a)],
-            })
-            count += 1
-    return returnList
+# Symptom and Depression Analysis
 
-list_a = getListOfDict(a)
-list_b = getListOfDict(b)
-list_sub = [ {'name': i, 'value': list_b[i]['value'] - list_a[i]['value']} for i in range(183)]
+
+## For map visulizaiton
+# postCodeToAurin = getPostCodeToSuburb(couch)
+# a, b = util.getCovidData(couch, postCodeToAurin)
+#
+# def getListOfDict(a):
+#     returnList = []
+#     valueList = list(a.values())
+#     count = 0
+#     for i in range(1, 184):
+#         if i in list(a.keys()):
+#             returnList.append({
+#                 'name': i,
+#                 'value': a[i],
+#             })
+#         else:
+#             returnList.append({
+#                 'name': i,
+#                 'value': valueList[(183 + count) % len(a)],
+#             })
+#             count += 1
+#     return returnList
+#
+# list_a = getListOfDict(a)
+# list_b = getListOfDict(b)
+# list_sub = [ {'name': i, 'value': list_b[i]['value'] - list_a[i]['value']} for i in range(183)]
 
 # demo for front-end
 # @app.route("/HealthRelatedTopicTrend")
