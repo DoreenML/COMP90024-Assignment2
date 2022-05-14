@@ -137,10 +137,10 @@ def getCovidData(couch, postCodeToAurin, datasetName="activate_covid_database", 
 def getWaveKey():
     keyList = []
     # demo sensor ID is 1, change dynamically
-    keyList.append([[1, 2020, 0, "Sunday", "March"], [1, 2020, 0, "Sunday", "May"]])
-    keyList.append([[1, 2020, 0, "Monday", "June"], [1, 2020, 0, "Thursday", "October"]])
-    keyList.append([[1, 2021, 0, "Wednesday", "March"], [1, 2021, 0, "Friday", "December"]])
-    keyList.append([[1, 2022, 0, "Saturday", "January"], [1, 2022, 0, "Sunday", "April"]])
+    keyList.append([[1, 2020, 0, "Monday", "March"], [1, 2020, 23, "Sunday", "May"]])
+    keyList.append([[1, 2020, 0, "Monday", "June"], [1, 2020, 23, "Sunday", "October"]])
+    keyList.append([[1, 2021, 0, "Monday", "March"], [1, 2021, 23, "Sunday", "December"]])
+    keyList.append([[1, 2022, 0, "Monday", "January"], [1, 2022, 23, "Sunday", "April"]])
     return keyList
 
 
@@ -155,8 +155,10 @@ def getCameraData(couch, datasetName="camera_data", designName="backend", viewNa
             startDate[0] = sensorID
             endDate[0] = sensorID
             # get view
-            view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=4, startkey=startDate, endkey=endDate)
-            print(view)
+            view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=4, startkey=startDate, endkey=endDate, descending=False)
+            for doc in view:
+                print(doc)
+            break
     # for doc in view:
     #     [sensorID, year, time, day, month] = doc.key
     #

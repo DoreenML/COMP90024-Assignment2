@@ -29,7 +29,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # test function
 # util.getCameraLocation(couch)
-util.getCameraData(couch)
+# util.getCameraData(couch)
 # util.getHouseData(couch)
 # util.getPostCodeToSuburb(couch)
 
@@ -49,40 +49,56 @@ list_30 = util.getCovidList(list_30)
 
 list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
 
+
+# merge same point
+def mergeSamePoint(data):
+    returnList = []
+    for dot in data:
+        if dot not in returnList:
+            returnList.append(dot)
+    return returnList
+
+
 # # melbourne depression map
 melbourneMetalData = util.getMelbourneMentalData(couch)
-dataForLowVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "low_volumn_tweet"]
-dataForHighVol = [[dot['sentiment'], dot['subjective']] for dot in melbourneMetalData if dot['tweetInfluence'] == "high_volumn_tweet"]
+dataForLowVol = [[format(dot['sentiment'], '.1f'), format(dot['subjective'], '.2f')] for dot in melbourneMetalData if
+                    dot['tweetInfluence'] == "low_volumn_tweet"]
+dataForLowVol = mergeSamePoint(dataForLowVol)
+
+dataForHighVol = [[format(dot['sentiment'], '.1f'), format(dot['subjective'], '.2f')] for dot in melbourneMetalData if
+                  dot['tweetInfluence'] == "high_volumn_tweet"]
+dataForHighVol = mergeSamePoint(dataForHighVol)
 
 
-# transfer data to front end map
-@app.route("/HealthMap")
-def Chart_HealthMap():
-    # port for the polygon
-    data = {'polygon': list_sub, 'scatter': {}}
-
-    # port for the scatter
-    data['scatter']['_1'] = {}
-
-    data['scatter']['_1']['supermarket'] = 100
-
-    data = jsonify(data)
-    return data
-
-
-# demo for front-end
-@app.route("/HealthRelatedTopicTrend")
-def Chart_HealthRelatedTopicTrend():
-    data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
-    return data
-
-
-@app.route("/covidRelatedAurin")
-def Chart_HealthRelatedTopicTrend():
-    data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
-    return data
-
-
-if __name__ == '__main__':
-    # retrieve data
-    app.run()
+#
+# # transfer data to front end map
+# @app.route("/HealthMap")
+# def Chart_HealthMap():
+#     # port for the polygon
+#     data = {'polygon': list_sub, 'scatter': {}}
+#
+#     # port for the scatter
+#     data['scatter']['_1'] = {}
+#
+#     data['scatter']['_1']['supermarket'] = 100
+#
+#     data = jsonify(data)
+#     return data
+#
+#
+# # demo for front-end
+# @app.route("/HealthRelatedTopicTrend")
+# def Chart_HealthRelatedTopicTrend():
+#     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
+#     return data
+#
+#
+# # @app.route("/covidRelatedAurin")
+# # def Chart_HealthRelatedTopicTrend():
+# #     data = jsonify({'area_1': {'vomiting': 1, 'burn': 2}})
+# #     return data
+#
+#
+# if __name__ == '__main__':
+#     # retrieve data
+#     app.run()
