@@ -36,6 +36,9 @@ import calendar
 #             return idx + 1
 #     return -1
 
+def suburb_name():
+    return ['Essendon', 'Carlton North', 'Coburg', 'Northcote', 'Thornbury', 'Ascot Vale', 'Brunswick West', 'Travancore', 'Burton Reserve', 'Southbank', 'South Yarra', 'Footscray', 'CBD', 'Oceania', 'Parkville', 'Albert Park', 'Brighton', 'Port Phillip Bay', 'South Melbourne', 'St Kilda West', 'Caulfield North', 'Windsor', 'Fairfield', 'Barlton North', 'Fitzroy', 'Burnley', 'Ashburton', 'Surrey Hills', 'Camberwell', 'Glen Iris', 'Hawthorn', 'Kew', 'Mont Albert North', 'Donvale', 'Bulleen', 'Blackburn', 'Box Hill South', 'Forest Hill', 'Box Hill Nouth', 'Beaumaris', 'Crighton', 'Cheltenham', 'Hampton', 'Oakleigh South', 'Brighton East', 'Gardenvale', 'Elsternwick', 'Malvern East', 'Murrumbeena', 'Chelsea', 'Patterson Lakes', 'City of Kingston', 'Hampton East', 'Carnegie', 'Watsonia', 'Templestowe', 'Lower Plenty', 'Macleod', 'Ivanhoe', 'Ivanhoe East', 'Cundoora', 'Bellfield', 'Reservoir', 'Coburg North', 'Research', 'Kinglake Central', 'Clonbinane', 'Wattle Glen', 'Bundoora', 'City of Whittlesea', 'Epping', 'Thomastown', 'Plenty', 'Mill Park', 'Yarrambat', 'Hazeldene', 'City of Moonee Valley', 'Keilor', 'Maribyrnong', 'Oak Park', 'Cherokee', 'Lancefield', 'Hadfield', 'Fawkner', 'Pascoe Vale', 'Glenroy', 'Sunbury', 'Broadmeadows', 'Lalor', 'Keilar', 'Coolaroo', 'Somerton', 'Sassafras', 'Ferntree Gully', 'Scoresby', 'Dandenong North', 'Wantirna South', 'Donvala', 'Bayswater North', 'Croydon South', 'Ringwood North', 'Heathmont', 'Nunawading', 'Vermont South', ' Mitcham', 'Menzies Creek', 'Mount Dandenong', 'Toolangi', 'Montrose', 'Seville East', 'Macclesfield', 'Powelltown', 'Gembrook', 'Tonimbuk', 'Heath Hill', 'Pakenham', 'Berwack', 'Beaconsfield', 'Dandnong North', 'Hallam', 'Hellam', 'Berweck', 'Tooradin', 'Lynbrook', 'Cranbourne South', 'Narre Warren', 'Lynbrok', 'Berwick', 'Clarinda', 'Dandenong', 'Endeavour Hills', 'Clayton South', 'Dandenong South', 'Keysborough', 'Noble Park', 'Clarinde', 'Notting Hill', 'Glen Waverley', 'Rowville', 'Mount Waverley', 'Brooklyn', 'St Albans', 'Cairnlea', 'Delahey', 'Kealba', 'Burnside', 'Avondale Heights', 'Taylors Lakes', 'Keilor North', 'Willimstown', 'Altona', 'Newport', 'Williamstown', 'Altona Meadows', 'Avondale', 'Seddon', 'Aberfeldie', 'Yarraville', 'Coimadai', 'Ravenhall', 'Bonnie Brook', 'Long Forest', 'Deanside', 'Werribee', 'Cocoroc', 'Altona North', 'Point Cook', 'Eynesbury', 'Little River', 'Mount Cottrell', 'Seaford', 'Frankstan', 'Frankston', 'Frankstan South', 'Langwarrin', 'Dromana', 'Shoreham', 'Hmas Cerberus', 'Somerville', 'Frankston South', 'Portsea', 'Rosebud', 'Navigators']
+
 
 def dateRange(start, end):
     delta = end - start  # as timedelta
@@ -131,14 +134,24 @@ def getCovidData(couch, postCodeToAurin, datasetName="activate_covid_database", 
             if aurinCode not in returnDictOneMonth:
                 returnDictOneMonth[aurinCode] = 0
                 returnDictTwoMonth[aurinCode] = 0
-            returnDictTwoMonth[aurinCode] += doc['value']
             if doc['key'][0] in halfDaysList:
                 returnDictOneMonth[aurinCode] += doc['value']
+            else:
+                returnDictTwoMonth[aurinCode] += doc['value']
         except:
             pass
 
     return returnDictOneMonth, returnDictTwoMonth
 
+def getCovidListSub(couch, postCodeToAurin):
+    list_60, list_30 = getCovidData(couch, postCodeToAurin)
+    list_60 = getCovidList(list_60)
+    list_30 = getCovidList(list_30)
+
+    nameList = suburb_name()
+    list_sub = [{'name': nameList[i], 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
+
+    return list_sub
 
 def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
     db = couch[datasetName]

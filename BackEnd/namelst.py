@@ -12,7 +12,7 @@ def read_txt():
     with io.open(os.path.join(__location__, FILE_NAME), 'r',encoding='utf-8') as lines:
         for line in lines:
             start = line.index(':')
-            lst.append(line[start+1:len(line)-2])
+            lst.append(line[start+1:-1])
     return lst
 
 lst = read_txt()

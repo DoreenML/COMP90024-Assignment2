@@ -18,27 +18,27 @@
             <tr>
                 <th>COVID Cases and Camera Sensor Map</th>
                 <td>Map Analysis</td>
-                <td>d</td>
+                <td>The page shows the COVID cases inside each polygon by the difference of colors and some important camera information.</td>
             </tr>
             <tr>
                 <th>Hashtag Timeline Analysis</th>
                 <td>Timeline Analysis</td>
-                <td>d</td>
+                <td>The page shows the top 7 hashtags existing on Twitter for 7 months.</td>
             </tr>
             <tr>
                 <th>Sentiment and Subjectivity from Wave-1 to Wave-4</th>
                 <td>Sentiment and Subjectivity</td>
-                <td>d</td>
+                <td>The page shows the top 4 cities' sentiment and subjectivity analysis for 4 waves of COVID-19.</td>
             </tr>
             <tr>
                 <th>Correlation and Topic Analysis for Waves</th>
                 <td>Correlation Analysis</td>
-                <td>d</td>
+                <td>The page shows the correlation between sentiment and subjectivity for low and high influence data and the top topics happening for the 4 waves.</td>
             </tr>
             <tr>
                 <th>Team Member Information</th>
                 <td>Project and Team</td>
-                <td>d</td>
+                <td>The page shows the team information.</td>
             </tr>
         </tbody>
     </table>

@@ -2,7 +2,6 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import couchdb
 import util
-import namelst
 import constant
 
 # define back_end
@@ -30,12 +29,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
 
 # real time covid data
 postCodeToAurin = util.getPostCodeToSuburb(couch)
-list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
-list_60 = util.getCovidList(list_60)
-list_30 = util.getCovidList(list_30)
-
-# name_lst = namelst.read_txt()
-list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
+list_sub = util.getCovidListSub(couch, postCodeToAurin)
 
 # melbourne depression map
 melbourneMetalData = util.getMelbourneMentalData(couch)

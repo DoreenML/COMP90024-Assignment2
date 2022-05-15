@@ -5546,7 +5546,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": ":Pascoe Vale",
+            "name": "Pascoe Vale",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -15431,18 +15431,18 @@ export default {
           }
         },
         visualMap: {
-          text: ['1700', '0'],
+          text: ['300', '-300'],
           orient: 'horizontal',
           inverse: false,
           seriesIndex: [1],
           inRange: {
-            color: ['rgba(46, 107, 229, .4)',
-              'rgba(46, 107, 229, .55)',
-              'rgba(46, 107, 229, .8)'
+            color: ['rgba(43, 147, 255, .4)',
+              'rgba(39, 86, 184, .55)',
+              'rgba(36, 42, 159, .8)'
             ]
           },
-          min: 0,
-          max: 1700,
+          min: -300,
+          max: 300,
           itemWidth: 13,
           itemHeight: 65,
           bottom: 10,
