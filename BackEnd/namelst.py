@@ -15,5 +15,5 @@ def read_txt():
             lst.append(line[start+1:len(line)-2])
     return lst
 
-# lst = read_txt(FILE_NAME)
-# print(lst)
+lst = read_txt()
+print(lst)
