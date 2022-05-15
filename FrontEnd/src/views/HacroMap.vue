@@ -553,7 +553,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "Oceania",
+            "name": "CBD",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,
@@ -584,7 +584,7 @@ export default {
           "type": "Feature",
           "properties": {
             "adcode": 360803,
-            "name": "CBD",
+            "name": "Oceania",
             "center": [115.016306, 27.105879],
             "centroid": [115.224044, 26.894879],
             "childrenNum": 0,

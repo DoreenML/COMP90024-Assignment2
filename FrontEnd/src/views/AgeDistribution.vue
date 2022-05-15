@@ -29,13 +29,13 @@ export default {
                     load: function() {
                         const chart = this;
                         console.log(chart);
-                        chart.renderer.text("Average Age", chart.chartWidth/3 + 30, chart.chartHeight/6)
+                        chart.renderer.text("COVID-19 Wave 1", chart.chartWidth/3, chart.chartHeight/6)
                             .css({
                                 color: 'black',
                                 fontSize: '16px'
                             })
                             .add();
-                        chart.renderer.text("Population/Cases (in k)", chart.chartWidth/3, chart.chartHeight- 70)
+                        chart.renderer.text("COVID-19 Wave 4", chart.chartWidth/3, chart.chartHeight- 70)
                             .css({
                                 color: 'black',
                                 fontSize: '16px'

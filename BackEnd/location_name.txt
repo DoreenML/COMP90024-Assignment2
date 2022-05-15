@@ -10,8 +10,8 @@
 10:Southbank
 11:South Yarra
 12:Footscray
-13:Oceania
-14:CBD
+13:CBD
+14:Oceania
 15:Parkville
 16:Albert Park
 17:Brighton
