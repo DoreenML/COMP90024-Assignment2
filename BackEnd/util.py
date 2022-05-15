@@ -239,7 +239,37 @@ def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designNam
                 "subjective": subjective
             })
     return returnList
+    
+def getMentalData(couch, datasetName="mental_data", designName="backend", viewName="view_by_hashtag"):
+    db = couch[datasetName]
+    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
 
+    tagList = ['auspol', 'Australia', 'PokemonGO', 'COVID19', 'OnThisDay', 'MedTwitter', "BREAKING"]
+    selectTagDictList = []
+    for tag in tagList:
+        saveDict = {'name': tag, "data": []}
+        selectTagDictList.append(saveDict)
+
+    tmpDateList = [[] for i in range(len(tagList))]
+    tmpValueList = [[] for i in range(len(tagList))]
+    for doc in view:
+        if doc.key[1] in tagList:
+            index = tagList.index(doc.key[1])
+            tmpDateList[index].append(doc.key[0])
+            tmpValueList[index].append(doc.value)
+            # selectTagDictList[index]['tag'].append(doc.value)
+
+
+    commonDate = tmpDateList[0]
+    for i in range(1, len(tmpDateList)):
+        commonDate = list(set(commonDate).intersection(tmpDateList[i]))
+        commonDate.sort()
+
+    for i, tagDict in enumerate(selectTagDictList):
+        for date in commonDate:
+            index = tmpDateList[i].index(date)
+            selectTagDictList[i]['data'].append(tmpValueList[i][index])
+    return selectTagDictList
 
 def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="backend",
                         viewName="view_postcode_to_aurin"):
@@ -269,28 +299,38 @@ def getCovidList(givenCovidDict):
             count += 1
     return returnList
 
-def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data", designName="backend",
+
+
+def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data",
+                             designName="backend",
                              wave1="view_by_objective_and_sentiment_wave1",
+                             wave2="view_by_objective_and_sentiment_wave2",
+                             wave3="view_by_objective_and_sentiment_wave3",
                              wave4="view_by_objective_and_sentiment_wave4"):
     db = couch[datasetName]
     # area interest in 92, 40, 10, 6, 5
     areaList = [92, 40, 10, 5]
-    waveNameList = ['wave1', 'wave4']
+    waveNameList = ['wave1', 'wave2', 'wave3', 'wave4']
     areaDict = {"wave1": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
+                "wave2": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
+                "wave3": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
                 "wave4": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4}}
     # sentiment and objective code:
     # 3: positive/subjective,
     # 2: positive/objective,
     # 1: negative/subjective,
     # 0: negative/objective
-    waveViews = [db.view(designName + "/" + wave1, reduce=True, group=True), db.view(designName + "/" + wave4, reduce=True, group=True)]
+    waveViews = [db.view(designName + "/" + wave1, reduce=True, group=True),
+                 db.view(designName + "/" + wave2, reduce=True, group=True),
+                 db.view(designName + "/" + wave3, reduce=True, group=True),
+                 db.view(designName + "/" + wave4, reduce=True, group=True)]
 
     for i,waveView in enumerate(waveViews):
         for doc in waveView:
             if doc.key[0] in areaList:
                 areaDict[waveNameList[i]][doc.key[0]][doc.key[1]] += round(math.log2(doc.value))
 
-    returnList = [[] for i in range(8)]
+    returnList = [[] for _ in range(16)]
     for waveIndex, waveName in enumerate(waveNameList):
         for i in range(4):
             for j, suburbName in enumerate(areaList):

@@ -16,28 +16,28 @@
         </thead>
         <tbody>
             <tr>
-                <th>n</th>
-                <td>c</td>
+                <th>COVID Cases and Camera Sensor Map</th>
+                <td>Map Analysis</td>
                 <td>d</td>
             </tr>
             <tr>
-                <th>n</th>
-                <td>c</td>
+                <th>Hashtag Timeline Analysis</th>
+                <td>Timeline Analysis</td>
                 <td>d</td>
             </tr>
             <tr>
-                <th>n</th>
-                <td>c</td>
+                <th>Sentiment and Subjectivity from Wave-1 to Wave-4</th>
+                <td>Sentiment and Subjectivity</td>
                 <td>d</td>
             </tr>
             <tr>
-                <th>n</th>
-                <td>c</td>
+                <th>Correlation and Topic Analysis for Waves</th>
+                <td>Correlation Analysis</td>
                 <td>d</td>
             </tr>
             <tr>
-                <th>n</th>
-                <td>c</td>
+                <th>Team Member Information</th>
+                <td>Project and Team</td>
                 <td>d</td>
             </tr>
         </tbody>

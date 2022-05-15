@@ -30,16 +30,16 @@ export default {
       const _this = this;
       Highcharts.chart('container', {
       title: {
-        text: 'Symptom Key Word Timeline Analysis'
+        text: 'Hashtag Key Word Timeline Analysis'
     },
 
     subtitle: {
-        text: 'y-axis shows the totoal numebr of mentions, x-axis shows the time line.'
+        text: 'y-axis shows the totoal numebr of hashtags, x-axis shows the time line.'
     },
 
     yAxis: {
         title: {
-            text: 'Number of Appearance for Each Symptom Word'
+            text: 'Number of Appearance for Each Hashtag Word'
         }
     },
 

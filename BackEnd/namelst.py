@@ -7,13 +7,13 @@ __location__ = os.path.realpath(
 
 FILE_NAME = 'location_name.txt'
 
-def read_txt(file_name):
+def read_txt():
     lst = []
-    with io.open(os.path.join(__location__, file_name), 'r',encoding='utf-8') as lines:
+    with io.open(os.path.join(__location__, FILE_NAME), 'r',encoding='utf-8') as lines:
         for line in lines:
             start = line.index(':')
             lst.append(line[start+1:len(line)-2])
     return lst
 
-lst = read_txt(FILE_NAME)
-print(lst)
+# lst = read_txt(FILE_NAME)
+# print(lst)

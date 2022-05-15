@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import couchdb
 import util
+import namelst
 import constant
 
 # define back_end
@@ -27,29 +28,13 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
         returnDict[doc['key']] = doc['value']
     return returnDict
 
-
-# test function
-# util.getCameraLocation(couch)
-# util.getCameraData(couch)
-# util.getHouseData(couch)
-# util.getPostCodeToSuburb(couch)
-
-# Hospital Resources and COVID Cases Map
-# print(util.getCameraData(couch))
-
-# Symptom and Depression Analysis
-# print(util.getMelbourneMentalData(couch))
-
-# Symptom and Depression Analysis
-
-
-# preapre data for map visulization
 # real time covid data
 postCodeToAurin = util.getPostCodeToSuburb(couch)
 list_60, list_30 = util.getCovidData(couch, postCodeToAurin)
 list_60 = util.getCovidList(list_60)
 list_30 = util.getCovidList(list_30)
 
+# name_lst = namelst.read_txt()
 list_sub = [{'name': i, 'value': list_30[i]['value'] - list_60[i]['value']} for i in range(183)]
 
 # melbourne depression map
@@ -154,53 +139,12 @@ def Chart_HealthMap():
     data = jsonify(data)
     return data
 
-
-# demo for front-end
-@app.route("/HealthRelatedTopicTrend")
-def Chart_HealthRelatedTopicTrend():
-    data = {}
-    data['area_1'] = {}
-    data['area_1']['vomiting'] = 12
-    data['area_1']['burn'] = 17
-    data['area_1']['chill'] = 13
-    data['area_1']['fever'] = 8
-    data['area_1']['pimples'] = 6
-    data['area_1']['fractured'] = 14
-    data['area_1']['toothache'] = 7
-    data['area_1']['tumor'] = 3
-    data['area_1']['mood'] = 9
-
-    data['area_2'] = {}
-    data['area_2']['vomiting'] = 12
-    data['area_2']['burn'] = 8
-    data['area_2']['chill'] = 9
-    data['area_2']['fever'] = 6
-    data['area_2']['pimples'] = 2
-    data['area_2']['fractured'] = 9
-    data['area_2']['toothache'] = 4
-    data['area_2']['tumor'] = 6
-    data['area_2']['mood'] = 11
-
-    data['area_3'] = {}
-    data['area_3']['vomiting'] = 12
-    data['area_3']['burn'] = 8
-    data['area_3']['chill'] = 9
-    data['area_3']['fever'] = 6
-    data['area_3']['pimples'] = 2
-    data['area_3']['fractured'] = 9
-    data['area_3']['toothache'] = 4
-    data['area_3']['tumor'] = 6
-    data['area_3']['mood'] = 11
-
-    data['greeting'] = "Hello from Flask"
-    data = jsonify(data)
-    return data
-
+data_mental_timeline = util.getMentalData(couch)
 # demo for front-end
 @app.route("/MentalTimeLine")
 def Chart_MentalTimeline():
     data = {}
-    dictList = util.getMentalData(couch)
+    dictList = data_mental_timeline
     data['mental'] = {}
     data['mental']['_0'] = dictList[0]['data']
     data['mental']['_1'] = dictList[1]['data']
@@ -212,29 +156,34 @@ def Chart_MentalTimeline():
     data = jsonify(data)
     return data
 
+wave_info = util.getMelbourneMentalByWave(couch)
 @app.route("/SentimentWave")
 def Chart_SentimentWave():
     data = {}
-    temp = util.getMelbourneMentalByWave(couch)
-    # {'wave1': {92: [18, 15, 13, 12], 
-    # 40: [20, 23, 22, 23], 
-    # 10: [14, 15, 3, 16], 
-    # 5: [14, 17, 12, 16]}, 
-    # 'wave4': {92: [12, 18, 15, 18], 
-    # 40: [21, 24, 23, 25], 
-    # 10: [16, 16, 18, 20], 
-    # 5: [0, 15, 15, 6]}}
+    temp = wave_info
     data['w_1'] = {}
     data['w_1']['_0'] = temp[0]
     data['w_1']['_1'] = temp[1]
     data['w_1']['_2'] = temp[2]
     data['w_1']['_3'] = temp[3]
 
+    data['w_2'] = {}
+    data['w_2']['_0'] = temp[4]
+    data['w_2']['_1'] = temp[5]
+    data['w_2']['_2'] = temp[6]
+    data['w_2']['_3'] = temp[7]
+
+    data['w_3'] = {}
+    data['w_3']['_0'] = temp[8]
+    data['w_3']['_1'] = temp[9]
+    data['w_3']['_2'] = temp[10]
+    data['w_3']['_3'] = temp[11]
+
     data['w_4'] = {}
-    data['w_4']['_0'] = temp[4]
-    data['w_4']['_1'] = temp[5]
-    data['w_4']['_2'] = temp[6]
-    data['w_4']['_3'] = temp[7]
+    data['w_4']['_0'] = temp[12]
+    data['w_4']['_1'] = temp[13]
+    data['w_4']['_2'] = temp[14]
+    data['w_4']['_3'] = temp[15]
 
     data = jsonify(data)
     return data

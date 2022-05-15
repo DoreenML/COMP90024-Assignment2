@@ -39,7 +39,7 @@ export default {
         zoomType: 'xy'
     },
     title: {
-        text: 'Sentiment and Subjectivity: The Corelation between Symptom and Depression'
+        text: 'Sentiment and Subjectivity: The Corelation between Sentiment and Subjectivity'
     },
     subtitle: {
         text: 'The x-axis is the code for depression. The y-axis is the code for Symptom '
