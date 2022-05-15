@@ -6,17 +6,24 @@
 
 <script>
 import Highcharts from 'highcharts';
+import { GetSentimentWave} from '../api/api';
 import $ from 'jquery';
 export default {
   data() {
     return {
-        stacks: ['area-1', 'area-2', 'area-3', 'area-4', 'area-5'],
+        stacks: ['wave_1', 'wave_2'],
         stackLabels: [],
         chart: ''
     };
   },
   mounted() {
-    this.displayHighCharts();
+    GetSentimentWave().then((response) => {
+      console.log(response)
+      this.w_1 =response.data.w_1;
+      this.w_4 =response.data.w_4;
+      this.displayHighCharts();
+    })
+    // this.displayHighCharts();
   },
   methods: {
     displayHighCharts() {
@@ -29,53 +36,11 @@ export default {
                     load: function() {
                         const chart = this;
                         console.log(chart);
-                        chart.renderer.text("COVID-19 Wave 1", chart.chartWidth/3, chart.chartHeight/6)
-                            .css({
-                                color: 'black',
-                                fontSize: '16px'
-                            })
-                            .add();
-                        chart.renderer.text("COVID-19 Wave 4", chart.chartWidth/3, chart.chartHeight- 70)
-                            .css({
-                                color: 'black',
-                                fontSize: '16px'
-                            })
-                            .add()
-                        chart.renderer.text("area-1:", chart.chartWidth-310, chart.chartHeight-320)
-                            .css({
-                                color: 'black',
-                                fontSize: '14px'
-                            })
-                            .add()
-                        chart.renderer.text("area-2:", chart.chartWidth-310, chart.chartHeight-275)
-                            .css({
-                                color: 'black',
-                                fontSize: '14px'
-                            })
-                            .add()
-                        chart.renderer.text("area-3:", chart.chartWidth-310, chart.chartHeight-230)
-                            .css({
-                                color: 'black',
-                                fontSize: '14px'
-                            })
-                            .add()
-                        chart.renderer.text("area-4:", chart.chartWidth-310, chart.chartHeight-185)
-                            .css({
-                                color: 'black',
-                                fontSize: '14px'
-                            })
-                            .add()
-                        chart.renderer.text("area-5:", chart.chartWidth-310, chart.chartHeight-140)
-                            .css({
-                                color: 'black',
-                                fontSize: '14px'
-                            })
-                            .add()
                     },
                 }
             },
             title: {
-                text: 'COVID-19 Cases in Polulation through Time for the Top-5 Area'
+                text: 'Sentiment and Subjectivity of Wave-1 and Wave-4 for the Top-4 Area'
             },
             legend: {
                 align: 'right',
@@ -90,7 +55,7 @@ export default {
                 }
             },
             xAxis: {
-                categories: ['1-month', '2-month', '3-month', '4-month', '5-month', '6-month', '7-month', '8-month', '9-month', '10-month', '11-month', '12-month']
+                categories: ['Somerton', 'Beaumaris', 'Southbank', 'Thornbury']
             },
             yAxis: {
                 labels: {
@@ -110,92 +75,70 @@ export default {
             tooltip: {
                 formatter: function() {
                     let stackName = this.series.userOptions.stack;
-                    return ''+ this.x +':<br/>'
-                            + '<b>Area Name</b>: ' + stackName + '<br/>'
-                            +'<b>'+ this.series.name +'</b>: ' + Math.abs(this.y);
+                    return ''+ this.x +':<br/>'+'<b>'+ this.series.name +'</b>: ' + Math.abs(this.y);
                 }
             },
             credits: {
                 enabled: false
             },
             series: [{
-                name: 'Age',
+                name: 'w1_n/o',
                 type: 'column',
-                color: 'rgba(223, 83, 83, .5)',
-                data: [46, 30, 41, 23, 49, 25, 70, 60, 33, 82, 60, 46],
+                color: 'rgba(195,195,194,0.8)',
+                data: _this.w_1._0,
                 stack: _this.stacks[0]
             }, {
-                name: 'People',
+                name: 'w1_n/s',
                 type: 'column',
-                color: 'rgba(223, 83, 83, .5)',
-                data: [-41, -27, -38, -57, -14, -39, -65, -55, -32, -41, -27],
+                color: 'rgba(64,109,214,0.8)',
+                data: _this.w_1._1,
                 stack: _this.stacks[0]
             }, {
-                name: 'Cases',
-                type: 'spline',
-                color: 'rgba(223, 83, 83, .5)',
-                data: [-23, -41, -48, -46, -18, -23, -26, -59, -49, -54, -49, -54],
+                name: 'w1_p/o',
+                type: 'column',
+                color: 'rgba(29,218,94,0.8)',
+                data: _this.w_1._2,
                 stack: _this.stacks[0]
             },{
-                name: 'Age',
+                name: 'w1_p/s',
                 type: 'column',
-                data: [49, 25, 70, 60, 46, 30, 41, 23, 33, 82, 60, 46],
-                stack: _this.stacks[1]
+                color: 'rgba(255,0,19,0.8)',
+                data: _this.w_1._3,
+                stack: _this.stacks[0]
             }, {
-                name: 'People',
-                type: 'column',
-                data: [-14, -39, -65, -55, -41, -27, -38, -57, -32, -41, -27],
-                stack: _this.stacks[1]
-            }, {
-                name: 'Cases',
+                name: 'w1_rate',
                 type: 'spline',
-                data: [-23, -26, -59, -49, -54, -23, -41, -48, -46, -18, -49, -54],
-                stack: _this.stacks[1]
-            }, {
-                name: 'Age',
-                type: 'column',
-                data: [88, 65, 36, 55, 28, 82, 20, 48, 81, 28, 36, 55],
-                stack: _this.stacks[2]
-            }, {
-                name: 'People',
-                type: 'column',
-                data: [-40, -98, -38, -16, -45, -13, -31, -34, -28, -19, -98, -38],
-                stack: _this.stacks[2]
-            }, {
-                name: 'Cases',
-                type: 'spline',
-                data: [-51, -33, -16, -17, -68, -53, -21, -16, -74, -78, -33, -16],
-                stack: _this.stacks[2]
-            }, {
-                name: 'Age',
-                type: 'column',
-                data: [11, 10, 48, 37, 33, 23, 27, 29, 22, 15, 10, 48],
-                stack: _this.stacks[3]
-            }, {
-                name: 'People',
-                type: 'column',
-                data: [-46, -43, -38, -61, -16, -30, -27, -58, -25, -72, -43, -38],
-                stack: _this.stacks[3]
-            }, {
-                name: 'Cases',
-                type: 'spline',
-                data: [-15, -76, -87, -60, -78, -51, -86, -26, -33, -63, -87, -60],
-                stack: _this.stacks[3]
+                data: [23, 41, 48, 46],
+                stack: _this.stacks[0]
             },{
-                name: 'Age',
+                name: 'w4_n/o',
                 type: 'column',
-                data: [23, 27, 29, 22, 11, 10, 48, 37, 33, 15, 10, 48],
-                stack: _this.stacks[4]
+                color: 'rgba(123,124,118,0.8)',
+                data: _this.w_4._0,
+                stack: _this.stacks[1]
             }, {
-                name: 'People',
+                name: 'w4_n/s',
                 type: 'column',
-                data: [-16, -30, -27, -58, -25, -46, -43, -38, -61, -72, -43, -38],
-                stack: _this.stacks[4]
+                color: 'rgba(1,3,165,0.8)',
+                data: _this.w_4._1,
+                stack: _this.stacks[1]
             }, {
-                name: 'Cases',
+                name: 'w4_p/o',
+                type: 'column',
+                color: 'rgba(10,135,53,0.8)',
+                data: _this.w_4._2,
+                stack: _this.stacks[1]
+            },{
+                name: 'w4_p/s',
+                type: 'column',
+                color: 'rgba(164,7,18,0.8)',
+                data: _this.w_4._3,
+                stack: _this.stacks[1]
+            }, {
+                name: 'w4_rate',
                 type: 'spline',
-                data: [-51, -86, -26, -33, -63, -15, -76, -87, -60, -78, -87, -60],
-                stack: _this.stacks[4]
+                data: [23, 41, 48, 46],
+                stack: _this.stacks[1]
             }]
         });
     },

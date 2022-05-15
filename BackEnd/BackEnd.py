@@ -212,6 +212,34 @@ def Chart_MentalTimeline():
     data = jsonify(data)
     return data
 
+@app.route("/SentimentWave")
+def Chart_SentimentWave():
+    data = {}
+    temp = util.getMelbourneMentalByWave(couch)
+    # {'wave1': {92: [18, 15, 13, 12], 
+    # 40: [20, 23, 22, 23], 
+    # 10: [14, 15, 3, 16], 
+    # 5: [14, 17, 12, 16]}, 
+    # 'wave4': {92: [12, 18, 15, 18], 
+    # 40: [21, 24, 23, 25], 
+    # 10: [16, 16, 18, 20], 
+    # 5: [0, 15, 15, 6]}}
+    data['w_1'] = {}
+    data['w_1']['_0'] = temp[0]
+    data['w_1']['_1'] = temp[1]
+    data['w_1']['_2'] = temp[2]
+    data['w_1']['_3'] = temp[3]
+
+    data['w_4'] = {}
+    data['w_4']['_0'] = temp[4]
+    data['w_4']['_1'] = temp[5]
+    data['w_4']['_2'] = temp[6]
+    data['w_4']['_3'] = temp[7]
+
+    data = jsonify(data)
+    return data
+
+
 if __name__ == '__main__':
     # retrieve data
     app.run()

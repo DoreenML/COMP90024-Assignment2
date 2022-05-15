@@ -36,3 +36,10 @@ export function GetMentalTimeline() {
   });
 }
 
+export function GetSentimentWave() {
+  // then return the promise of the axios instance
+  return http.get('/SentimentWave').catch((e) => {
+    // catch errors here
+      console.log(e);
+  });
+}
