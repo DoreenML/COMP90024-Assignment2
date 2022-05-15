@@ -108,7 +108,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: "COVID-19 First Wave Topic",
+          text: "COVID-19 First Wave Hashtag",
         },
         subtitle: {
           text: '# wave 1: 2020-03 to 2020-05',
@@ -219,7 +219,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: "COVID-19 Second Wave Topic",
+          text: "COVID-19 Second Wave Hashtag",
         },
         subtitle: {
           text: '# wave 2: 2020-06 to 2020-10',
@@ -330,7 +330,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: "COVID-19 Third Wave Topic",
+          text: "COVID-19 Third Wave Hashtag",
         },
         subtitle: {
           text: '# wave 3: 2021-07 to 2021-12',
@@ -441,7 +441,7 @@ export default {
           type: 'column',
         },
         title: {
-          text: "COVID-19 Fourth Wave Topic",
+          text: "COVID-19 Fourth Wave Hashtag",
         },
         subtitle: {
           text: '# wave 4: 2022-01 to present',
