@@ -15,7 +15,7 @@ CORS(app)
 # default couch
 adminName = "admin"
 adminPasswd = "adminPass"
-url = "172.26.130.135:5984/"
+url = "172.26.134.245:5984/"
 # define couch
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
 couch = couchdb.Server(couch_url)
