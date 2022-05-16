@@ -1,15 +1,17 @@
 import os
 import io
 import csv
-import json
 import time
+import json
 import shutil
 import couchdb
 import schedule
 import requests
 import pandas as pd
 from threading import Thread
-from BackEnd.util import find_area, read_json, createView, createMultiViews, createViewForNone, getTwoMonthDateRange
+from shapely.geometry import Point
+from shapely.geometry.polygon import Polygon
+from datetime import date, timedelta
 
 # set passwd and username and url of couch
 adminName = "admin"
@@ -36,12 +38,87 @@ covidRealTimeURL = "https://www.dhhs.vic.gov.au/ncov-covid-cases-by-lga-source-c
 estateRealTimeURL = "https://data.melbourne.vic.gov.au/api/views/gh7s-qda8/rows.csv?accessType=DOWNLOAD"
 
 
+# common function
+def dateRange(start, end):
+    delta = end - start  # as timedelta
+    days = [start + timedelta(days=i) for i in range(delta.days + 1)]
+    return days
+
+
+def getTwoMonthDateRange():
+    todayDate = date.today()
+    twoMonthDaysAgoDate = todayDate - timedelta(days=60)
+    days = dateRange(twoMonthDaysAgoDate, todayDate)
+    daysString = [dateUnit.strftime("%Y-%m-%d") for dateUnit in days]
+    return daysString
+
+
+def find_area(cor_list):
+    area_dict = form_area_dict()
+    point = Point(cor_list)
+    for idx in range(185):
+        polygon = Polygon(area_dict[idx])
+        if (polygon.contains(point)):
+            return idx + 1
+    return -1
+
+
+def read_json(file_name):
+    # load file
+    file = open(file_name, 'r', encoding='utf-8-sig')
+    data = json.load(file)
+    return data
+
+
 def form_area_dict():
     area_dict = {}
     data = read_json("../BackEnd/areaData.json")
     for idx in range(276):
         area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
     return area_dict
+
+
+# method for couchdb
+def createView(dbConn, designDoc, viewName, mapFunction, reduceFunction='_sum'):
+    data = {
+        "_id": f"_design/{designDoc}",
+        "views": {
+            viewName: {
+                "map": mapFunction,
+                "reduce": reduceFunction
+            }
+        },
+        "language": "javascript",
+        "options": {"partitioned": False}
+    }
+    dbConn.save(data)
+
+
+def createViewForNone(dbConn, designDoc, viewName, mapFunction):
+    data = {
+        "_id": f"_design/{designDoc}",
+        "views": {
+            viewName: {
+                "map": mapFunction,
+            }
+        },
+        "language": "javascript",
+        "options": {"partitioned": False}
+    }
+    dbConn.save(data)
+
+
+def createMultiViews(dbConn, designDoc, viewNameList, mapFunctionList, reduceFunctionList):
+    views = {}
+    for i in range(len(viewNameList)):
+        views[viewNameList[i]] = {"map": mapFunctionList[i], "reduce": reduceFunctionList[i]}
+    data = {
+        "_id": f"_design/{designDoc}",
+        "views": views,
+        "language": "javascript",
+        "options": {"partitioned": False}
+    }
+    dbConn.save(data)
 
 
 def read_csv(csvFilePath, sensor_dict_list=[]):

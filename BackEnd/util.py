@@ -76,51 +76,6 @@ def getTwoMonthDateRange():
     return daysString
 
 
-# method for couchdb
-def createView(dbConn, designDoc, viewName, mapFunction, reduceFunction='_sum'):
-    data = {
-        "_id": f"_design/{designDoc}",
-        "views": {
-            viewName: {
-                "map": mapFunction,
-                "reduce": reduceFunction
-            }
-        },
-        "language": "javascript",
-        "options": {"partitioned": False}
-    }
-    logging.info(f"creating view {designDoc}/{viewName}")
-    dbConn.save(data)
-
-
-def createViewForNone(dbConn, designDoc, viewName, mapFunction):
-    data = {
-        "_id": f"_design/{designDoc}",
-        "views": {
-            viewName: {
-                "map": mapFunction,
-            }
-        },
-        "language": "javascript",
-        "options": {"partitioned": False}
-    }
-    logging.info(f"creating view {designDoc}/{viewName}")
-    dbConn.save(data)
-
-
-def createMultiViews(dbConn, designDoc, viewNameList, mapFunctionList, reduceFunctionList):
-    views = {}
-    for i in range(len(viewNameList)):
-        views[viewNameList[i]] = {"map": mapFunctionList[i], "reduce": reduceFunctionList[i]}
-    data = {
-        "_id": f"_design/{designDoc}",
-        "views": views,
-        "language": "javascript",
-        "options": {"partitioned": False}
-    }
-    dbConn.save(data)
-
-
 # demo for create view
 # mapFunction = '''function (doc) {
 #                       if( doc.type == 'word')
