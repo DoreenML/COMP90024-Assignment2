@@ -2,6 +2,26 @@
 
 ## YouTube Link
 
+YouTube link:
+Analysis and Front-end UI(deployed version):
+https://youtu.be/OdsyBCp4U
+Analysis and Front-end UI(Research Presentation):
+https://youtu.be/e1Pj3rdj_RY
+https://youtu.be/7wF-oYmbCgY
+
+Cloud Architectures:
+https://youtu.be/mPg9JhnOxoM
+https://youtu.be/Pm2XoCHdvBI
+https://youtu.be/8UTsqlMSsBc
+https://youtu.be/V6z1-JnERq0
+https://youtu.be/0UyxxL10_Hc
+https://youtu.be/5nE3SPhfMw0
+https://youtu.be/Bp0L0TUcmes
+https://youtu.be/Pr9nvtQPv5k
+https://youtu.be/DEOb56aRha0
+https://youtu.be/nNglE2Xeuf0
+https://youtu.be/8bJXW_fajg4
+
 
 
 ## Team Member
