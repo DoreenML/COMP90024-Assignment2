@@ -1,2 +1,7 @@
 ---
+# Qi Li & 1138875 & lql4@student.unimelb.edu.au
+# Yuheng Guo & 1113036 & yuhengg1@student.unimelb.edu.au
+# Zhaoyang Zhang  & 1240942 & zhaoyangz1@student.unimelb.edu.au
+# Zhaoyu Wei  & 1258372 & zhangyuw@student.unimelb.edu.au
+# Xiaohan Ma  & 1145763 & mxm3@student.unimelb.edu.au
 docker_proxy_settings: '{"proxies":{"default":{"httpProxy":"http://wwwproxy.unimelb.edu.au:8000","httpsProxy":"http://wwwproxy.unimelb.edu.au:8000","noProxy":"localhost,127.0.0.1,localaddress,172.16.0.0/12,.melbounre.rc.nectar.org.au,.storage.unimelb.edu.au,.cloud.unimelb.edu.au"}}}'

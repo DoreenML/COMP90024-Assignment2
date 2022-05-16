@@ -1,32 +1,8 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
-
-@QiLiJazzBebop
-DoreenML
-/
-COMP90024-Assignment2
-Private
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-COMP90024-Assignment2/FrontEnd/src/views/DepressionAnalysis.vue
-@yuhengguo
-yuhengguo snapshot update
-Latest commit 0120f07 11 hours ago
- History
- 1 contributor
-642 lines (624 sloc)  15.5 KB
-
+<!-- Qi Li & 1138875 & lql4@student.unimelb.edu.au
+Yuheng Guo & 1113036 & yuhengg1@student.unimelb.edu.au
+Zhaoyang Zhang  & 1240942 & zhaoyangz1@student.unimelb.edu.au
+Zhaoyu Wei  & 1258372 & zhangyuw@student.unimelb.edu.au
+Xiaohan Ma  & 1145763 & mxm3@student.unimelb.edu.au -->
 <template>
   <figure class='highcharts-figure'>
     <div id='container1'></div>
