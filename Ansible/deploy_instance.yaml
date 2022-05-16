@@ -13,13 +13,13 @@
 #  roles:
 #    - role: deploy-couchdb-cluster
 #
-#- hosts: instance2
-#  vars_files:
-#    - host_vars/constant.yaml
-#  gather_facts: true
-#  roles:
-#    - role: copy-rep
-#    - role: deploy-harvester-covid
+- hosts: instance2
+  vars_files:
+    - host_vars/constant.yaml
+  gather_facts: true
+  roles:
+    - role: copy-rep
+    - role: deploy-harvester-covid
 #
 #- hosts: instance3
 #  vars_files:
@@ -45,11 +45,11 @@
 #    - role: copy-rep
 #    - role: deploy-couchdb-data
 
-- hosts: instance1
-  vars_files:
-    - host_vars/constant.yaml
-  gather_facts: true
-  roles:
-    - role: copy-rep
-    - role: deploy-backend
+#- hosts: instance1
+#  vars_files:
+#    - host_vars/constant.yaml
+#  gather_facts: true
+#  roles:
+#    - role: copy-rep
+#    - role: deploy-backend
 #    - role: deploy-frontend

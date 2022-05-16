@@ -33,8 +33,8 @@ date_generated = pd.date_range(start, end)
 date_range = date_generated.strftime("%Y-%m-%d")
 
 # save tweetID file
-# for date in date_range:
-#     saveFile(date)
+for date in date_range:
+    saveFile(date)
 
 # unzip all gz to a directory
 dir_name = 'covidTweetID'
