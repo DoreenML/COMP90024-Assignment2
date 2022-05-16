@@ -227,6 +227,7 @@ def couch_save_data(saveList, db, rank, length):
                 db.save(saveItem)
             except:
                 pass
+    return
 
 
 # get covid activate case
@@ -310,51 +311,51 @@ def updateDaily(couchGiven):
 
 def updateOnce(couchGiven):
     ### save crime data
-    crime_save_list = read_csv(JSON_FILE_CRIME)
-    db = retrieve_couchdb(couchGiven, "crime_data")
-    # create view
-    mapFunction = '''function (doc) {
-      if(parseInt(doc["Year"]) >= 2019){
-          emit([doc["Year"], doc["Postcode"], doc["Offence Division"], doc["Offence Subdivision"], doc["Offence Subgroup"]], parseInt(doc['Incidents Recorded']));
-        }
-    }'''
-    createView(db, "backend", "view_by_category_postcode", mapFunction)
-    threadSaveMethod(crime_save_list, db)
+    # crime_save_list = read_csv(JSON_FILE_CRIME)
+    # db = retrieve_couchdb(couchGiven, "crime_data")
+    # # create view
+    # mapFunction = '''function (doc) {
+    #   if(parseInt(doc["Year"]) >= 2019){
+    #       emit([doc["Year"], doc["Postcode"], doc["Offence Division"], doc["Offence Subdivision"], doc["Offence Subgroup"]], parseInt(doc['Incidents Recorded']));
+    #     }
+    # }'''
+    # createView(db, "backend", "view_by_category_postcode", mapFunction)
+    # threadSaveMethod(crime_save_list, db)
 
-    ### save house data
-    house_save_list = read_csv(JSON_FILE_HOUSE)
-    db = retrieve_couchdb(couchGiven, "house_data")
-    mapFunction = '''function (doc) {
-      if (parseInt(doc['Census year']) >= 2020){
-      emit([doc['CLUE small area'], doc['Census year'], doc['Predominant space use']], 1);
-      }
-    }'''
-    createView(db, "backend", "view_by_building_suburb", mapFunction)
-    threadSaveMethod(house_save_list, db)
+    # ### save house data
+    # house_save_list = read_csv(JSON_FILE_HOUSE)
+    # db = retrieve_couchdb(couchGiven, "house_data")
+    # mapFunction = '''function (doc) {
+    #   if (parseInt(doc['Census year']) >= 2020){
+    #   emit([doc['CLUE small area'], doc['Census year'], doc['Predominant space use']], 1);
+    #   }
+    # }'''
+    # createView(db, "backend", "view_by_building_suburb", mapFunction)
+    # threadSaveMethod(house_save_list, db)
 
     ### save age group
-    age_save_list = read_json(JSON_FILE_AGE)
-    db = retrieve_couchdb(couchGiven, "age_data")
-    threadSaveMethod(age_save_list, db)
+    # age_save_list = read_json(JSON_FILE_AGE)
+    # db = retrieve_couchdb(couchGiven, "age_data")
+    # threadSaveMethod(age_save_list, db)
 
     ### save camera sensor data
-    camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
-    db = retrieve_couchdb(couchGiven, "camera_data")
-    mapFunction = '''function (doc) {
-      var monthList = ['January','February','March','April','May','June','July','August','September','October','November','December']
-      emit([doc.Sensor_ID, doc.Year, monthList.indexOf(doc.Month) + 1, doc.Day, doc.Time], doc.Hourly_Counts);
-    }'''
-    createView(db, "backend", "view_by_hour", mapFunction, "_stats")
-    threadSaveMethod(camera_save_list, db)
+    # camera_save_list = read_csv_camera_filter(JSON_FILE_CAMERA_DATA)
+    # db = retrieve_couchdb(couchGiven, "camera_data")
+    # mapFunction = '''function (doc) {
+    #   var monthList = ['January','February','March','April','May','June','July','August','September','October','November','December']
+    #   emit([doc.Sensor_ID, doc.Year, monthList.indexOf(doc.Month) + 1, doc.Day, doc.Time], doc.Hourly_Counts);
+    # }'''
+    # createView(db, "backend", "view_by_hour", mapFunction, "_stats")
+    # threadSaveMethod(camera_save_list, db)
 
     ### save camera sensor location data
-    camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
-    db = retrieve_couchdb(couchGiven, "camera_location_data")
-    mapFunction = '''function (doc) {
-      emit(doc.sensor_id, [doc.sensor_description , doc.latitude, doc.longitude]);
-    }'''
-    createViewForNone(db, "backend", "camera_location", mapFunction)
-    threadSaveMethod(camera_location_list, db)
+    # camera_location_list = read_json(JSON_FILE_CAMERA_LOCATION)
+    # db = retrieve_couchdb(couchGiven, "camera_location_data")
+    # mapFunction = '''function (doc) {
+    #   emit(doc.sensor_id, [doc.sensor_description , doc.latitude, doc.longitude]);
+    # }'''
+    # createViewForNone(db, "backend", "camera_location", mapFunction)
+    # threadSaveMethod(camera_location_list, db)
 
     # save business_data
     # business_save_list = read_json(JSON_FILE_BUSINESS)
@@ -507,6 +508,7 @@ def updateOnce(couchGiven):
     createMultiViews(db, "backend", mapFunctionNameList, mapFunctionList, reduceFunctionList)
     threadSaveMethod(Melbourne_save_list, db)
 
+    # save mental data
     saveLists = [read_aurin_file(JSON_FILE_AURIN_BASE + JSON_2014_2015),
                  read_aurin_file(JSON_FILE_AURIN_BASE + JSON_2015_2016),
                  read_aurin_file(JSON_FILE_AURIN_BASE + JSON_2016_2017),
