@@ -120,11 +120,29 @@ https://youtu.be/8bJXW_fajg4
 
 ​		----couchdbURL
 
---Report
+--Material
 
 --snapshot
 
+--Analysis
 
+--CCC Report
+
+
+
+## Version Control
+
+Main branch: the final version of the code and report
+
+Ansible branch: the development phase of the Ansible
+
+Backend branch: the development phase of the backend 
+
+CouchDB branch: the development phase of the CouchDB
+
+Frontend branch: the development phase of the Frontend
+
+Harvester branch: this branch contains all material for Twitter puller
 
 
 
