@@ -2,18 +2,18 @@ version: '3'
 
 services:
     frontend:
-        build: ./backend
+        build: ./BackEnd
         environment:
-            APP_SERVER_PORT: {{ APP_SERVER_PORT }}
+            VUE_SERVER_PORT: {{ VUE_SERVER_PORT }}
             COUCHDB_HOST: {{ COUCHDB_HOST }}
         ports:
-            - {{ APP_SERVER_PORT }}:{{ APP_SERVER_PORT }}
+            - {{ VUE_SERVER_PORT }}:{{ VUE_SERVER_PORT }}
         command: npm run start
 
-    frontend:
-        build: ./frontend
+    backend:
+        build: ./FrontEnd
         environment:
-            REACT_APP_PORT: {{ REACT_APP_PORT }}
+            BACK_END_PORT: {{ BACK_END_PORT }}
         ports:
-            - 80:80
+            - {{ BACK_END_PORT }}:{{ BACK_END_PORT }}
         stdin_open: true

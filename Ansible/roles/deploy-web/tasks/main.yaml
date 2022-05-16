@@ -4,11 +4,11 @@
     path: "~/.docker"
     state: "directory"
 
-- name: Ensure Docker client proxy settings are present on the server
-  become: yes
-  copy:
-    content: "{{ docker_proxy_settings }}"
-    dest: ~/.docker/config.json
+#- name: Ensure Docker client proxy settings are present on the server
+#  become: yes
+#  copy:
+#    content: "{{ docker_proxy_settings }}"
+#    dest: ~/.docker/config.json
 
 - name: Configure compose
   become: yes
