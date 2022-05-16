@@ -27,7 +27,7 @@ url = "172.26.134.245:5984/"
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
 couch = couchdb.Server(couch_url)
 # define thread length
-threadLength = 64
+threadLength = 128
 
 # define camera location for retrieve
 camera_location_list = []
@@ -72,7 +72,7 @@ def read_json(file_name):
 
 def form_area_dict():
     area_dict = {}
-    data = read_json("../BackEnd/areaData.json")
+    data = read_json("./dataUpload/areaData.json")
     for idx in range(276):
         area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
     return area_dict
