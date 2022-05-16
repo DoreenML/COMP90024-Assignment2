@@ -12,14 +12,14 @@ from threading import Thread
 from BackEnd.util import find_area, read_json, createView, createMultiViews, createViewForNone, getTwoMonthDateRange
 
 # set passwd and username and url of couch
-# adminName = "admin"
-# adminPasswd = "adminPass"
-# url = "172.26.130.135:5984/"
+adminName = "admin"
+adminPasswd = "adminPass"
+url = "172.26.134.245:5984/"
 
 # test local host
-adminName = "admin"
-adminPasswd = "a13552676625"
-url = "127.0.0.1:5984/"
+# adminName = "admin"
+# adminPasswd = "a13552676625"
+# url = "127.0.0.1:5984/"
 
 # define couch
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
