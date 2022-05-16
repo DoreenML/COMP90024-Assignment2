@@ -37,18 +37,26 @@
 #    - role: copy-rep
 #    - role: deploy-stream4
 #
-- hosts: instance1
-  vars_files:
-    - host_vars/constant.yaml
-  gather_facts: true
-  roles:
-    - role: copy-rep
-    - role: deploy-couchdb-data
-
-#- hosts: instance4
+#- hosts: instance1
 #  vars_files:
 #    - host_vars/constant.yaml
 #  gather_facts: true
 #  roles:
 #    - role: copy-rep
-#    - role: deploy-frontend
+#    - role: deploy-couchdb-data
+
+- hosts: instance4
+  vars_files:
+    - host_vars/constant.yaml
+  gather_facts: true
+  roles:
+    - role: copy-rep
+    - role: deploy-backend
+
+- hosts: instance4
+  vars_files:
+    - host_vars/constant.yaml
+  gather_facts: true
+  roles:
+    - role: copy-rep
+    - role: deploy-frontend

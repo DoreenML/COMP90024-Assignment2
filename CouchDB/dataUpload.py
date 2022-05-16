@@ -27,7 +27,7 @@ url = "172.26.134.245:5984/"
 couch_url = "http://" + adminName + ":" + adminPasswd + "@" + url
 couch = couchdb.Server(couch_url)
 # define thread length
-threadLength = 128
+threadLength = 32
 
 # define camera location for retrieve
 camera_location_list = []
