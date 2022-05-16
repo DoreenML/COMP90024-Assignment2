@@ -51,4 +51,5 @@
   gather_facts: true
   roles:
     - role: copy-rep
-    - role: deploy-frontend
+    - role: deploy-backend
+#    - role: deploy-frontend
