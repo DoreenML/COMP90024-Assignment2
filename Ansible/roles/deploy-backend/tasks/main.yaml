@@ -1,0 +1,41 @@
+---
+- name: Make sure that Docker config directory exists
+  become: yes
+  file:
+    path: "~/.docker"
+    state: "directory"
+
+- name: Ensure Docker client proxy settings are present on the server
+  become: yes
+  copy:
+    content: "{{ docker_proxy_settings }}"
+    dest: ~/.docker/config.json
+
+# Stop existing Docker containers
+- name: Stop Backend Docker container _location
+  become: yes
+  docker_container:
+    name: backend
+    state: absent
+
+- name: Build an image and push it to local repo
+  docker_image:
+    build:
+      path: "/home/ubuntu/COMP90024/BackEnd"
+      pull: yes
+    name: backend
+    tag: latest
+    source: build
+    force: yes
+  become: yes
+  environment: "{{ proxy_env }}"
+
+- name: Create and start crawler Docker container
+  become: yes
+  docker_container:
+    name: backend
+    image: backend
+    state: started
+    pull: false
+    recreate: true
+    restart_policy: always

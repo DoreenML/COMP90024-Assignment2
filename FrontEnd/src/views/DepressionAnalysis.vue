@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@QiLiJazzBebop
+DoreenML
+/
+COMP90024-Assignment2
+Private
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+COMP90024-Assignment2/FrontEnd/src/views/DepressionAnalysis.vue
+@yuhengguo
+yuhengguo snapshot update
+Latest commit 0120f07 11 hours ago
+ History
+ 1 contributor
+642 lines (624 sloc)  15.5 KB
+
 <template>
   <figure class='highcharts-figure'>
     <div id='container1'></div>
@@ -12,7 +41,6 @@
 <script>
 import Highcharts from 'highcharts';
 import { GetDepressChart } from '../api/api';
-
 export default {
   mounted() {
     GetDepressChart().then((response) => {
@@ -96,7 +124,6 @@ export default {
         name: 'Low Influence',
         color: 'rgba(118, 245, 39, .8)',
         data: _this.low
-
     }, {
         name: 'High Influence',
         color: 'rgba(223, 83, 83, .8)',
@@ -558,15 +585,12 @@ export default {
   max-width: 800px;
   margin: 1em auto;
 }
-
 #container {
   height: 400px;
 }
-
 .spacer {
     height: 20px;
 }
-
 .highcharts-data-table table {
   font-family: Verdana, sans-serif;
   border-collapse: collapse;
@@ -576,33 +600,27 @@ export default {
   width: 100%;
   max-width: 500px;
 }
-
 .highcharts-data-table caption {
   padding: 1em 0;
   font-size: 1.2em;
   color: #555;
 }
-
 .highcharts-data-table th {
   font-weight: 600;
   padding: 0.5em;
 }
-
 .highcharts-data-table td,
 .highcharts-data-table th,
 .highcharts-data-table caption {
   padding: 0.5em;
 }
-
 .highcharts-data-table thead tr,
 .highcharts-data-table tr:nth-child(even) {
   background: #f8f8f8;
 }
-
 .highcharts-data-table tr:hover {
   background: #f1f7ff;
 }
-
 #datatable {
     font-family: Verdana, sans-serif;
     border-collapse: collapse;
@@ -612,31 +630,25 @@ export default {
     width: 100%;
     max-width: 2000px;
 }
-
 #datatable caption {
     padding: 1em 0;
     font-size: 1.2em;
     color: #555;
 }
-
 #datatable th {
     font-weight: 600;
     padding: 0.5em;
 }
-
 #datatable td,
 #datatable th,
 #datatable caption {
     padding: 0.5em;
 }
-
 #datatable thead tr,
 #datatable tr:nth-child(even) {
     background: #f8f8f8;
 }
-
 #datatable tr:hover {
     background: #f1f7ff;
 }
-
 </style>

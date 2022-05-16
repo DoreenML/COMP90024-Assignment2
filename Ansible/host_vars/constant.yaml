@@ -1,0 +1,107 @@
+ansible_user: ubuntu
+remote_working_directory: /home/ubuntu/COMP90024
+git_rep: /home/ubuntu/COMP90024/COMP90024-Assignment2
+githubuser: yuhengguo
+githubpassword: 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
+ansible_ssh_common_args: "-o StrictHostKeyChecking=no"
+ansible_ssh_private_key_file: "config/mrcSSH.pem"
+
+# Common vars
+availability_zone: melbourne-qh2-uom
+instance_flavor: uom.mse.2c9g
+instance_image: 356ff1ed-5960-4ac2-96a1-0c0198e6a999
+instance_key_name: mrcSSH
+
+# Set couchdb var
+couchdb_image: ibmcom/couchdb3:latest
+couchdb_user: admin
+couchdb_pass: adminPass
+couchdb_VERSION: "3.1.1"
+couchdb_cookie: "a192aeb9904e6590849337933b000c99"
+couchdb_uuid: "a192aeb9904e6590849337933b001159"
+cluster_name: "_cluster_setup"
+couchdb_container_name: "couchdb_"
+couchdb_port: 5984
+
+# Security group for instance1-instance4
+security_groups:
+  - name: instance1_security_group
+    description: "instance1 security group"
+    protocol: tcp
+    port_range_min: 1
+    port_range_max: 65535
+    remote_ip_prefix: 0.0.0.0/0
+
+  - name: instance2_security_group
+    description: "instance2 security group"
+    protocol: tcp
+    port_range_min: 1
+    port_range_max: 65535
+    remote_ip_prefix: 0.0.0.0/0
+
+  - name: instance3_security_group
+    description: "instance3 security group"
+    protocol: tcp
+    port_range_min: 1
+    port_range_max: 65535
+    remote_ip_prefix: 0.0.0.0/0
+
+  - name: instance4_security_group
+    description: "instance4 security group"
+    protocol: tcp
+    port_range_min: 1
+    port_range_max: 65535
+    remote_ip_prefix: 0.0.0.0/0
+
+
+# Volume, arrange size and position
+volumes:
+  - vol_name: instance1_volume
+    vol_size: 140
+    device: /dev/vdb
+    mountpoint: /data
+
+  - vol_name: instance2_volume
+    vol_size: 140
+    device: /dev/vdb
+    mountpoint: /data
+
+  - vol_name: instance3_volume
+    vol_size: 140
+    device: /dev/vdb
+    mountpoint: /data
+
+  - vol_name: instance4_volume
+    vol_size: 60
+    device: /dev/vdb
+    mountpoint: /data
+
+# Instance, set default ids as [], and add instance1_volumes to it
+instances:
+  - name: instance1
+    security_groups: instance1_security_group
+    volumes: ['instance1_volume']
+    volumes_ids: "{ instance1_volumes|default([]) }"
+
+  - name: instance2
+    security_groups: instance2_security_group
+    volumes: [ 'instance2_volume' ]
+    volumes_ids: "{ instance2_volumes|default([]) }"
+
+  - name: instance3
+    security_groups: instance3_security_group
+    volumes: [ 'instance3_volume' ]
+    volumes_ids: "{ instance3_volumes|default([]) }"
+
+  - name: instance4
+    security_groups: instance4_security_group
+    volumes: [ 'instance4_volume' ]
+    volumes_ids: "{ instance4_volumes|default([]) }"
+
+proxy_env:
+  HTTP_PROXY= http://wwwproxy.unimelb.edu.au:8000/
+  http_proxy= http://wwwproxy.unimelb.edu.au:8000/
+  HTTPS_PROXY= http://wwwproxy.unimelb.edu.au:8000/
+  https_proxy= http://wwwproxy.unimelb.edu.au:8000/
+
+  no_proxy=localhost,127.0.0.1,localaddress,172.16.0.0/12,.melbourne.rc.nectar.org.au,.storage.unimelb.edu.au,.cloud.unimelb.edu.au

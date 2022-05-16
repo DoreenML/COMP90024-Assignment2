@@ -4,40 +4,62 @@ from shapely.geometry.polygon import Polygon
 import logging
 import json
 import math
-import calendar
 
 
 # # quick function
-# def read_json(file_name):
-#     # load file
-#     file = open(file_name, 'r', encoding='utf-8-sig')
-#     data = json.load(file)
-#     return data
+def read_json(file_name):
+    # load file
+    file = open(file_name, 'r', encoding='utf-8-sig')
+    data = json.load(file)
+    return data
 
 
 # # post code to aurin suburb id
 
-# def form_area_dict():
-#     area_dict = {}
-#     data = read_json("../CouchDB/dataUpload/phidu_admissions_preventable_diagnosis_vaccine_pha_2016_17-6982188917692169592.json")
-#     for idx in range(276):
-#         area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
-#     return area_dict
+def form_area_dict():
+    area_dict = {}
+    data = read_json(".areaData.json")
+    for idx in range(276):
+        area_dict[idx] = data["features"][idx]["geometry"]["coordinates"][0][0]
+    return area_dict
 
 
-# area_dict = form_area_dict()
+def find_area(cor_list):
+    area_dict = form_area_dict()
+    point = Point(cor_list)
+    for idx in range(185):
+        polygon = Polygon(area_dict[idx])
+        if (polygon.contains(point)):
+            return idx + 1
+    return -1
 
-
-# def find_area(cor_list):
-#     point = Point(cor_list)
-#     for idx in range(185):
-#         polygon = Polygon(area_dict[idx])
-#         if (polygon.contains(point)):
-#             return idx + 1
-#     return -1
 
 def suburb_name():
-    return ['Essendon', 'Carlton North', 'Coburg', 'Northcote', 'Thornbury', 'Ascot Vale', 'Brunswick West', 'Travancore', 'Burton Reserve', 'Southbank', 'South Yarra', 'Footscray', 'CBD', 'Oceania', 'Parkville', 'Albert Park', 'Brighton', 'Port Phillip Bay', 'South Melbourne', 'St Kilda West', 'Caulfield North', 'Windsor', 'Fairfield', 'Barlton North', 'Fitzroy', 'Burnley', 'Ashburton', 'Surrey Hills', 'Camberwell', 'Glen Iris', 'Hawthorn', 'Kew', 'Mont Albert North', 'Donvale', 'Bulleen', 'Blackburn', 'Box Hill South', 'Forest Hill', 'Box Hill Nouth', 'Beaumaris', 'Crighton', 'Cheltenham', 'Hampton', 'Oakleigh South', 'Brighton East', 'Gardenvale', 'Elsternwick', 'Malvern East', 'Murrumbeena', 'Chelsea', 'Patterson Lakes', 'City of Kingston', 'Hampton East', 'Carnegie', 'Watsonia', 'Templestowe', 'Lower Plenty', 'Macleod', 'Ivanhoe', 'Ivanhoe East', 'Cundoora', 'Bellfield', 'Reservoir', 'Coburg North', 'Research', 'Kinglake Central', 'Clonbinane', 'Wattle Glen', 'Bundoora', 'City of Whittlesea', 'Epping', 'Thomastown', 'Plenty', 'Mill Park', 'Yarrambat', 'Hazeldene', 'City of Moonee Valley', 'Keilor', 'Maribyrnong', 'Oak Park', 'Cherokee', 'Lancefield', 'Hadfield', 'Fawkner', 'Pascoe Vale', 'Glenroy', 'Sunbury', 'Broadmeadows', 'Lalor', 'Keilar', 'Coolaroo', 'Somerton', 'Sassafras', 'Ferntree Gully', 'Scoresby', 'Dandenong North', 'Wantirna South', 'Donvala', 'Bayswater North', 'Croydon South', 'Ringwood North', 'Heathmont', 'Nunawading', 'Vermont South', ' Mitcham', 'Menzies Creek', 'Mount Dandenong', 'Toolangi', 'Montrose', 'Seville East', 'Macclesfield', 'Powelltown', 'Gembrook', 'Tonimbuk', 'Heath Hill', 'Pakenham', 'Berwack', 'Beaconsfield', 'Dandnong North', 'Hallam', 'Hellam', 'Berweck', 'Tooradin', 'Lynbrook', 'Cranbourne South', 'Narre Warren', 'Lynbrok', 'Berwick', 'Clarinda', 'Dandenong', 'Endeavour Hills', 'Clayton South', 'Dandenong South', 'Keysborough', 'Noble Park', 'Clarinde', 'Notting Hill', 'Glen Waverley', 'Rowville', 'Mount Waverley', 'Brooklyn', 'St Albans', 'Cairnlea', 'Delahey', 'Kealba', 'Burnside', 'Avondale Heights', 'Taylors Lakes', 'Keilor North', 'Willimstown', 'Altona', 'Newport', 'Williamstown', 'Altona Meadows', 'Avondale', 'Seddon', 'Aberfeldie', 'Yarraville', 'Coimadai', 'Ravenhall', 'Bonnie Brook', 'Long Forest', 'Deanside', 'Werribee', 'Cocoroc', 'Altona North', 'Point Cook', 'Eynesbury', 'Little River', 'Mount Cottrell', 'Seaford', 'Frankstan', 'Frankston', 'Frankstan South', 'Langwarrin', 'Dromana', 'Shoreham', 'Hmas Cerberus', 'Somerville', 'Frankston South', 'Portsea', 'Rosebud', 'Navigators']
+    return ['Essendon', 'Carlton North', 'Coburg', 'Northcote', 'Thornbury', 'Ascot Vale', 'Brunswick West',
+            'Travancore', 'Burton Reserve', 'Southbank', 'South Yarra', 'Footscray', 'CBD', 'Oceania', 'Parkville',
+            'Albert Park', 'Brighton', 'Port Phillip Bay', 'South Melbourne', 'St Kilda West', 'Caulfield North',
+            'Windsor', 'Fairfield', 'Barlton North', 'Fitzroy', 'Burnley', 'Ashburton', 'Surrey Hills', 'Camberwell',
+            'Glen Iris', 'Hawthorn', 'Kew', 'Mont Albert North', 'Donvale', 'Bulleen', 'Blackburn', 'Box Hill South',
+            'Forest Hill', 'Box Hill Nouth', 'Beaumaris', 'Crighton', 'Cheltenham', 'Hampton', 'Oakleigh South',
+            'Brighton East', 'Gardenvale', 'Elsternwick', 'Malvern East', 'Murrumbeena', 'Chelsea', 'Patterson Lakes',
+            'City of Kingston', 'Hampton East', 'Carnegie', 'Watsonia', 'Templestowe', 'Lower Plenty', 'Macleod',
+            'Ivanhoe', 'Ivanhoe East', 'Cundoora', 'Bellfield', 'Reservoir', 'Coburg North', 'Research',
+            'Kinglake Central', 'Clonbinane', 'Wattle Glen', 'Bundoora', 'City of Whittlesea', 'Epping', 'Thomastown',
+            'Plenty', 'Mill Park', 'Yarrambat', 'Hazeldene', 'City of Moonee Valley', 'Keilor', 'Maribyrnong',
+            'Oak Park', 'Cherokee', 'Lancefield', 'Hadfield', 'Fawkner', 'Pascoe Vale', 'Glenroy', 'Sunbury',
+            'Broadmeadows', 'Lalor', 'Keilar', 'Coolaroo', 'Somerton', 'Sassafras', 'Ferntree Gully', 'Scoresby',
+            'Dandenong North', 'Wantirna South', 'Donvala', 'Bayswater North', 'Croydon South', 'Ringwood North',
+            'Heathmont', 'Nunawading', 'Vermont South', ' Mitcham', 'Menzies Creek', 'Mount Dandenong', 'Toolangi',
+            'Montrose', 'Seville East', 'Macclesfield', 'Powelltown', 'Gembrook', 'Tonimbuk', 'Heath Hill', 'Pakenham',
+            'Berwack', 'Beaconsfield', 'Dandnong North', 'Hallam', 'Hellam', 'Berweck', 'Tooradin', 'Lynbrook',
+            'Cranbourne South', 'Narre Warren', 'Lynbrok', 'Berwick', 'Clarinda', 'Dandenong', 'Endeavour Hills',
+            'Clayton South', 'Dandenong South', 'Keysborough', 'Noble Park', 'Clarinde', 'Notting Hill',
+            'Glen Waverley', 'Rowville', 'Mount Waverley', 'Brooklyn', 'St Albans', 'Cairnlea', 'Delahey', 'Kealba',
+            'Burnside', 'Avondale Heights', 'Taylors Lakes', 'Keilor North', 'Willimstown', 'Altona', 'Newport',
+            'Williamstown', 'Altona Meadows', 'Avondale', 'Seddon', 'Aberfeldie', 'Yarraville', 'Coimadai', 'Ravenhall',
+            'Bonnie Brook', 'Long Forest', 'Deanside', 'Werribee', 'Cocoroc', 'Altona North', 'Point Cook', 'Eynesbury',
+            'Little River', 'Mount Cottrell', 'Seaford', 'Frankstan', 'Frankston', 'Frankstan South', 'Langwarrin',
+            'Dromana', 'Shoreham', 'Hmas Cerberus', 'Somerville', 'Frankston South', 'Portsea', 'Rosebud', 'Navigators']
 
 
 def dateRange(start, end):
@@ -53,6 +75,7 @@ def getTwoMonthDateRange():
     daysString = [dateUnit.strftime("%Y-%m-%d") for dateUnit in days]
     return daysString
 
+
 # method for couchdb
 def createView(dbConn, designDoc, viewName, mapFunction, reduceFunction='_sum'):
     data = {
@@ -67,6 +90,34 @@ def createView(dbConn, designDoc, viewName, mapFunction, reduceFunction='_sum'):
         "options": {"partitioned": False}
     }
     logging.info(f"creating view {designDoc}/{viewName}")
+    dbConn.save(data)
+
+
+def createViewForNone(dbConn, designDoc, viewName, mapFunction):
+    data = {
+        "_id": f"_design/{designDoc}",
+        "views": {
+            viewName: {
+                "map": mapFunction,
+            }
+        },
+        "language": "javascript",
+        "options": {"partitioned": False}
+    }
+    logging.info(f"creating view {designDoc}/{viewName}")
+    dbConn.save(data)
+
+
+def createMultiViews(dbConn, designDoc, viewNameList, mapFunctionList, reduceFunctionList):
+    views = {}
+    for i in range(len(viewNameList)):
+        views[viewNameList[i]] = {"map": mapFunctionList[i], "reduce": reduceFunctionList[i]}
+    data = {
+        "_id": f"_design/{designDoc}",
+        "views": views,
+        "language": "javascript",
+        "options": {"partitioned": False}
+    }
     dbConn.save(data)
 
 
@@ -91,15 +142,13 @@ def getCameraLocation(couch, datasetName="camera_location_data", designName="cam
     return returnDict
 
 
-def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
-    db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
-
-    returnDict = {}
-    for doc in view:
-        print(doc)
-        break
-    return returnDict
+def getWaveKey():
+    keyList = [[[1, 2020, 3, "Friday", 0], [1, 2020, 5, "Wednesday", 24]],
+               [[1, 2020, 6, "Friday", 0], [1, 2020, 10, "Wednesday", 24]],
+               [[1, 2021, 7, "Friday", 0], [1, 2021, 12, "Wednesday", 24]],
+               [[1, 2022, 1, "Friday", 0], [1, 2022, 4, "Wednesday", 24]]]
+    # demo sensor ID is 1, change dynamically
+    return keyList
 
 
 def getHouseData(couch, datasetName="house_data", designName="backend", viewName="view_by_building_cluster"):
@@ -143,6 +192,7 @@ def getCovidData(couch, postCodeToAurin, datasetName="activate_covid_database", 
 
     return returnDictOneMonth, returnDictTwoMonth
 
+
 def getCovidListSub(couch, postCodeToAurin):
     list_60, list_30 = getCovidData(couch, postCodeToAurin)
     list_60 = getCovidList(list_60)
@@ -153,72 +203,8 @@ def getCovidListSub(couch, postCodeToAurin):
 
     return list_sub
 
-def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
-    db = couch[datasetName]
-    view = db.view(designName + "/" + viewName, reduce=True, group=True)
 
-    # get date
-    current_year_int = int(datetime.now().strftime('%Y'))
-    # in case January
-    try:
-        current_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m')) - 2]
-    except:
-        current_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m'))]
-
-    current_hour_int = int(datetime.now().strftime('%H'))
-    current_day_str = datetime.now().strftime('%A')
-    # in case february
-    try:
-        last_month_str = list(calendar.month_name)[int(datetime.now().strftime('%m')) - 3]
-    except:
-        last_month_str = current_month_str
-
-    sensorDict = getCameraLocationData(couch)
-
-    labelThisMonth = 'this_month_' + current_day_str + '_average_at_' + str(current_hour_int)
-    labelLastMonth = 'last_month_' + current_day_str + '_average_at_' + str(current_hour_int)
-    labelLastYear = 'last_year_' + current_day_str + '_average_at_' + str(current_hour_int)
-    for doc in view:
-        [sensorID, year, time, day, month] = doc.key
-
-        sensorID = int(sensorID)
-        if sensorID in range(1, 80):
-            if time == current_hour_int and current_day_str == day:
-                averageNumber = doc.value['sum'] / doc.value['count']
-
-                if current_month_str == month and year == current_year_int:
-                    sensorDict[sensorID][labelThisMonth] = averageNumber
-                elif last_month_str == month and year == current_year_int:
-                    sensorDict[sensorID][labelLastMonth] = averageNumber
-                elif current_month_str == month and year == current_year_int - 1:
-                    sensorDict[sensorID][labelLastYear] = averageNumber
-
-    # add ratio
-    for i in range(1, 80):
-        if i in list(sensorDict.keys()):
-            try:
-                thisMonthAverage = sensorDict[i][labelThisMonth]
-                try:
-                    lastMonthAverage = sensorDict[i][labelLastMonth]
-                    sensorDict[i]['Compared to month average'] = str(
-                        ((thisMonthAverage - lastMonthAverage) / lastMonthAverage) * 100) + "%"
-                except:
-                    sensorDict[i]['Compared to month average'] = "data lost"
-                try:
-                    lastYearAverage = sensorDict[i][labelLastYear]
-                    sensorDict[i]['Compared to year average'] = str(
-                        ((thisMonthAverage - lastYearAverage) / lastYearAverage) * 100) + "%"
-                except:
-                    sensorDict[i]['Compared to year average'] = "data lost"
-            except:
-                sensorDict[i][labelThisMonth] = -1
-                sensorDict[i]['Compared to year average'] = "data lost"
-                sensorDict[i]['Compared to month average'] = "data lost"
-
-    return sensorDict
-
-
-def getCameraLocationData(couch, datasetName="camera_location_data", designName="camera_location", viewName="location"):
+def getCameraLocationData(couch, datasetName="camera_location_data", designName="backend", viewName="camera_location"):
     db = couch[datasetName]
     view = db.view(designName + "/" + viewName)
     returnDict = {}
@@ -230,6 +216,47 @@ def getCameraLocationData(couch, datasetName="camera_location_data", designName=
             "longtitude": longtitude
         }
     return returnDict
+
+
+def getCameraData(couch, datasetName="camera_data", designName="backend", viewName="view_by_hour"):
+    db = couch[datasetName]
+
+    sensorDict = getCameraLocationData(couch)
+    # iterate vist wave
+    nowHour = datetime.now().hour
+    for wave, [startDate, endDate] in enumerate(getWaveKey()):
+        commonLabel = "wave_" + str(wave) + "_hour_" + str(nowHour)
+        for sensorID in range(1, 80):
+            try:
+                sensorDict[sensorID][commonLabel] = {}
+                # specify sensor ID
+                startDate[0] = sensorID
+                endDate[0] = sensorID
+                # get view
+                view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=5, startkey=startDate,
+                               endkey=endDate)
+                # define day list
+                dayList = ["Friday", "Monday", "Saturday", "Sunday", "Thursday", "Tuesday", "Wednesday"]
+                sensorDict[sensorID][commonLabel]['sum'] = 0
+                sensorDict[sensorID][commonLabel]['count'] = 0
+                sensorDict[sensorID][commonLabel]['max'] = 0
+                sensorDict[sensorID][commonLabel]['hour'] = nowHour
+                for doc in view:
+                    if doc.key[4] == nowHour:
+                        sensorDict[sensorID][commonLabel]['sum'] += doc.value['sum']
+                        sensorDict[sensorID][commonLabel]['count'] += doc.value['count']
+                        sensorDict[sensorID][commonLabel]['max'] = max(doc.value['max'],
+                                                                       sensorDict[sensorID][commonLabel]['max'])
+                try:
+                    sensorDict[sensorID][commonLabel]['avgCount'] = sensorDict[sensorID][commonLabel]['sum'] / \
+                                                                    sensorDict[sensorID][commonLabel]['count']
+                except:
+                    pass
+                del sensorDict[sensorID][commonLabel]['count']
+                del sensorDict[sensorID][commonLabel]['sum']
+            except:
+                pass
+    return sensorDict
 
 
 def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designName="backend", viewName="view_by_mental"):
@@ -244,15 +271,16 @@ def getMelbourneMentalData(couch, datasetName="melbourne_mental_data", designNam
         else:
             volumnClassifier = "low_volumn_tweet"
         if {"tweetInfluence": volumnClassifier,
-                "sentiment": sentiment,
-                "subjective": subjective} not in returnList and (doc.value >= 5 or volumnClassifier == 1):
+            "sentiment": sentiment,
+            "subjective": subjective} not in returnList and (doc.value >= 5 or volumnClassifier == 1):
             returnList.append({
                 "tweetInfluence": volumnClassifier,
                 "sentiment": sentiment,
                 "subjective": subjective
             })
     return returnList
-    
+
+
 def getMentalData(couch, datasetName="mental_data", designName="backend", viewName="view_by_hashtag"):
     db = couch[datasetName]
     view = db.view(designName + "/" + viewName, reduce=True, group=True, group_level=3)
@@ -263,8 +291,8 @@ def getMentalData(couch, datasetName="mental_data", designName="backend", viewNa
         saveDict = {'name': tag, "data": []}
         selectTagDictList.append(saveDict)
 
-    tmpDateList = [[] for i in range(len(tagList))]
-    tmpValueList = [[] for i in range(len(tagList))]
+    tmpDateList = [[] for _ in range(len(tagList))]
+    tmpValueList = [[] for _ in range(len(tagList))]
     for doc in view:
         if doc.key[1] in tagList:
             index = tagList.index(doc.key[1])
@@ -272,17 +300,17 @@ def getMentalData(couch, datasetName="mental_data", designName="backend", viewNa
             tmpValueList[index].append(doc.value)
             # selectTagDictList[index]['tag'].append(doc.value)
 
-
     commonDate = tmpDateList[0]
     for i in range(1, len(tmpDateList)):
         commonDate = list(set(commonDate).intersection(tmpDateList[i]))
         commonDate.sort()
 
     for i, tagDict in enumerate(selectTagDictList):
-        for date in commonDate:
-            index = tmpDateList[i].index(date)
+        for dateGive in commonDate:
+            index = tmpDateList[i].index(dateGive)
             selectTagDictList[i]['data'].append(tmpValueList[i][index])
     return selectTagDictList
+
 
 def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="backend",
                         viewName="view_postcode_to_aurin"):
@@ -293,6 +321,7 @@ def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="bac
     for doc in view:
         returnDict[doc['key']] = doc['value']
     return returnDict
+
 
 def getCovidList(givenCovidDict):
     returnList = []
@@ -313,7 +342,6 @@ def getCovidList(givenCovidDict):
     return returnList
 
 
-
 def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data",
                              designName="backend",
                              wave1="view_by_objective_and_sentiment_wave1",
@@ -324,10 +352,10 @@ def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data",
     # area interest in 92, 40, 10, 6, 5
     areaList = [92, 40, 10, 5]
     waveNameList = ['wave1', 'wave2', 'wave3', 'wave4']
-    areaDict = {"wave1": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
-                "wave2": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
-                "wave3": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4},
-                "wave4": {92: [0]*4, 40: [0]*4, 10: [0]*4, 5: [0]*4}}
+    areaDict = {"wave1": {92: [0] * 4, 40: [0] * 4, 10: [0] * 4, 5: [0] * 4},
+                "wave2": {92: [0] * 4, 40: [0] * 4, 10: [0] * 4, 5: [0] * 4},
+                "wave3": {92: [0] * 4, 40: [0] * 4, 10: [0] * 4, 5: [0] * 4},
+                "wave4": {92: [0] * 4, 40: [0] * 4, 10: [0] * 4, 5: [0] * 4}}
     # sentiment and objective code:
     # 3: positive/subjective,
     # 2: positive/objective,
@@ -338,7 +366,7 @@ def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data",
                  db.view(designName + "/" + wave3, reduce=True, group=True),
                  db.view(designName + "/" + wave4, reduce=True, group=True)]
 
-    for i,waveView in enumerate(waveViews):
+    for i, waveView in enumerate(waveViews):
         for doc in waveView:
             if doc.key[0] in areaList:
                 areaDict[waveNameList[i]][doc.key[0]][doc.key[1]] += round(math.log2(doc.value))
@@ -347,5 +375,16 @@ def getMelbourneMentalByWave(couch, datasetName="melbourne_mental_data",
     for waveIndex, waveName in enumerate(waveNameList):
         for i in range(4):
             for j, suburbName in enumerate(areaList):
-                returnList[waveIndex*4+i].append(areaDict[waveName][suburbName][i])
+                returnList[waveIndex * 4 + i].append(areaDict[waveName][suburbName][i])
     return returnList
+
+
+def getPostCodeToSuburb(couch, datasetName="postcode_to_suburb", designName="backend",
+                        viewName="view_postcode_to_aurin"):
+    db = couch[datasetName]
+    view = db.view(designName + "/" + viewName)
+
+    returnDict = {}
+    for doc in view:
+        returnDict[doc['key']] = doc['value']
+    return returnDict

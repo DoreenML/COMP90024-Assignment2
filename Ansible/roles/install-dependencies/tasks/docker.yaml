@@ -57,17 +57,14 @@
   become: yes
 
 # Restart all
-# Restart systemd daemons
 - name: Reload systemd daemons
   command: systemctl daemon-reload
   become: yes
 
-# Restart Docker daemon
 - name: Restart docker daemon
   command: systemctl restart docker
   become: yes
 
-# Restart Docker daemon
 - name: Restart docker
   service:
     name: docker
