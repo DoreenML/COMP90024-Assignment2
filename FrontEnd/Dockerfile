@@ -16,6 +16,5 @@ RUN yarn install
 RUN yarn build
 
 
-
 EXPOSE 4000
 CMD [ "http-server", "-p 4000", "dist" ]

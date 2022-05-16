@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // create an axios instance with default options
-const http = axios.create({ baseURL: 'http://127.0.0.1:5000' });
+const http = axios.create({ baseURL: 'http://172.26.134.245:5000' });
 
 export function GetHealthRelatedTopicTrend() {
   // then return the promise of the axios instance

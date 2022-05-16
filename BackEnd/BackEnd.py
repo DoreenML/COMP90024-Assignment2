@@ -182,4 +182,4 @@ def Chart_SentimentWave():
 
 if __name__ == '__main__':
     # retrieve data
-    app.run()
+    app.run(host='172.26.134.245', port=5000)
