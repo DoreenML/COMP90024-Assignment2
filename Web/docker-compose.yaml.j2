@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+    backend:
+        build: ./BackEnd
+        environment:
+            APP_SERVER_PORT: 5000
+            COUCHDB_HOST: http://admin:adminPass@172.26.134.245:5984
+        ports:
+            - "5000:5000"
+        command: python3 BackEnd.py
+
+    frontend:
+        build: ./FrontEnd
+        environment:
+            VUE_APP_PORT: 4000
+        ports:
+            - "4000:4000"
+        stdin_open: true
