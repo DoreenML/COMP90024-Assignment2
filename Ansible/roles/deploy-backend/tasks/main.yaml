@@ -1,3 +1,3 @@
 ---
 - name: "Run a shell command on a remote host"
-  shell: python3 /home/ubuntu/COMP90024/BackEnd/BackEnd.py
+  shell: nohup python3 /home/ubuntu/COMP90024/BackEnd/BackEnd.py > log.txt 2>&1 &
