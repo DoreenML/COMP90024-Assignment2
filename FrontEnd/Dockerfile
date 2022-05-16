@@ -13,7 +13,9 @@ COPY . .
 RUN yarn install
 
 # build app for production with minification
-RUN yarn build
 RUN npm run serve
+
+
+
 EXPOSE 4000
 CMD [ "http-server", "-p 4000", "dist" ]
