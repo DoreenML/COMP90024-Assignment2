@@ -50,11 +50,11 @@
     - role: copy-rep
     - role: deploy-couchdb-data
 
-#- hosts: instance1
-#  vars_files:
-#    - host_vars/constant.yaml
-#  gather_facts: true
-#  roles:
-#    - role: copy-rep
-#    - role: deploy-backend
-#    - role: deploy-frontend
+- hosts: instance1
+  vars_files:
+    - host_vars/constant.yaml
+  gather_facts: true
+  roles:
+    - role: copy-rep
+    - role: deploy-backend
+    - role: deploy-frontend
